@@ -35,6 +35,8 @@ sh parse.sh zh_cn.lang 1 100
 
 一个在 lang 文件与  json 文件间相互转换的 Python 脚本。该脚本内最后几行注释可按需更改。欢迎各位大佬改进该脚本。
 
+该脚本未对源文件中一处 `\[T]/` 转义，且存在[替代品](https://tt.nptr.cc/)。
+
 ## 汉化贡献
 
 任务书 lang 文件已转换为 json 文件发布在 [crowdin](https://crowdin.com/project/nomi-ceu-zhcn) 上，欢迎各位前去贡献。
