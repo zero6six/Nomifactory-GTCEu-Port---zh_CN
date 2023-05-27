@@ -43,8 +43,8 @@ nomifactory.quest.line.10.title=物质-能量
 nomifactory.quest.line.10.desc=用§b应用能量2§r在物质和能量之间进行转换，使所有的东西都能自动化！o/
 
 # line 11
-nomifactory.quest.line.11.title=生产线
-nomifactory.quest.line.11.desc=帮你生产的章节，既复杂又直接！
+nomifactory.quest.line.11.title=处理线
+nomifactory.quest.line.11.desc=有一章可以帮助你进行处理，包括复杂的和直接的问题！
 
 # db 0
 nomifactory.quest.db.0.title=充能石英
@@ -79,8 +79,8 @@ nomifactory.quest.db.7.title=§2线缆
 nomifactory.quest.db.7.desc=最基本的线缆，如这些§6红色合金线缆§r，可以用手为其包住§6橡胶§r绝缘层。%n%n更高级类型的线缆将需要一个§3组装机§r和流体§9橡胶§r，但你现在可以用简单的方法来做。%n%n§2格雷科技社区版：非官方版默认开启了格雷科技6风格的管道和线缆。§r你需要使用§a剪线钳§r来连接电缆的每一边到机器或其他线缆。把它放在机器或线缆上，也会自动连接起来。同样的行为也适用于格雷科技管道，其工具是§a扳手§r。%n这可以使你避免能量或流体走错方向。但如果你不喜欢这样，可以在格雷科技配置文件中禁用“gt6StylePipesCables”的配置选项。%n%n§2格雷科技线缆现在原生支持RF转换！§r你可以将一台§dRF§r机器直接连接§dEU§r线缆，它将会转换能量。
 
 # db 8
-nomifactory.quest.db.8.title=The Third Tier Three Circuits
-nomifactory.quest.db.8.desc=With three §6Microcircuits§r and some standard components, you can upgrade to the penultimate Tier Three circuit: a §6Microprocessor§r.
+nomifactory.quest.db.8.title=第三种三阶电路
+nomifactory.quest.db.8.desc=有了三个§6三阶电路§r和一些零部件，你就可以借助§6电路组装机§r制作出倒数第二种三阶电路。
 
 # db 9
 nomifactory.quest.db.9.title=§2矿物翻倍？
@@ -164,11 +164,11 @@ nomifactory.quest.db.28.desc=§6脉动之尘§r是一种神秘的魔法材料，
 
 # db 29
 nomifactory.quest.db.29.title=“脉冲铁”和“末影珍珠”
-nomifactory.quest.db.29.desc=一种神秘的金属，由§6脉冲之尘§r和§6铁锭§r制成。%n%n如果你找不到，可以用脉动之尘和§6钻石§r在§3合金炉§r中制作§6末影珍珠§r。
+nomifactory.quest.db.29.desc=一种§b末影接口§r合金。%n%n由§6脉冲之尘§r和§6铁锭§r制成。%n%n如果你找不到，可以用脉动之尘和§6钻石§r在§3合金炉§r中制作§6末影珍珠§r。
 
 # db 30
 nomifactory.quest.db.30.title=磁钢
-nomifactory.quest.db.30.desc=一种精炼钢，由§6硅粉§r和§6钢锭§r制成%n%n这种材料经常被用于电子和数字设备。
+nomifactory.quest.db.30.desc=一种§b末影接口§r合金，由§6硅粉§r和§6钢锭§r制成%n%n这种材料经常被用于电子和数字设备。
 
 # db 31
 nomifactory.quest.db.31.title=脉冲电容库
@@ -184,11 +184,11 @@ nomifactory.quest.db.33.desc=可扩展的RF能量存储多方块结构。%n%n第
 
 # db 34
 nomifactory.quest.db.34.title=§2充能合金
-nomifactory.quest.db.34.desc=这种合金由§22个金粉、1个红石和1个荧石粉混合§r先在搅拌器中混合，并把它放在你的新§3电力高炉§r中。%n%n把§2准备好的粉放进输入总线§r，20秒后，你的§6充能合金锭§r将出现在输出总线内。%n%n§2在EV时代，你可以建造一个合金冶炼炉，产量翻倍。
+nomifactory.quest.db.34.desc=一种§b末影接口§r合金，由§22个金粉、1个红石和1个荧石粉混合§r而成，并把它放在你的新§3电力高炉§r中。%n%n把§2准备好的粉放进输入总线§r，20秒后，你的§6充能合金锭§r将出现在输出总线内。%n%n§2在EV时代，你可以建造一个合金冶炼炉，产量翻倍。
 
 # db 35
 nomifactory.quest.db.35.title=§2脉冲合金
-nomifactory.quest.db.35.desc=另一种合金。%n%n§2在EV时代，你可以建造一个合金冶炼炉，产量翻倍。
+nomifactory.quest.db.35.desc=一种末影接口的合金。%n%n§2在EV时代，你可以建造一个合金冶炼炉，产量翻倍。
 
 # db 37
 nomifactory.quest.db.37.title=橡胶片
@@ -271,7 +271,7 @@ nomifactory.quest.db.58.title=§2LV能量存储
 nomifactory.quest.db.58.desc=§6电池§r是§b格雷科技§r为§aEU§r能量存储的设备。%n%n虽然有几种类型的可充电电池你可以制作，§2但锂电池是其中最好的一个，也是你真正应该考虑做的唯一事情。%n%n§6§6锂§r有可能在§6钨§r矿脉中找到，但是，它们相当罕见。考虑用§d万象币§r“购买”一些锂。
 
 # db 59
-nomifactory.quest.db.59.title=铜...镍...白铜?
+nomifactory.quest.db.59.title=铜...镍...白铜？
 nomifactory.quest.db.59.desc=镍来自几种不同的矿石，包括镍黄铁和硅镁镍，但它们都是在同一矿脉中发现的。%n%n镍主要用于几种非常重要的合金，包括殷钢和白铜。
 
 # db 60
@@ -411,16 +411,16 @@ nomifactory.quest.db.94.title=§2硫酸
 nomifactory.quest.db.94.desc=§2硫酸的生产主要有3个步骤:%n- 硫加入到氧中，产生二氧化硫。二氧化硫也可以来自于在电力高炉中用氧处理某些含硫的粉，或通过处理下界空气。%n- 二氧化硫加入到更多的氧中，产生三氧化硫。%n- 将三氧化硫加入到水中，以产生硫酸。%n%n硫+水反应的捷径被锁在大型化学反应釜后面，在EV时被解锁。%n%n§r在一系列的化学反应中，你会需要大量的这种物质，因为它是一种非常常见的成分。%n%n硫可以从很多东西中电解出来，但也很容易通过§b深度怪物学习§r的§a烈焰人数据模型§r获得。
 
 # db 95
-nomifactory.quest.db.95.title=§2乙烯
-nomifactory.quest.db.95.desc=§9乙烯§r是一种碳氢化合物，由§d石油处理§r或在§3化学反应釜§r中用§9硫酸§r对§9乙醇§r进行脱水。选择一种你喜欢的方法：%n%n-§9乙醇§r路线允许你使用现有的§6甘蔗§r农场生产§9乙烯§r。然而，配方需求§b中压§r机器才能运行。%n%n-§d石油处理§r路线只需要§2 LV 机器§r，但是你必须获取§9石油§r资源或者它的变种。使用原油、石油、重油制作§2重度蒸汽裂解轻燃油§r是更有效率的。%n%n这是一种在塑料生产中极为重要的化学品。你将会在未来将§9乙烯§r用于§9聚乙烯（PE）§r，§9聚氯乙烯（PVC）§r和§9丁苯橡胶（SBR）§r，最好的橡胶的生产。
+nomifactory.quest.db.95.title=§2“乙烯”和“聚乙烯”
+nomifactory.quest.db.95.desc=§9乙烯§r是一种碳氢化合物，由轻燃料的裂解和蒸馏制成，或在§3化学反应釜§r中用§9硫酸§r对§9乙醇§r进行脱水。它是生产塑料的一种极其重要的化学物。%n%n§9聚乙烯(PE)§r是最常见的一类塑料，由§9乙烯§r的聚合物制成。在§3化学反应釜§r中加入§9氧§r，再现了(有一些艺术成分)早期意外合成聚乙烯的过程。%n%n当你有大量的§6金红石§r和§6铝土§r时(可能在你访问月球之后)，你可以考虑使用§9四氯化钛§r作为催化剂来提高聚乙烯的产量。就目前而言，这不是一个好主意，因为除了它在主世界范围内的稀有性之外，你还需要它来获得§6钛§r。
 
 # db 96
-nomifactory.quest.db.96.title=聚乙烯
-nomifactory.quest.db.96.desc=§9聚乙烯（PE）§r是一种碳氢化合物，由轻燃料的裂解和蒸馏制成，或在§3化学反应釜§r中用§9硫酸§r对§9乙醇§r进行脱水。它是生产塑料的一种极其重要的化学物。%n%n§9聚乙烯(PE)§r是最常见的一类塑料，由§9乙烯§r的聚合物制成。在§3化学反应釜§r中加入§9氧§r，再现了(有一些艺术成分)早期意外合成聚乙烯的过程。%n%n当你有大量的§6金红石§r和§6铝土§r时(可能在你访问月球之后)，你可以考虑使用§9四氯化钛§r作为催化剂来提高聚乙烯的产量。就目前而言，这不是一个好主意，因为除了它在主世界范围内的稀有性之外，你还需要它来获得§6钛§r。%n%n使用§3流体固化机§r和§a模具(板)§r形成§6聚乙烯片§r，用于制作电子元件。你将同时需要液体和片。对于§9聚乙烯(PE)§r管道而言，你可以将你的片打成粉末并用在压模机里，也可以将§9聚乙烯(PE)§r单独固化成§6聚乙烯锭§r。
+nomifactory.quest.db.96.title=塑料片
+nomifactory.quest.db.96.desc=使用§3流体固化机§r和§a模具(板)§r形成§6聚乙烯片§r，用于制作电子元件。
 
 # db 97
-nomifactory.quest.db.97.title=Keeping Stuff In Stock
-nomifactory.quest.db.97.desc=If you didn't know, you can have stacks of items stored inside of an §aME Interface§r. Placing a §aStorage Bus§r onto the ME Interface lets you access and use those items in recipes. Putting a §aCrafting Card§r inside the Interface will let the Interface automatically place autocraft orders for items it should stock but you don't have.%n%nThis approach can be used for autocrafting to some extent, but proceed with caution as crafting cards can produce a great deal of lag on larger ME Networks. AE calculates the full crafting tree of these items every time a request is made, even if you have enough items already in stock.%n%nThus, it is strongly recommended to limit Crafting Cards to simple recipes (ones without many dependent recipes) and ideally on smaller purpose-built networks. %n%nPrefer passive autocrafting methods on your main network, or if things are gonna get complicated.
+nomifactory.quest.db.97.title=保持库存
+nomifactory.quest.db.97.desc=你可以在§aME接口§r里保存东西。通过在ME接口上放一个§aME存储总线§r，你可以使用接口里的物品。在 ME 接口里放一个§a合成卡§r则可以让接口自动合成标记的物品。%n%n这个技巧在做一些自动化时很有用，但要小心合成卡带来的延迟。在你发配合成请求时，AE 会计算整条合成树，即使你有了中间产物。%n%n因此推荐在简单配方或小网络中使用合成卡，而在主网络中要少用。
 
 # db 98
 nomifactory.quest.db.98.title=不锈钢
@@ -460,7 +460,7 @@ nomifactory.quest.db.106.desc=顾名思义，这个终端让你把配方编写�
 
 # db 107
 nomifactory.quest.db.107.title=原子再构机
-nomifactory.quest.db.107.desc=§3原子再构机§r是§b实用拓展§r的基石，使用水晶通量(自动与RF进行1:1转换)将物品变为其他物品。%n%n这台机器从前面发射出激光，将标准材料重构为特殊变体。%n%n机器本身会给你进一步的指示，告诉你如何配置它。
+nomifactory.quest.db.107.desc=§3原子再构机§r是§b实用拓展§r的基石，使用水晶通量(自动与RF进行1:1转换)将物品变为其他物品。%n%n这台机器从前面发射出激光，将标准材料重构为特殊变种。%n%n机器本身会给你进一步的指示，告诉你如何配置它。
 
 # db 108
 nomifactory.quest.db.108.title=接口终端
@@ -516,7 +516,7 @@ nomifactory.quest.db.120.desc=在§b应用能源2§r中的最终物品存储组�
 
 # db 121
 nomifactory.quest.db.121.title=IV 压缩机
-nomifactory.quest.db.121.desc=This compressor is needed for making §6Signalum Heavy Plating§r.
+nomifactory.quest.db.121.desc=这个压缩机用于制作§6信素重板§r。
 
 # db 122
 nomifactory.quest.db.122.title=4k流体存储
@@ -567,8 +567,8 @@ nomifactory.quest.db.135.title=§2第三种也是最后一种二阶电路
 nomifactory.quest.db.135.desc=§2这层电路的独特之处在于，这个MV电路不需要前一级别的工艺。§r这些是你能做的最好的二阶电路，而且你在相当长的一段时间内不会解锁更好的配方。%n%n你绝对应该将这些电路的生产自动化，并§e保持一个自动制作的库存§r，这样你就不必等待它们或通过应用能源2使你的制作订单膨胀到按需制作。
 
 # db 136
-nomifactory.quest.db.136.title=Small Coils
-nomifactory.quest.db.136.desc=Another electronic component.%n%nMaking it inside an §3Assembling Machine§r is much, much cheaper than by hand, and using §6Nickel Zinc Ferrite§r bolts gives even better returns.
+nomifactory.quest.db.136.title=线圈
+nomifactory.quest.db.136.desc=另一种零部件。使用§6镍锌铁氧体§r螺栓在§3组装机§r中制作更有效率。
 
 # db 138
 nomifactory.quest.db.138.title=§2LuV机械方块
@@ -632,7 +632,7 @@ nomifactory.quest.db.154.desc=有了三阶电路，就该做一个§3蒸馏塔§
 
 # db 155
 nomifactory.quest.db.155.title=§2第四种也是最后一种五阶电路
-nomifactory.quest.db.155.desc=有了你的§6晶体CPU§r和§3LuV电路组装机§r的制作，你可以制作最后一种五阶电路: §6晶体电路§r。%n%n§2这是第一个严格要求高级SMD元件的电路。从现在开始，所有的都是。§r%n%n作为第五阶电路的最佳形式，这些电路应该是自动化的，并储存起来。需要§6晶体片上系统§r的变体配方在你能制造出§3ZPM电路组装机§r时才会出现。
+nomifactory.quest.db.155.desc=有了你的§6晶体CPU§r和§3LuV电路组装机§r的制作，你可以制作最后一种五阶电路: §6晶体电路§r。%n%n§2这是第一个严格要求高级SMD元件的电路。从现在开始，所有的都是。§r%n%n作为第五阶电路的最佳形式，这些电路应该是自动化的，并储存起来。需要§6晶体片上系统§r的变种配方在你能制造出§3ZPM电路组装机§r时才会出现。
 
 # db 156
 nomifactory.quest.db.156.title=坎塔尔合金锭
@@ -651,8 +651,8 @@ nomifactory.quest.db.159.title=§2镍铬合金线圈方块
 nomifactory.quest.db.159.desc=§6镍铬§r是第三种可用的线圈材料，将你的电力高炉的工作温度提高到3600K，因此它可以处理更先进的材料。%n%n§23600K现在也足够热，可以给予1800K及以下的配方一个100%%的高效超频。实际上，通过超频一次，你将获得额外的2倍速度提升。你可能希望用它来弥补较慢的配方。
 
 # db 160
-nomifactory.quest.db.160.title=Sulfuric Heavy, Light, Naphtha and Gas
-nomifactory.quest.db.160.desc=First, you need some §9Oil§r. Pick your favorite method: you should engineer a renewable automated source, as you will need large quantities.%n%nStart off by running the Oil through the §3Distillation Tower§r. This will result in §9Sulfuric Heavy Fuel§r, §9Sulfuric Light Fuel§r, §9Sulfuric Naphtha§r, and §9Sulfuric Gas§r.%n%nThese will all need to be hydrodesulfurized using §9Hydrogen§r in a §3Chemical Reactor§r, which produces the non-Sulfuric versions.%n%nAll of these products are useful, so figure out how you want to store the variety and large quantities of fluids.
+nomifactory.quest.db.160.title=含硫重燃油，轻燃油，石脑油和炼油气
+nomifactory.quest.db.160.desc=如果你需要一些§9石油§r。你应该设计一套循环的流程，因为你需要大量的资源。%n%n首先通过§3蒸馏塔§r将原油分为§9含硫重燃油§r，§9含硫轻燃油§r，§9含硫石脑油和§9含硫炼油气§r。这些都需要在§3化学反应器§r中加氢脱硫。%n%n这些产物都是有用的，因此你需要准备好大量储存各种各样的流体。
 
 # db 161
 nomifactory.quest.db.161.title=§2炼油气
@@ -687,15 +687,14 @@ nomifactory.quest.db.168.title=柴油
 nomifactory.quest.db.168.desc=§9柴油§r是§9轻燃料§r和§9重燃料§r的混合物。%n%n主要用途是制造§9高十六烷值柴油§r，你会想大量囤积，以便以后生产§6龙素§2(除非你用汽油代替)。%n%n燃气轮机的性能也得到了改善，但无论如何，你可能想提炼柴油。%n%n§2由于超频机制的不同，使用蒸馏室比使用蒸馏塔处理石油更省电。对于柴油来说，正确的比例是3个轻油蒸馏室，2个重油蒸馏室。
 
 # db 169
-nomifactory.quest.db.169.title=§2Palladium
-nomifactory.quest.db.169.desc=§6Palladium§r is found in §6Palladium Ore§r, which is found alongside §6Platinum Ore§r. §You can also get Palladium from Platinum Group Processing§r. If you haven't found a vein yet, you should buy some.%n%nPalladium is smelted in the §3Electric Blast Furnace§r.
-
+nomifactory.quest.db.169.title=§2钯
+nomifactory.quest.db.169.desc=§6钯§r在§6钯矿脉§r中发现。你可以从铂族处理中获取钯。如果你还没有发现矿脉，你可以买一些。钯需要§3电力高炉§r熔炼。
 # db 170
 nomifactory.quest.db.170.title=氢氧化钠
 nomifactory.quest.db.170.desc=§6氢氧化钠§r是一种强碱，是§9生物柴油§r的成分，也是其他反应的成分。%n%n§2唯一的来源§r是在一个§3电解机中分离§9盐水§r - 这也是§9氯§r的一个很好来源。你可以通过混合§6盐§r和§9水§r(咄)，§2溶解恶魂之泪，或从盐水矿脉中钻取来获得§9盐水§r，而盐水矿脉只在海洋上生成。
 
 # db 171
-nomifactory.quest.db.171.title=§2蒸馏液态空气
+nomifactory.quest.db.171.title=§2低温空气蒸馏
 nomifactory.quest.db.171.desc=§9空气§r可以被送入§3真空冷冻机§r，把它变成§9液态空气§r。%n%n液态空气可以被送入§2普通蒸馏塔§r，将其分解为各种成分。%n%n§2液态下界空气和液态末地空气提供了不同的有用成分。
 
 # db 172
@@ -748,7 +747,7 @@ nomifactory.quest.db.183.desc=§6纤维强化环氧树脂基板§r是在§3化�
 
 # db 184
 nomifactory.quest.db.184.title=§2掌握石油化工
-nomifactory.quest.db.184.desc=§注意：这个任务同时接受石油、原油、轻油、重油。石油化工是与石油有关的有机化学类别，也被称为§9石化§r。%n%n§b格雷科技§r的石油化工一开始可能看起来令人生畏，因为化学物和处理方案的数量庞大，但实际上它比你想象的更容易进入。%n%n石油是起点，你可以从世界上有限的自然矿井中抽出几种变体，也可以从§6油砂矿§r和§6灵魂砂§r中再生，还可以直接从§3流体钻机§r中以液体形式出现。%n%n§2根据你的流体矿脉，流体钻机也可以采集原油、重油和轻油。原油与石油类似，在蒸馏时给出相同的比例，但需要两倍的流体。重油和轻油在蒸馏时的比例不同。§r%n%n首先是蒸馏石油。这将导致§9含硫重燃料§r、§9含硫轻燃料§r、§9含硫石脑油§r和/或§9含硫气体§r。%n%n这些都需要使用§9氢§r在§3化学反应釜§r或§2石油裂化机§r中进行加氢脱硫，从而产生非含硫版本。%n%n所有这些产物都很有用，所以要想清楚你要如何储存各种和大量的流体。%n%n即将到来的任务将引导你了解石油化工的基础知识。一旦你掌握了这些，就可以自由地进一步探索。
+nomifactory.quest.db.184.desc=石油化工是与石油有关的有机化学类别，也被称为§9石化§r。%n%n§b格雷科技§r的石油化工一开始可能看起来令人生畏，因为化学物和处理方案的数量庞大，但实际上它比你想象的更容易进入。%n%n石油是起点，你可以从世界上有限的自然矿井中抽出几种变种，也可以从§6油砂矿§r和§6灵魂砂§r中再生，还可以直接从§3流体钻机§r中以液体形式出现。%n%n§2根据你的流体矿脉，流体钻机也可以采集原油、重油和轻油。原油与石油类似，在蒸馏时给出相同的比例，但需要两倍的流体。重油和轻油在蒸馏时的比例不同。§r%n%n首先是蒸馏石油。这将导致§9含硫重燃料§r、§9含硫轻燃料§r、§9含硫石脑油§r和/或§9含硫气体§r。%n%n这些都需要使用§9氢§r在§3化学反应釜§r或§2石油裂化机§r中进行加氢脱硫，从而产生非含硫版本。%n%n所有这些产物都很有用，所以要想清楚你要如何储存各种和大量的流体。%n%n即将到来的任务将引导你了解石油化工的基础知识。一旦你掌握了这些，就可以自由地进一步探索。
 
 # db 185
 nomifactory.quest.db.185.title=环氧树脂
@@ -771,8 +770,8 @@ nomifactory.quest.db.190.title=纳米CPU
 nomifactory.quest.db.190.desc=§6纳米CPU§r是先进的§6电路晶圆§r，由§6CPU晶圆§r与§6碳纤维§r和§9充能液态荧石§r在§3化学反应釜§r中注入而成。%n%n然后，使用§3板材切割机§r将所得晶圆切割成芯片。
 
 # db 191
-nomifactory.quest.db.191.title=The Fourth And Final Tier Two Circuits
-nomifactory.quest.db.191.desc=Using your new §6Epoxy Circuit Boards§r and some familiar components, you can now make the final form of Tier Two Circuit: the §6Microcircuit§r.%n%nYou craft four of these at once, and they're pretty cheap. Consider that you used to have to make §6Primitive Processors§r for this tier, and realize how far you've come.%n%nAs with the final form of any tier of circuits, be sure to set up automation to stockpile these. You won't get to the §6System-on-Chip§r variant recipe for a while yet.
+nomifactory.quest.db.191.title=第四个也是最后一个二阶电路
+nomifactory.quest.db.191.desc=使用新的§6环氧树脂电路基板§r和一些熟悉的组件，你现在可以制作最终版的二阶电路:§6微电路§r。你可以一次制作4个，而且相当便宜。建议自动化制作该电路，因为在之后的一段时间内，你将无法使用§6SoC§r制作该电路。
 
 # db 192
 nomifactory.quest.db.192.title=§2第一种五阶电路
@@ -923,7 +922,7 @@ nomifactory.quest.db.231.title=蓄水库
 nomifactory.quest.db.231.desc=蓄水库是产生水的方块，比基础的核电工艺无限水快得多。%n%n蓄水库是由至少三个蓄水库方块组成的多方块。你可以用扳手右击一个方块，使其输出到相邻的机器。%n%n蓄水库的最大传输速率是每秒一桶。
 
 # db 232
-nomifactory.quest.db.232.title=飞向月球
+nomifactory.quest.db.232.title=飞往月球
 nomifactory.quest.db.232.desc=当你的火箭建成，燃料装好，目的地确定后，就到了发射前检查核对的时候了。%n%n- §e确保你穿着你的太空服(一共四件)，并确保它有一个完整的氧气罐。如果你打算在月球上呆上一段时间，也许可以带一个气体装填台和末影储罐(用于补充氧气)。%n%n远距离传送:%n%n- 如果你决定使用§a传送符咒§r，确保你带了两个: 一个绑定在主世界，另一个准备绑定在月球。还要带上一个基座，把主世界上的那个传送符咒放在月球表面。%n%n- 如果你决定使用§a传送台§r，请确保你已经在主世界上建造了一个传送台，并且你携带了通往它的坐标。请确保携带你的坐标选择仪、空白纸和用于第二次传送台设置的材料。带上深渊露水和RF能源(比如一个§6太阳能电池板§r和一个§6电容库§r)。%n%n不管是哪种情况，你一着陆就需要准备另一半的传送路线，并将其区块强加载。%n%n当你确定你准备好了，坐在你的火箭里，按下§e空格§r。%n%n升空！
 
 # db 233
@@ -959,8 +958,8 @@ nomifactory.quest.db.240.title=九阶微型采掘机
 nomifactory.quest.db.240.desc=第九个微型采掘机。%n%n将§b恒星创造数据§r合并为§d宇宙创造数据§r，这是第十级微型采掘机任务的一个重要组成部分。%n%n替代任务带来了数量可观的§6中子素§r，但无论如何你必须用§3核聚变反应堆Mk3§r的一些中子来引导它。在反应堆中制造所有的中子可能会更容易，但这取决于你。
 
 # db 241
-nomifactory.quest.db.241.title=§2水晶矩阵双重板
-nomifactory.quest.db.241.desc=专门用于第八级微型采掘机的双重板。
+nomifactory.quest.db.241.title=§2水晶矩阵重板
+nomifactory.quest.db.241.desc=专门用于第八级微型采掘机的重型板。
 
 # db 242
 nomifactory.quest.db.242.title=§2湿件基板
@@ -975,11 +974,11 @@ nomifactory.quest.db.244.title=反应堆核心
 nomifactory.quest.db.244.desc=§6觉醒龙素§r、§6混沌碎片§r和§6稳定锿§r可以在神龙级融合制作装置中使用，以制造§6反应堆核心§r。%n%n这是九级和十级微型采掘机的重要组成部分，也是一些终局的物品。
 
 # db 245
-nomifactory.quest.db.245.title=§2钛双重板
+nomifactory.quest.db.245.title=§2钛重板
 nomifactory.quest.db.245.desc=厚重: 避免掉在你的脚上。%n%n这种特殊的板有两方面的用途 - §6二级微型采掘机§r和§3太空站组装机§r。
 
 # db 246
-nomifactory.quest.db.246.title=§2碳化钨双重板
+nomifactory.quest.db.246.title=§2碳化钨重板
 nomifactory.quest.db.246.desc=用§6碳化钨§r制成的微型采掘机的重镀层。%n%n你§2不再需要高等级的压缩机来制造这些§r。
 
 # db 248
@@ -1019,8 +1018,8 @@ nomifactory.quest.db.256.title=§2七阶微型采掘机
 nomifactory.quest.db.256.desc=第七个微型采掘机。%n%n§6龙之心§r的来源，以及宝贵的§6混沌守护者巢穴数据§r。%n%n作为奖励，带来了§6龙蛋§r、龙息、末影龙鳞片§r、§2镅块§r和大量不同的贵金属和宝石。
 
 # db 257
-nomifactory.quest.db.257.title=§2龙素双重板
-nomifactory.quest.db.257.desc=专门用于七级微型采掘机的双重板。
+nomifactory.quest.db.257.title=§2龙素重板
+nomifactory.quest.db.257.desc=专门用于七级微型采掘机的重板。
 
 # db 258
 nomifactory.quest.db.258.title=觉醒龙素
@@ -1048,7 +1047,7 @@ nomifactory.quest.db.263.desc=§6铟§r是一种稀有材料，需要专门的�
 
 # db 264
 nomifactory.quest.db.264.title=§2第四种也是最后一种四阶电路
-nomifactory.quest.db.264.desc=用你的全新§6环氧树脂电路板§r、§6QBit处理器§r和一些标准元件，你可以制作最后类型的四阶电路: §6量子电路§r。%n%n作为第四阶电路的最佳形式，这些电路应该是自动化的，并储存起来。需要§6高级片上系统§r的变体配方在ZPM之前不会出现。
+nomifactory.quest.db.264.desc=用你的全新§6环氧树脂电路板§r、§6QBit处理器§r和一些标准元件，你可以制作最后类型的四阶电路: §6量子电路§r。%n%n作为第四阶电路的最佳形式，这些电路应该是自动化的，并储存起来。需要§6高级片上系统§r的变种配方在ZPM之前不会出现。
 
 # db 265
 nomifactory.quest.db.265.title=QBit处理器
@@ -1071,8 +1070,8 @@ nomifactory.quest.db.269.title=§2第二种六阶电路
 nomifactory.quest.db.269.desc=§2这个级别的没有什么特别之处。
 
 # db 270
-nomifactory.quest.db.270.title=§2研磨机
-nomifactory.quest.db.270.desc=注意：这个任务接受 LV、MV 和 HV 的研磨机。§3研磨机§r对磨碎东西很有用，取代了你到现在为止一直需要的§a研钵§r。这是一台重要的机器，你将在未来的许多事情上使用它。%n%n在不久的将来，研磨机的一个有用的应用是将§6粘土§r或§6陶瓦§r研磨成§6粘土粉§r。%n%n除了没有有限的耐久，研磨机比研钵的一个关键优势是在磨碎东西时有机会获得额外的材料。这些被称为§e副产物§r，HV或更好的研磨机有三个槽位，而不是一个槽，所以副产物可以出现。%n%n在§bJEI§r查看研磨机配方时，你可以通过查看工具提示是否告诉你它有机会出现，来判断哪些产出是副产物: 必然的输出物不会列出一个概率。§2你拥有的机器每超过一级配方，概率就会增加一定数量。这个概率也会在工具提示中列出。%n%n§2研磨机现在还可以回收你的旧机器，以获得一些额外的材料。§r%n%n最后，只有在有空间容纳所有可能的输出物时，研磨机才会开始处理。确保你清空它们，以便它们能够继续运作。
+nomifactory.quest.db.270.title=§2LV研磨机
+nomifactory.quest.db.270.desc=§3研磨机§r对磨碎东西很有用，取代了你到现在为止一直需要的§a研钵§r。这是一台重要的机器，你将在未来的许多事情上使用它。%n%n在不久的将来，研磨机的一个有用的应用是将§6粘土§r或§6陶瓦§r研磨成§6粘土粉§r。%n%n除了没有有限的耐久，研磨机比研钵的一个关键优势是在磨碎东西时有机会获得额外的材料。这些被称为§e副产物§r，HV或更好的研磨机有三个槽位，而不是一个槽，所以副产物可以出现。%n%n在§bJEI§r查看研磨机配方时，你可以通过查看工具提示是否告诉你它有机会出现，来判断哪些产出是副产物: 必然的输出物不会列出一个概率。§2你拥有的机器每超过一级配方，概率就会增加一定数量。这个概率也会在工具提示中列出。%n%n§2研磨机现在还可以回收你的旧机器，以获得一些额外的材料。§r%n%n最后，只有在有空间容纳所有可能的输出物时，研磨机才会开始处理。确保你清空它们，以便它们能够继续运作。
 
 # db 271
 nomifactory.quest.db.271.title=反应堆稳定器
@@ -1216,7 +1215,7 @@ nomifactory.quest.db.309.desc=如果你不喜欢搜寻热力元素，或者因�
 
 # db 310
 nomifactory.quest.db.310.title=有机灌注器
-nomifactory.quest.db.310.desc=赞美太阳。%n%n这台机器使用不同级别的§6光合堆肥§r和§9水§r来生长植物。%n%n它可以用各种§a增强§r进行定制。
+nomifactory.quest.db.310.desc=赞美太阳。\[T]/%n%n这台机器使用不同级别的§6光合堆肥§r和§9水§r来生长植物。%n%n它可以用各种§a增强§r进行定制。
 
 # db 311
 nomifactory.quest.db.311.title=钨钢线圈方块
@@ -1231,16 +1230,16 @@ nomifactory.quest.db.313.title=高速钢-G线圈方块
 nomifactory.quest.db.313.desc=§6高速钢-G§r是第五种可用的线圈材料，将您的电力高炉的工作温度提高到5400K，因此它可以加工更先进的材料，如§6硅岩§r。
 
 # db 314
-nomifactory.quest.db.314.title=§2铱双重板
-nomifactory.quest.db.314.desc=由§6铱§r制成的双重板，用于五级和八级微型采掘机。
+nomifactory.quest.db.314.title=§2铱重板
+nomifactory.quest.db.314.desc=由§6铱§r制成的重板，用于五级和八级微型采掘机。
 
 # db 315
-nomifactory.quest.db.315.title=§2信素双重板
-nomifactory.quest.db.315.desc=接下来两级的微型采掘机所需的双重板。
+nomifactory.quest.db.315.title=§2信素重板
+nomifactory.quest.db.315.desc=接下来两级的微型采掘机所需的重型材料。
 
 # db 316
-nomifactory.quest.db.316.title=§2末影双重板
-nomifactory.quest.db.316.desc=由§6末影§r制成的双重板，用于六级微型采掘机。
+nomifactory.quest.db.316.title=§2末影重板
+nomifactory.quest.db.316.desc=由§6末影§r制成的重板，用于六级微型采掘机。
 
 # db 317
 nomifactory.quest.db.317.title=量子充能永恒重板
@@ -1344,7 +1343,7 @@ nomifactory.quest.db.342.desc=一个剧差压的§b格雷科技§r电池。
 
 # db 344
 nomifactory.quest.db.344.title=充能台
-nomifactory.quest.db.344.desc=§3充能台§r是一台来自§b实用拓展§r的机器，用于将其特殊的晶体材料转化为充能的变体。%n%n充能台被放置在一个平坦的7x7区域的中心。四个§a物品展示台§r与充能台有两个方块的距离，每个方向都有一个。%n%n配方要求将特定的物品放在展示架上，主要物品放在充能台上。展示架上的物品被消耗，中键的物品被赋予充能。%n%nRF能量需要输入到物品展示台，以便为中心物品注入能量。物品展示台的每侧的能量传输率很低，所以需要一段时间。考虑在每个物品展示架的多个侧面放置能量导管，以加快一点速度。%n%n这东西有点麻烦。它很慢，占用了很大的空间，而且自动操作起来很麻烦。别担心，在你得到§6龙素§r之后，你将可以访问§3聚合核心§r，它更快、更紧凑、更容易自动化。更妙的是，这几乎可以立即制作到§3精英封包合成器§r，它可以通过§b封包合成§r和§b应用能源2§r直接进行充能台配方。
+nomifactory.quest.db.344.desc=§3充能台§r是一台来自§b实用拓展§r的机器，用于将其特殊的晶体材料转化为充能的变种。%n%n充能台被放置在一个平坦的7x7区域的中心。四个§a物品展示台§r与充能台有两个方块的距离，每个方向都有一个。%n%n配方要求将特定的物品放在展示架上，主要物品放在充能台上。展示架上的物品被消耗，中键的物品被赋予充能。%n%nRF能量需要输入到物品展示台，以便为中心物品注入能量。物品展示台的每侧的能量传输率很低，所以需要一段时间。考虑在每个物品展示架的多个侧面放置能量导管，以加快一点速度。%n%n这东西有点麻烦。它很慢，占用了很大的空间，而且自动操作起来很麻烦。别担心，在你得到§6龙素§r之后，你将可以访问§3聚合核心§r，它更快、更紧凑、更容易自动化。更妙的是，这几乎可以立即制作到§3精英封包合成器§r，它可以通过§b封包合成§r和§b应用能源2§r直接进行充能台配方。
 
 # db 345
 nomifactory.quest.db.345.title=双足飞龙核心
@@ -1352,7 +1351,7 @@ nomifactory.quest.db.345.desc=§6双足飞龙核心§r是第二级别的核心�
 
 # db 347
 nomifactory.quest.db.347.title=核电工艺金属板
-nomifactory.quest.db.347.desc=§6钢双重板§r可以用§6钨板§r和§6高强合金§r来增强，以制造§6反应堆基础板§r%n%n这就对了 - 是时候进入§b核电工艺§r了。%n%n用§6钇钡铜氧§r和§6硬碳合金§r加强基础镀层，为更先进的§b核电工艺§r方块提供更好的镀层材料。
+nomifactory.quest.db.347.desc=§6钢重板§r可以用§6钨板§r和§6高强合金§r来增强，以制造§6反应堆基础板§r%n%n这就对了 - 是时候进入§b核电工艺§r了。%n%n用§6钇钡铜氧§r和§6硬碳合金§r加强基础镀层，为更先进的§b核电工艺§r方块提供更好的镀层材料。
 
 # db 350
 nomifactory.quest.db.350.title=裂变反应堆
@@ -1419,7 +1418,7 @@ nomifactory.quest.db.365.title=终极护腿
 nomifactory.quest.db.365.desc=一条终极护腿，由跨维度和微型宇宙的各种类型的材料锻造而成。
 
 # db 366
-nomifactory.quest.db.366.title=§2创造箱子
+nomifactory.quest.db.366.title=§2创造量子箱
 nomifactory.quest.db.366.desc=你赢了。%n%n恭喜你。%n%n我希望你在§5全能工厂§r玩的愉快。
 
 # db 367
@@ -1500,7 +1499,7 @@ nomifactory.quest.db.399.desc=§3大型等离子体涡轮§r是一种强大的�
 
 # db 400
 nomifactory.quest.db.400.title=§2我不喜欢太空
-nomifactory.quest.db.400.desc=太空探索在这个整合包中不是强制性的，所以如果你不喜欢用§b高级火箭 §r探索太空，那么你可以用离心§9氢§r来代替§e氘§r。%n%n只要记住，跳过这个环节的回报要少得多，而且你需要大量的氢来弥补，尽管你对第一个§3微型投影仪§r不太需要。%n%n§2在HV时代和更有效的IV时代，你可以通过处理下界空气来获得这个。
+nomifactory.quest.db.400.desc=太空探索在这个整合包中不是强制性的，所以如果你不喜欢用§b高级火箭§r探索太空，那么你可以用离心§9氢§r来代替§e氘§r。%n%n只要记住，跳过这个环节的回报要少得多，而且你需要大量的氢来弥补，尽管你对第一个§3微型投影仪§r不太需要。%n%n§2在HV时代和更有效的IV时代，你可以通过处理下界空气来获得这个。
 
 # db 401
 nomifactory.quest.db.401.title=适当的工具保养
@@ -1543,8 +1542,8 @@ nomifactory.quest.db.411.title=§2大型微型宇宙投影仪
 nomifactory.quest.db.411.desc=大型微宇宙投影仪是一种更强大的投影仪，用于将七级微型采掘机和十级微型采掘机投射到微型宇宙中。%n%n第七级采掘任务将在§eLuV能量§r上运行，但以后的采掘任务将需要更高的能量等级。与之前的投影仪一样，这种结构支持超频，总线和仓的位置可以与任何§6微型宇宙投影仪外壳§r进行互换。%n%n§6潜行右击§r控制器，以启用世界预览。
 
 # db 412
-nomifactory.quest.db.412.title=Lunar Mining Station
-nomifactory.quest.db.412.desc=The §3Lunar Mining Station§r is a large multiblock structure used for mining gases from the moon. It is an excellent (though not the only) source of §9Deuterium§r or §9Helium-3§r, depending on what kind of §6Rover§r you use. %n%nRovers only have a 10%% chance to break while mining, so a stack of them will last quite a while.%n%nWhile both available recipes require §eMV power§r, you can overclock it with higher tiers of power. The positions of hatches and buses can be swapped with any §6LuV Machine Casing§r.%n%n§6Sneak-right click§r the controller to enable the in-world preview.%n%nBecause this structure must be placed on the Moon, it is a good idea to use mechanisms like §aEnder Tanks§r or a §6Quantum Link Chamber§r for teleporting the fluids back to your base.%n%nMake sure to keep it chunk-loaded!%n
+nomifactory.quest.db.412.title=月球采矿站
+nomifactory.quest.db.412.desc=月球采矿站是一个大型的多方块结构，用于从月球开采气体。这是一个极好的(虽然不是唯一的)§9氘§r或§9氦-3§r 的来源，这取决于你使用的是哪种类型的§6漫游车§r。%n%n漫游车在挖矿时只有 10% 的几率损坏，所以一堆漫游车可以持续很长时间。%n%n虽然两种可用的配方都需要 §eMV 电压§r，但你可以用更高的功率层超频它。仓室和总线的位置可以与任何 §6LuV 机壳§r交换。%n%nshift 右击控制器以启用世界内预览。%n%n因为这个结构必须放置在月球上，所以使用像§a末影储罐§r或§6 ME 量子链接仓§r这样的机制将液体传送回基地是一个好主意。%n%n记得区块加载！%n
 
 # db 413
 nomifactory.quest.db.413.title=§2LV提取机
@@ -1603,12 +1602,12 @@ nomifactory.quest.db.498.title=§2焊锡
 nomifactory.quest.db.498.desc=制作电路时，你需要熔化的§9锡§r，或熔化的§9焊锡§r。§2焊锡是在搅拌机中用6份锡粉、3份铅粉和1份锑粉制成。§r然后你在一个§3提取机§r中处理它，以获得每单位144mB的流体。%n%n§2电路组装器§r的焊锡消耗量仅为每次制作消耗熔融锡的一半(72mB对144mB)，因此使用这种材料非常有效。%n%n§2锑可以直接从辉锑矿中熔炼出来，这样你就可以跳过该矿石的加工。
 
 # db 499
-nomifactory.quest.db.499.title=Fine Copper Wire
-nomifactory.quest.db.499.desc=Now that you have a §3Wiremill§r, you can turn one §6Copper Wire§r into four §6Fine Copper Wire§r. The recipes for §6Resistors§r, §6LV Motors§r and §6Vacuum Tubes§r all accept either type, so doing this extra processing step will make your §6Copper Ingots§r go §efour times further§r when making circuits.%n%nYou'll be making a lot more circuits from here on out, so it's definitely worthwhile to save your copper!
+nomifactory.quest.db.499.title=细铜导线
+nomifactory.quest.db.499.desc=现在你有了一个§3线材轧机§r，你可以把一个§6铜导线§r变成四个§6细铜导线§r。§6电阻§r，§6LV马达§r和§6真空管§r的配方都接受铜导线和细铜导线，因此做这个额外的处理步骤将使您的§6铜锭§r在制作电路时变成§r四倍。从现在开始，你将制作更多的电路，所以节省你的铜绝对是值得的!
 
 # db 500
 nomifactory.quest.db.500.title=§2第四种也是最后一种三阶电路
-nomifactory.quest.db.500.desc=用你的新型§2环氧树脂电路板§r、§6纳米CPU§r和一些标准元件，你可以制作最后一种三阶电路: §6纳米电路§r。%n%n作为三阶电路的最佳形式，这些应该是自动化的，并储存起来。与最后一种二阶电路一样，§6先进片上系统§r的变体配方暂时不会出现。
+nomifactory.quest.db.500.desc=用你的新型§2环氧树脂电路板§r、§6纳米CPU§r和一些标准元件，你可以制作最后一种三阶电路: §6纳米电路§r。%n%n作为三阶电路的最佳形式，这些应该是自动化的，并储存起来。与最后一种二阶电路一样，§6先进片上系统§r的变种配方暂时不会出现。
 
 # db 501
 nomifactory.quest.db.501.title=异域材料催化剂
@@ -1620,7 +1619,7 @@ nomifactory.quest.db.502.desc=§6电容§r是储存电能的装置，对电路�
 
 # db 503
 nomifactory.quest.db.503.title=玄色魂金锭
-nomifactory.quest.db.503.desc=
+nomifactory.quest.db.503.desc= 
 
 # db 504
 nomifactory.quest.db.504.title=酿造室
@@ -1636,7 +1635,7 @@ nomifactory.quest.db.507.desc=这时你会需要§9氯§r。它是许多化学�
 
 # db 508
 nomifactory.quest.db.508.title=§2钌铱合金锭
-nomifactory.quest.db.508.desc=
+nomifactory.quest.db.508.desc= 
 
 # db 509
 nomifactory.quest.db.509.title=§2无损导线
@@ -1656,7 +1655,7 @@ nomifactory.quest.db.512.desc=§3头颅装配机§r是一台来自§b末影接�
 
 # db 513
 nomifactory.quest.db.513.title=红钢锭
-nomifactory.quest.db.513.desc=
+nomifactory.quest.db.513.desc= 
 
 # db 516
 nomifactory.quest.db.516.title=LV传送带
@@ -1671,16 +1670,17 @@ nomifactory.quest.db.519.title=一类硅岩反应堆
 nomifactory.quest.db.519.desc=§3一类硅岩反应堆§r是一个结构，用于从6富集硅岩§r或6超能硅岩§r到6铅§r的衰变过程中产生大量的EU能量。%n%n§6潜行右击§r控制器，以启用世界预览。
 
 # db 520
-nomifactory.quest.db.520.title=The Second Tier Four Circuits
-nomifactory.quest.db.520.desc=Four §6Microprocessors§r combined with §6Titanium Plates§r and a few other standard components will make a §6MicroSupercomputer§r.
+nomifactory.quest.db.520.title=第二个四阶电路
+nomifactory.quest.db.520.desc=四个§6处理器§r，§6钛板§r和其他一些零部件可以合成出§6纳米超级计算机§r。
 
 # db 521
 nomifactory.quest.db.521.title=谐振升级套件
 nomifactory.quest.db.521.desc=为机器和能源提供更多的增强槽位。%n%n能源炉在§a基础功率和燃料效率的1000%%§r运行。%n%n储罐可容纳§a1250桶§r。%n%n机器§a以基础速度的6000%%§r运行。
 
 # db 522
-nomifactory.quest.db.522.title=LuV Compressor
-nomifactory.quest.db.522.desc=This compressor is needed for making §6Iridium Heavy Plating§r and §6Enderium Heavy Plating§r.
+nomifactory.quest.db.522.title=LuV 压缩机
+nomifactory.quest.db.522.desc=这个压缩机用于制作§6铱重板§r和§6末影锭重板§r。
+
 
 # db 523
 nomifactory.quest.db.523.title=§2第二种五阶电路
@@ -1760,7 +1760,7 @@ nomifactory.quest.db.542.desc=§3灵魂绑定器§r是一种使用§a灵魂瓶§
 
 # db 543
 nomifactory.quest.db.543.title=蓝钢锭
-nomifactory.quest.db.543.desc=
+nomifactory.quest.db.543.desc= 
 
 # db 544
 nomifactory.quest.db.544.title=硬化背包
@@ -1775,7 +1775,7 @@ nomifactory.quest.db.546.title=§2蒸馏室
 nomifactory.quest.db.546.desc=注意: 这个任务同时接受LV和MV蒸馏室。§2如果你要蒸馏乙醇，你现在需要一个MV蒸馏室。%n%n§r§3蒸馏室§r是一个单方块机器，只输出几种蒸馏物中的一种，其余的则被§c丢弃§r。你现在可以用它来从§9生物质§r中获得§9乙醇§r，或在多个步骤中选择性地将§9石油§r蒸馏成§9乙烯§r。与整个蒸馏塔相比，除了成本之外，它的优势在于§d能源效率§r。%n%n然而，蒸馏塔是高级化学的必修课，因为大多数东西都有一个以上的重要输出: 举几个例子，§9发酵过的生物质§r、§3热解炉§r产生的§9木炭副产品§r，以及§9石油§r产生的整个石化产品系列。%n%n不能永远回避！
 
 # db 547
-nomifactory.quest.db.547.title=Scanner Module: Block
+nomifactory.quest.db.547.title=扫描模块：方块
 nomifactory.quest.db.547.desc=
 
 # db 548
@@ -1787,8 +1787,8 @@ nomifactory.quest.db.549.title=§2流体钻机
 nomifactory.quest.db.549.desc=§2流体钻机将从地下流体矿脉中采集流体。请注意，流体矿脉只是模拟的，并不存在于世界上。§r%n%n使用你的§3勘探扫描仪§r来查看地下流体的类型和数量，并检查矿脉的耗竭状态。第一个数字代表每秒钟抽取的基本流体量。%n%n在§e主世界§r，它可以采集: §9石油、轻油、重油、原油、天然气、盐水§r%n%n在§e地狱§r: §e熔岩、天然气§r%n%n在§e月球§r: §9氘，氦-3§r%n%n第一层级的流体钻机可以进行§d100,000次操作§r。更高层级的流体钻机收获流体的速度要快得多，消耗矿脉的速度也慢得多。
 
 # db 550
-nomifactory.quest.db.550.title=Vertical Digger
-nomifactory.quest.db.550.desc=Place the §3Vertical Digger§r over an ore vein, feed it RF, and it will mine up the entire vein for you.%n%nFor drills, you will need a §6GregTech Drill§r (any LV drill will work), a §6Fluxbore§r (Reinforced tier is required) and an §6Actually Additions Drill§r (any color is fine, but take out any augments you wish to keep).%n%nThe GregTech Drill will not be consumed, but everything else will be.
+nomifactory.quest.db.550.title=垂直挖矿机
+nomifactory.quest.db.550.desc=将§3垂直挖掘机§r放置在矿脉上，通上RF，它将为你开采整个矿脉。%n%n对于钻头，你可以采用§6格雷电钻§r（LV 即可）或§6通量电钻§r(需要硬化等级)和§6实用拓展手钻§r(任何颜色都可以，但记得取出升级)。%n%n格雷电钻不会被消耗，但其他钻头都会被消耗。
 
 # db 551
 nomifactory.quest.db.551.title=幻灵增幅器
@@ -1832,87 +1832,87 @@ nomifactory.quest.db.580.desc=随着你的不断发展，更高级的§3电力�
 
 # db 582
 nomifactory.quest.db.582.title=通量琥珀金锭
-nomifactory.quest.db.582.desc=
+nomifactory.quest.db.582.desc= 
 
 # db 583
 nomifactory.quest.db.583.title=信素锭
-nomifactory.quest.db.583.desc=
+nomifactory.quest.db.583.desc= 
 
 # db 584
 nomifactory.quest.db.584.title=末影锭
-nomifactory.quest.db.584.desc=
+nomifactory.quest.db.584.desc= 
 
 # db 585
 nomifactory.quest.db.585.title=脉冲铁锭
-nomifactory.quest.db.585.desc=
+nomifactory.quest.db.585.desc= 
 
 # db 586
 nomifactory.quest.db.586.title=高速钢-E锭
-nomifactory.quest.db.586.desc=
+nomifactory.quest.db.586.desc= 
 
 # db 587
 nomifactory.quest.db.587.title=高速钢-G锭
-nomifactory.quest.db.587.desc=
+nomifactory.quest.db.587.desc= 
 
 # db 588
 nomifactory.quest.db.588.title=高速钢-S锭
-nomifactory.quest.db.588.desc=
+nomifactory.quest.db.588.desc= 
 
 # db 589
 nomifactory.quest.db.589.title=水晶矩阵锭
-nomifactory.quest.db.589.desc=
+nomifactory.quest.db.589.desc= 
 
 # db 591
 nomifactory.quest.db.591.title=钒钢锭
-nomifactory.quest.db.591.desc=
+nomifactory.quest.db.591.desc= 
 
 # db 592
 nomifactory.quest.db.592.title=磁钢锭
-nomifactory.quest.db.592.desc=
+nomifactory.quest.db.592.desc= 
 
 # db 593
 nomifactory.quest.db.593.title=末影钢锭
-nomifactory.quest.db.593.desc=
+nomifactory.quest.db.593.desc= 
 
 # db 594
 nomifactory.quest.db.594.title=微型宇宙锭
-nomifactory.quest.db.594.desc=
+nomifactory.quest.db.594.desc= 
 
 # db 595
 nomifactory.quest.db.595.title=蕴魔秘银锭
-nomifactory.quest.db.595.desc=
+nomifactory.quest.db.595.desc= 
 
 # db 596
 nomifactory.quest.db.596.title=玄钢锭
-nomifactory.quest.db.596.desc=
+nomifactory.quest.db.596.desc= 
 
 # db 597
 nomifactory.quest.db.597.title=脉冲合金锭
-nomifactory.quest.db.597.desc=
+nomifactory.quest.db.597.desc= 
 
 # db 598
 nomifactory.quest.db.598.title=充能合金锭
-nomifactory.quest.db.598.desc=
+nomifactory.quest.db.598.desc= 
 
 # db 599
-nomifactory.quest.db.599.title=魂金锭
-nomifactory.quest.db.599.desc=
+nomifactory.quest.db.598.title=充能合金锭
+nomifactory.quest.db.599.desc= 
 
 # db 600
 nomifactory.quest.db.600.title=玛玉灵锭
-nomifactory.quest.db.600.desc=
+nomifactory.quest.db.600.desc= 
 
 # db 601
 nomifactory.quest.db.601.title=镁铝合金锭
-nomifactory.quest.db.601.desc=
+nomifactory.quest.db.601.desc= 
 
 # db 602
 nomifactory.quest.db.602.title=坎塔尔合金锭
-nomifactory.quest.db.602.desc=
+nomifactory.quest.db.602.desc= 
 
 # db 603
 nomifactory.quest.db.603.title=镍铬合金锭
-nomifactory.quest.db.603.desc=
+nomifactory.quest.db.603.desc= 
 
 # db 604
 nomifactory.quest.db.604.title=宇宙之心
@@ -1923,7 +1923,7 @@ nomifactory.quest.db.605.title=十阶微型采掘机
 nomifactory.quest.db.605.desc=你已经成为死亡，宇宙的毁灭者。%n%n可能很明显，但这个采掘机收集了§6宇宙之心§r。
 
 # db 606
-nomifactory.quest.db.606.title=§2中子素双重板
+nomifactory.quest.db.606.title=§2中子素重板
 nomifactory.quest.db.606.desc=有点多余，真的。%n%n这种板专门用于十级微型采掘机。在收集整个微型宇宙时，你需要一些强力保护，以免受影响。
 
 # db 607
@@ -1940,239 +1940,239 @@ nomifactory.quest.db.609.desc=为机器和能源炉提供更多的增强槽位�
 
 # db 610
 nomifactory.quest.db.610.title=幻灵接口
-nomifactory.quest.db.610.desc=§6幻灵接口§r是由§b使用拓展§r添加的强大方块。他们靠链接容器来工作。%n%n要使用幻灵接口，拿着§6幻灵链接器§r并 shift 右击你想要的链接的容器，接着 shift 右击§6幻灵接口§r。你会看到一条提示成功链接的信息。注意幻灵连接器有范围限制，所以不要放得太远。%n%n现在不管什么东西进入了容器，同时就进入了§6幻灵接口§r。这也在其他东西上生效。§6%n%n幻灵接口§r可以被用于制作它的变种，比如§6幻灵方块破坏器§r and §6幻灵方块放置器§r。它们像§6幻灵接口§r一样工作，但有细微差别。例如§6幻灵方块破坏器§r会将它破坏的物体放入链接的容器。
+nomifactory.quest.db.610.desc=§6幻灵接口§r是由§b实用拓展§r添加的强大方块。它们通过连接到一个库存来工作。为了做到这一点，握住一个§6幻灵连接器§r，并在你想连接的库存上按下Shift+右键，然后在§6幻灵接口§r上按下Shift+右键。你应该看到一条消息，说它已经成功连接了。请记住，这些东西有一个范围，所以不要把你的库存放得太远。%n%n现在，只要有物品进入该库存，它就会进入§6幻灵接口§r。这也适用于另一种情况。§6幻灵接口§r也可以被制作成其他变种，如§6幻灵方块破坏器§r和§6幻灵方块放置器§r。这些工作就像§6幻灵接口§r一样，但有一点变化。例如，§6幻灵方块破坏器§r会把它们破坏的物品放到它所连接的库存中。
 
 # db 611
 nomifactory.quest.db.611.title=高强合金
 nomifactory.quest.db.611.desc=§6硼铁§r是§6钢§r和§6硼§r组成的合金。%n%n将一些§6锂§r合金化到§6硼铁§r中会产生§6高强合金§r，这是§b核电工艺§r方块中的常见成分。
 
 # db 612
-nomifactory.quest.db.612.title=ZPM Compressor
-nomifactory.quest.db.612.desc=The ZPM tier §3Compressor§r is needed for the most advanced heavy plating types: §6Draconium§r and §6Crystal Matrix§r.
+nomifactory.quest.db.612.title=ZPM压缩机
+nomifactory.quest.db.612.desc=§3ZPM 压缩机§r用于制作最高级的重板：§6龙素§r和§6水晶矩阵§r。
 
 # db 613
 nomifactory.quest.db.613.title=1号元素: 氢
-nomifactory.quest.db.613.desc=
+nomifactory.quest.db.613.desc= 
 
 # db 614
 nomifactory.quest.db.614.title=2号元素: 氦
-nomifactory.quest.db.614.desc=
+nomifactory.quest.db.614.desc= 
 
 # db 615
 nomifactory.quest.db.615.title=3号元素: 锂
-nomifactory.quest.db.615.desc=
+nomifactory.quest.db.615.desc= 
 
 # db 616
 nomifactory.quest.db.616.title=4号元素: 铍
-nomifactory.quest.db.616.desc=
+nomifactory.quest.db.616.desc= 
 
 # db 617
 nomifactory.quest.db.617.title=5号元素: 硼
-nomifactory.quest.db.617.desc=
+nomifactory.quest.db.617.desc= 
 
 # db 618
 nomifactory.quest.db.618.title=§26号元素: 碳
-nomifactory.quest.db.618.desc=
+nomifactory.quest.db.618.desc= 
 
 # db 619
 nomifactory.quest.db.619.title=7号元素: 氮
-nomifactory.quest.db.619.desc=
+nomifactory.quest.db.619.desc= 
 
 # db 620
 nomifactory.quest.db.620.title=8号元素: 氧
-nomifactory.quest.db.620.desc=
+nomifactory.quest.db.620.desc= 
 
 # db 621
 nomifactory.quest.db.621.title=9号元素: 氟
-nomifactory.quest.db.621.desc=
+nomifactory.quest.db.621.desc= 
 
 # db 622
 nomifactory.quest.db.622.title=10号元素: 氖
-nomifactory.quest.db.622.desc=
+nomifactory.quest.db.622.desc= 
 
 # db 623
 nomifactory.quest.db.623.title=§211号元素: 钠
-nomifactory.quest.db.623.desc=
+nomifactory.quest.db.623.desc= 
 
 # db 624
 nomifactory.quest.db.624.title=§212号元素: 镁
-nomifactory.quest.db.624.desc=
+nomifactory.quest.db.624.desc= 
 
 # db 625
 nomifactory.quest.db.625.title=13号元素: 铝
-nomifactory.quest.db.625.desc=
+nomifactory.quest.db.625.desc= 
 
 # db 626
 nomifactory.quest.db.626.title=14号元素: 硅
-nomifactory.quest.db.626.desc=
+nomifactory.quest.db.626.desc= 
 
 # db 627
 nomifactory.quest.db.627.title=15号元素: 磷
-nomifactory.quest.db.627.desc=
+nomifactory.quest.db.627.desc= 
 
 # db 628
 nomifactory.quest.db.628.title=16号元素: 硫
-nomifactory.quest.db.628.desc=
+nomifactory.quest.db.628.desc= 
 
 # db 629
 nomifactory.quest.db.629.title=17号元素: 氯
-nomifactory.quest.db.629.desc=
+nomifactory.quest.db.629.desc= 
 
 # db 630
 nomifactory.quest.db.630.title=18号元素: 氩
-nomifactory.quest.db.630.desc=
+nomifactory.quest.db.630.desc= 
 
 # db 631
 nomifactory.quest.db.631.title=§219号元素: 钾
-nomifactory.quest.db.631.desc=
+nomifactory.quest.db.631.desc= 
 
 # db 632
 nomifactory.quest.db.632.title=20号元素: 钙
-nomifactory.quest.db.632.desc=
+nomifactory.quest.db.632.desc= 
 
 # db 633
 nomifactory.quest.db.633.title=57号元素: 镧
-nomifactory.quest.db.633.desc=
+nomifactory.quest.db.633.desc= 
 
 # db 634
 nomifactory.quest.db.634.title=22号元素: 钛
-nomifactory.quest.db.634.desc=
+nomifactory.quest.db.634.desc= 
 
 # db 635
 nomifactory.quest.db.635.title=23号元素: 钒
-nomifactory.quest.db.635.desc=
+nomifactory.quest.db.635.desc= 
 
 # db 636
 nomifactory.quest.db.636.title=24号元素: 铬
-nomifactory.quest.db.636.desc=
+nomifactory.quest.db.636.desc= 
 
 # db 637
 nomifactory.quest.db.637.title=25号元素: 锰
-nomifactory.quest.db.637.desc=
+nomifactory.quest.db.637.desc= 
 
 # db 638
 nomifactory.quest.db.638.title=26号元素: 铁
-nomifactory.quest.db.638.desc=
+nomifactory.quest.db.638.desc= 
 
 # db 639
 nomifactory.quest.db.639.title=27号元素: 钴
-nomifactory.quest.db.639.desc=
+nomifactory.quest.db.639.desc= 
 
 # db 640
 nomifactory.quest.db.640.title=28号元素: 镍
-nomifactory.quest.db.640.desc=
+nomifactory.quest.db.640.desc= 
 
 # db 641
 nomifactory.quest.db.641.title=29号元素: 铜
-nomifactory.quest.db.641.desc=
+nomifactory.quest.db.641.desc= 
 
 # db 642
 nomifactory.quest.db.642.title=30号元素: 锌
-nomifactory.quest.db.642.desc=
+nomifactory.quest.db.642.desc= 
 
 # db 643
 nomifactory.quest.db.643.title=31号元素: 镓
-nomifactory.quest.db.643.desc=
+nomifactory.quest.db.643.desc= 
 
 # db 644
 nomifactory.quest.db.644.title=33号元素: 砷
-nomifactory.quest.db.644.desc=
+nomifactory.quest.db.644.desc= 
 
 # db 645
 nomifactory.quest.db.645.title=36号元素: 氪
-nomifactory.quest.db.645.desc=
+nomifactory.quest.db.645.desc= 
 
 # db 646
 nomifactory.quest.db.646.title=39号元素: 钇
-nomifactory.quest.db.646.desc=
+nomifactory.quest.db.646.desc= 
 
 # db 647
 nomifactory.quest.db.647.title=46号元素: 钯
-nomifactory.quest.db.647.desc=
+nomifactory.quest.db.647.desc= 
 
 # db 648
 nomifactory.quest.db.648.title=47号元素: 银
-nomifactory.quest.db.648.desc=
+nomifactory.quest.db.648.desc= 
 
 # db 649
 nomifactory.quest.db.649.title=49号元素: 铟
-nomifactory.quest.db.649.desc=
+nomifactory.quest.db.649.desc= 
 
 # db 650
 nomifactory.quest.db.650.title=50号元素: 锡
-nomifactory.quest.db.650.desc=
+nomifactory.quest.db.650.desc= 
 
 # db 651
 nomifactory.quest.db.651.title=51号元素: 锑
-nomifactory.quest.db.651.desc=
+nomifactory.quest.db.651.desc= 
 
 # db 652
 nomifactory.quest.db.652.title=54号元素: 氙
-nomifactory.quest.db.652.desc=
+nomifactory.quest.db.652.desc= 
 
 # db 653
 nomifactory.quest.db.653.title=74号元素: 钨
-nomifactory.quest.db.653.desc=
+nomifactory.quest.db.653.desc= 
 
 # db 654
 nomifactory.quest.db.654.title=76号元素: 锇
-nomifactory.quest.db.654.desc=
+nomifactory.quest.db.654.desc= 
 
 # db 655
 nomifactory.quest.db.655.title=77号元素: 铱
-nomifactory.quest.db.655.desc=
+nomifactory.quest.db.655.desc= 
 
 # db 656
 nomifactory.quest.db.656.title=78号元素: 铂
-nomifactory.quest.db.656.desc=
+nomifactory.quest.db.656.desc= 
 
 # db 657
 nomifactory.quest.db.657.title=79号元素: 金
-nomifactory.quest.db.657.desc=
+nomifactory.quest.db.657.desc= 
 
 # db 658
 nomifactory.quest.db.658.title=80号元素: 汞
-nomifactory.quest.db.658.desc=
+nomifactory.quest.db.658.desc= 
 
 # db 659
 nomifactory.quest.db.659.title=86号元素: 氡
-nomifactory.quest.db.659.desc=
+nomifactory.quest.db.659.desc= 
 
 # db 660
 nomifactory.quest.db.660.title=90号元素: 钍
-nomifactory.quest.db.660.desc=
+nomifactory.quest.db.660.desc= 
 
 # db 661
 nomifactory.quest.db.661.title=92号元素: 铀
-nomifactory.quest.db.661.desc=
+nomifactory.quest.db.661.desc= 
 
 # db 662
 nomifactory.quest.db.662.title=93号元素: 镎
-nomifactory.quest.db.662.desc=
+nomifactory.quest.db.662.desc= 
 
 # db 663
 nomifactory.quest.db.663.title=94号元素: 钚
-nomifactory.quest.db.663.desc=
+nomifactory.quest.db.663.desc= 
 
 # db 664
 nomifactory.quest.db.664.title=§295号元素: 镅
-nomifactory.quest.db.664.desc=
+nomifactory.quest.db.664.desc= 
 
 # db 665
 nomifactory.quest.db.665.title=96号元素: 锔
-nomifactory.quest.db.665.desc=
+nomifactory.quest.db.665.desc= 
 
 # db 666
 nomifactory.quest.db.666.title=97号元素: 锫
-nomifactory.quest.db.666.desc=
+nomifactory.quest.db.666.desc= 
 
 # db 667
 nomifactory.quest.db.667.title=98号元素: 锎
-nomifactory.quest.db.667.desc=
+nomifactory.quest.db.667.desc= 
 
 # db 668
 nomifactory.quest.db.668.title=99号元素: 锿
-nomifactory.quest.db.668.desc=
+nomifactory.quest.db.668.desc= 
 
 # db 669
 nomifactory.quest.db.669.title=铀裂变
@@ -2259,11 +2259,11 @@ nomifactory.quest.db.689.title=地狱怪物
 nomifactory.quest.db.689.desc=就像主世界怪物数据一样，没有很大的紧迫性，也没有必要去关注这些。当你在忙其他东西时，只需运行它们即可。
 
 # db 690
-nomifactory.quest.db.690.title=地外物质
-nomifactory.quest.db.690.desc=§6地狱物质§r和§6末影珍珠§r可以被制作成地外物质。
+nomifactory.quest.db.690.title=末地物质
+nomifactory.quest.db.690.desc=§6地狱物质§r和§6末影珍珠§r可以被制作成末地物质。
 
 # db 691
-nomifactory.quest.db.691.title=地外怪物
+nomifactory.quest.db.691.title=末地怪物
 nomifactory.quest.db.691.desc=在这一点上，其中一些模拟将开始消耗巨大的能量，所以如果你发现它很费劲，不要害怕推迟这些数据模型的进展，直到以后。
 
 # db 692
@@ -2292,7 +2292,7 @@ nomifactory.quest.db.727.desc=当你第一次启动整合包时，我们告诉�
 
 # db 728
 nomifactory.quest.db.728.title=谐振末影络合物
-nomifactory.quest.db.728.desc=§o这是生产线的一个重要部分。访问生产线章节来获取关于怎么自动化生产这个的更多信息、有用的小贴士和虚拟演示。%n%n§6铀矿石§r是§6脉动之尘§r的第一个来源，但从长远来看不是一个很好的来源。相反，你应该制造§6谐振末影络合物§r，它是一种可以无限再生的有效脉动之尘的来源。%n%n谐振末影络合物是由§6末影珍珠§r与§3流体提取机§r融化成§9谐振末影珍珠§r制成的，然后在一个MV或更好的§3化学反应釜§r中与§6下界石英§r混合。熔炼这种络合物可以得到脉动之尘。%n%n由于现在可以获得谐振末影络合物，你制作§6脉动聚合粘土§r所需要的一切都可以在一个净循环中自动完成。这样做对§b怪物深度学习§r的自动化是一个福音，它是§a整合包其余重要材料的主要来源§r。%n%n具体实施由你自己决定。利用你所拥有的各种LV和MV机器，并通过§bJEI§r寻找每种成分的可自动化的无限来源(如§a末影人数据模型§r获得珍珠)。
+nomifactory.quest.db.728.desc=§6铀矿石§r是§6脉动之尘§r的第一个来源，但从长远来看不是一个很好的来源。相反，你应该制造§6谐振末影络合物§r，它是一种可以无限再生的有效脉动之尘的来源。%n%n谐振末影络合物是由§6末影珍珠§r与§3流体提取机§r融化成§9谐振末影珍珠§r制成的，然后在一个MV或更好的§3化学反应釜§r中与§6下界石英§r混合。熔炼这种络合物可以得到脉动之尘。%n%n由于现在可以获得谐振末影络合物，你制作§6脉动聚合粘土§r所需要的一切都可以在一个净循环中自动完成。这样做对§b怪物深度学习§r的自动化是一个福音，它是§a整合包其余重要材料的主要来源§r。%n%n具体实施由你自己决定。利用你所拥有的各种LV和MV机器，并通过§bJEI§r寻找每种成分的可自动化的无限来源(如§a末影人数据模型§r获得珍珠)。
 
 # db 729
 nomifactory.quest.db.729.title=流体接口
@@ -2407,8 +2407,8 @@ nomifactory.quest.db.765.title=这是什么呢？
 nomifactory.quest.db.765.desc=增加了当前进展标签，以便你可以跟踪整合包的重要部分。%n%n电路是整个全能工厂进展的基线，所以继续攀登吧！
 
 # db 766
-nomifactory.quest.db.766.title=MV Circuits
-nomifactory.quest.db.766.desc=Circuits along this line are MV, and can all be substituted in recipes.%n%nThe pattern stays the same: the rightmost circuit comes in larger quantities and is overall easier to produce.
+nomifactory.quest.db.766.title=MV电路
+nomifactory.quest.db.766.desc=沿着这条线的电路是MV的，并且可以在配方中替换。%n%n模式保持不变: 最右边的电路数量较大，总体上更容易生产。
 
 # db 767
 nomifactory.quest.db.767.title=HV电路
@@ -2436,7 +2436,7 @@ nomifactory.quest.db.772.desc=沿着这条线的电路是UV的，并且可以在
 
 # db 773
 nomifactory.quest.db.773.title=“柴油”或“生物柴油”
-nomifactory.quest.db.773.desc=How did you end up here?
+nomifactory.quest.db.773.desc=你怎么会到这里来？
 
 # db 774
 nomifactory.quest.db.774.title=LV车床
@@ -2460,7 +2460,7 @@ nomifactory.quest.db.778.desc=现在你已经有了§6觉醒核心§r，你可�
 
 # db 779
 nomifactory.quest.db.779.title=§2无限圆石
-nomifactory.quest.db.779.desc=§o这是生产线的一个重要部分。访问生产线章节来获取关于怎么自动化生产这个的更多信息、有用的小贴士和虚拟演示。§r%n%n现在你已经获得了§6钢§r，你通往无限的圆石之路正在等待着你！§6造石机§r不断地将圆石输出到相邻的容器中，并且可以通过升级使其生产速度更快。%n%n圆石可以被加工成许多有用的材料:%n%n§6石头粉§r对大量有用的材料都很有用。%n%n§6沙砾§r对制作导管和§9混凝土粉末§r很有用。%n%n§6沙子§r可用于§6玻璃§r，它可以变成§6石英矿砂§r或用于§6氧气§r制造的§6二氧化硅粉§r。%n%n最后，§6粘土§r可以变成§6粘土粉§r，这既是§6铝§r的可靠来源，对于自动化§b深度怪物学习§r也非常重要。%n%n尽快建立一个§e圆石工厂§r，这样你就可以囤积所有这些有用的材料。
+nomifactory.quest.db.779.desc=现在你已经获得了§6钢§r，你通往无限的圆石之路正在等待着你！§6造石机§r不断地将圆石输出到相邻的容器中，并且可以通过升级使其生产速度更快。%n%n圆石可以被加工成许多有用的材料:%n%n§6石头粉§r对大量有用的材料都很有用。%n%n§6沙砾§r对制作导管和§9混凝土粉末§r很有用。%n%n§6沙子§r可用于§6玻璃§r，它可以变成§6石英矿砂§r或用于§6氧气§r制造的§6二氧化硅粉§r。%n%n最后，§6粘土§r可以变成§6粘土粉§r，这既是§6铝§r的可靠来源，对于自动化§b深度怪物学习§r也非常重要。%n%n尽快建立一个§e圆石工厂§r，这样你就可以囤积所有这些有用的材料。
 
 # db 780
 nomifactory.quest.db.780.title=§2前往地狱
@@ -2476,19 +2476,21 @@ nomifactory.quest.db.782.desc=SMP的隐藏收集任务
 
 # db 783
 nomifactory.quest.db.783.title=§2大型涡轮机
-nomifactory.quest.db.783.desc=§2大型涡轮机在社区版：非官方版中得到了改进。它们的运行相当复杂，但如果做得好，可以产生大量的电力，而且规模非常大。§r%n%n现在，你可以制作§6大型蒸汽涡轮§r和§6大型燃气涡轮§r。一旦你得到一个§3聚变反应堆§r，你就可以制作§6大型等离子体涡轮§r。%n%n每个大型涡轮将需要一个与大型涡轮本身相同或更高等级的§3转子支架§r，以及一个能够处理能量输出的§3动力仓§r。在大型涡轮之上的每一个§3转子支架§r等级都能使能量生产§d翻倍§r，并增加10%%的燃料效率。%n%n你将需要一个§a转子§r来放入每个§3转子支架§r§r。转子将根据其材料提供倍数的功率和效率加成。每个转子也有一个耐久，即它能持续多少秒。%n%n§a例子: §6大型燃气涡轮§r，配有§3高速钢-E转子§r和§3IV转子支架§r:%n§a生产:§r 4096*2.80*2
+nomifactory.quest.db.783.desc=§2大型涡轮机在社区版：非官方版中得到了改进。它们的运行相当复杂，但如果做得好，可以产生大量的电力，而且规模非常大。§r%n%n现在，你可以制作§6大型蒸汽涡轮§r和§6大型燃气涡轮§r。一旦你得到一个§3聚变反应堆§r，你就可以制作§6大型等离子体涡轮§r。%n%n每个大型涡轮将需要一个与大型涡轮本身相同或更高等级的§3转子支架§r，以及一个能够处理能量输出的§3动力仓§r。在大型涡轮之上的每一个§3转子支架§r等级都能使能量生产§d翻倍§r，并增加10%%的燃料效率。%n%n你将需要一个§a转子§r来放入每个§3转子支架§r§r。转子将根据其材料提供倍数的功率和效率加成。每个转子也有一个耐久，即它能持续多少秒。%n%n§a例子: §6大型燃气涡轮§r，配有§3高速钢-E转子§r和§3IV转子支架§r:%n§a生产:§r 4096*2.80*2=22938EU/t(91752RF/t)%n§a效率:§r 1.40*1.10=154.0%%%n§a耐久:§r 205,600秒(57.1小时)%n%n你可以从§3流体钻机§r的§9液化石油气§r和§9甲烷§r，或从§6木头§r上的§9硝基苯§r运行§6大型燃气涡轮§r。%n最好的§6大型蒸汽涡轮§r燃料是一个被严密保护的政府秘密。
 
 # db 784
 nomifactory.quest.db.784.title=ME线缆
-nomifactory.quest.db.784.desc=这些是§3应用能源2§r用于传输网络连接的基本线缆。由于频道限制被禁用，这些线缆将是你传输网络连接的主要方法，而不是致密线缆。%n%n这些线缆不与其他模组的导管或导线共享方块空间，所以它们在建造时可能有些不方便，但它们接受§3应用能源2§r§的§6伪装板§r，所以它们可以非常容易地被隐藏起来。%n%n以后你可以做一个线缆的变体，可以与§3末影接口§r导管共享方块空间。
+nomifactory.quest.db.784.desc=这些是§3应用能源2§r用于传输网络连接的基本线缆。由于频道限制被禁用，这些线缆将是你传输网络连接的主要方法，而不是致密线缆。%n%n这些线缆不与其他模组的导管或导线共享方块空间，所以它们在建造时可能有些不方便，但它们接受§3应用能源2§r§的§6伪装板§r，所以它们可以非常容易地被隐藏起来。%n%n以后你可以做一个线缆的变种，可以与§3末影接口§r导管共享方块空间。
 
 # db 785
 nomifactory.quest.db.785.title=§2新型线缆涂层
-nomifactory.quest.db.785.desc=§o注意：这个任务接受硅胶或丁苯橡胶。%n%n§r到目前为止，§9橡胶§r已经足够用于制作线缆，但你很快就会发现，这种基本类型的橡胶不能承受超过§2超高压§r。更高质量的橡胶是必要的，以正确地绝缘你的线缆。%n%n有两种更好类型的橡胶，你最终将需要制作这两种橡胶。§e这些也可用于更有效地绝缘低压线缆，需要更少的流体§r！%n%n§2丁苯橡胶(SBR)和硅橡胶(SiR0都可以包裹任何级别的导线。§r然而，丁苯橡胶需要你可能还没有的石油化工基础设施，而且在你制造游戏后期组件之前不是强制性的。另一方面，硅橡胶可以方便地由你已经熟悉的化学物制成。通过现在的设置，你就不必在以后改变你的线缆涂层材料了！%n%n要制造硅橡胶，你需要用几种方法之一制造出§6聚二甲基硅氧烷粉§r，然后将其与§6硫§r在§3化学反应釜§r中混合。然后你可以在§3组装机§r中用它来涂抹线缆。%n%n§2要制造丁苯橡胶，你需要用几种方法之一制造生丁苯橡胶粉，然后在化学反应釜中与硫混合。这比硅橡胶产生更多的流体，同时也是一种更有效的涂抹线缆的方法。
+nomifactory.quest.db.785.desc=到目前为止，§9橡胶§r已经足够用于制作线缆，但你很快就会发现，这种基本类型的橡胶不能承受超过§2超高压§r。更高质量的橡胶是必要的，以正确地绝缘你的线缆。%n%n有两种更好类型的橡胶，你最终将需要制作这两种橡胶。§e这些也可用于更有效地绝缘低压线缆，需要更少的流体§r！%n%n§2丁苯橡胶(SBR)和硅橡胶(SiR0都可以包裹任何级别的导线。§r然而，丁苯橡胶需要你可能还没有的石油化工基础设施，而且在你制造游戏后期组件之前不是强制性的。另一方面，硅橡胶可以方便地由你已经熟悉的化学物制成。通过现在的设置，你就不必在以后改变你的线缆涂层材料了！%n%n要制造硅橡胶，你需要用几种方法之一制造出§6聚二甲基硅氧烷粉§r，然后将其与§6硫§r在§3化学反应釜§r中混合。然后你可以在§3组装机§r中用它来涂抹线缆。%n%n§2要制造丁苯橡胶，你需要用几种方法之一制造生丁苯橡胶粉，然后在化学反应釜中与硫混合。这比硅橡胶产生更多的流体，同时也是一种更有效的涂抹线缆的方法。
 
 # db 786
 nomifactory.quest.db.786.title=Effortless Building
-nomifactory.quest.db.786.desc=§bEffortless Building§r is a mod that makes it much easier to build. You can create large platforms or various other shapes in just a few clicks, and even build multiple identical structures at the same time!%n%nTo use §bEffortless Building§r, start by pressing and holding the §6Alt§r key. This opens a wheel-shaped menu displaying §especial building modes§r. With this menu open, simply move your cursor over the desired building mode and release §6Alt§r. This will select that mode and you can begin building.%n%nChoose the starting location for your shape by §6right-clicking§r on a blockspace while holding your desired building block. Next, move your cursor to another blockspace to see a preview of the final structure. §6Right-click§r again on the desired ending block to actually build the shape from blocks in your inventory.%n%nMost shapes are flat and are defined using a starting and ending location, but 3D shapes have a third location to complete the shape. Some special modes also have §eoptions§r, like making a §ehollow cube§r instead of a §efilled cube§r.%n%nIf you made a mistake, you can use the §aUndo§r button in the menu to break the blocks you just placed so you can collect them and try again.%n%nTo change building modes, just open the menu with §6Alt§r as before and pick a different one. To exit the special building modes, select the §eNormal§r mode.%n%n§cMake sure you return to Normal mode when you're done building shapes, since the special building modes will interfere with normal gameplay.§r%n%nThe size of shapes you can make in special building modes is limited by your §ereach§r, which is how far away you can click from yourself to start building, or from the previous location to complete a shape. You can craft and eat several tiers of §areach upgrades§r in succession to increase your reach to very high numbers.%n%nOverall, §bEffortless Building§r is a powerful mod that is very useful for construction. Experiment with it and you'll see how much time it can save you!
+nomifactory.quest.db.786.desc=§bEffortless Building§r是一个简化建筑的模组。只需点击几下，您就可以创建大型平台或各种其他形状，甚至可以同时构建多个相同的结构!%n%n要使用 Effortless Building，首先按住§6Alt§r键。这将打开一个轮子形状的菜单，显示“特殊建筑模式”。打开此菜单后，只需将光标移动到所需的建筑模式上并释放§6Alt§r。这将选择该模式，然后您可以开始建筑。%n%n手持你想要的方块，在方块上右键单击，选择你的形状的起始位置。接下来，将光标移动到另一个方块，以查看最终结构的预览。再次右键单击想要结束的方块即可开始建筑。%n%n大多数形状都是平面的，并且使用起始和结束位置来定义，但是3D形状有第三个位置来完成形状。
+一些特殊模式也有§e特殊设置§r，比如制作一个§e空心立方体§r而不是一个§e实心立方体§r。如果你犯了一个错误，你可以使用菜单中的§aUndo§r按钮来破坏你刚刚放置的方块，这样你就可以收集它们并再次尝试。%n%n要改变建筑模式，只需像以前一样用§6Alt§r打开菜单，然后选择一个不同的模式。要退出特殊建筑模式，请选择“普通”模式。%n%n当你完成建筑形状时，确保你回到普通模式，因为特殊的建筑模式会干扰正常的游戏玩法。在特殊的建筑模式中，你可以制作的形状的大小受到你的§e触及距离§r的限制。你可以连续制作和吃掉几层§areach upgrades§r，以提高你的建筑范围。%n%n总的来说，§bEffortless Building§r是一个强大的模组，对建筑非常有用。尝试一下，你就会发现它能为你节省多少时间!
+
 
 # db 787
 nomifactory.quest.db.787.title=种植站
@@ -2531,8 +2533,9 @@ nomifactory.quest.db.796.title=硅岩掺杂的单晶硅
 nomifactory.quest.db.796.desc=§6硅岩掺杂的单晶硅§r每个生产的晶片甚至更多。它也相对便宜，因为从§e五阶微型采掘机§r获得大量的硅岩。%n%n这种单晶硅也允许生产§6高级片上系统§r晶片，用于制造电路的最终形式，非常便宜。然而，由于能量的要求，你可能还不能利用§6高级片上系统§r的优势。
 
 # db 797
-nomifactory.quest.db.797.title=System-on-Chip
-nomifactory.quest.db.797.desc=The §6System-on-Chip§r (or §6SoC§r) is a specialty component that miniaturizes all the typical circuit components (like §6SMDs§r) onto a single chip.%n%nThese are very useful as they unlock the most efficient recipes for creating §6Refined§r, §6Micro§r, and §6Nano Circuits§r.%n%nEach SoC-based circuit recipe requires a different minimum tier of §aAssembling Machine§r, with the Nano Circuits requiring §eLuV§r.
+nomifactory.quest.db.797.title=片上系统（SoC）
+nomifactory.quest.db.797.desc=§6片上系统（SoC）§r是一种将所有典型电路元件(如 §6SMDs§r)小型化到单个芯片上的零部件。这些都是非常有用的，因为它们解锁了最有效的配方来创建§6精制§r，§6微型§r和§6纳米芯片§r。每个基于 SoC 的电路配方都需要不同最低电压的§a组装机§r，纳米电路需要§eLuV§r电压。
+is a specialty component that miniaturizes all the typical circuit components (like §6SMDs§r) onto a single chip.%n%nThese are very useful as they unlock the most efficient recipes for creating §6Refined§r, §6Micro§r, and §6Nano Circuits§r.%n%nEach SoC-based circuit recipe requires a different minimum tier of §aAssembling Machine§r, with the Nano Circuits requiring §eLuV§r.
 
 # db 798
 nomifactory.quest.db.798.title=日耀素
@@ -2592,7 +2595,7 @@ nomifactory.quest.db.811.desc=§6硫矿石§r是目前唯一可供你使用的§
 
 # db 812
 nomifactory.quest.db.812.title=“乙醇”和“硫酸”
-nomifactory.quest.db.812.desc=No Description
+nomifactory.quest.db.812.desc=没有描述
 
 # db 813
 nomifactory.quest.db.813.title=§2材料树
@@ -2619,8 +2622,8 @@ nomifactory.quest.db.818.title=LV发射器
 nomifactory.quest.db.818.desc=一种用于电路组装机的高级组件。
 
 # db 819
-nomifactory.quest.db.819.title=§2格雷科技电动工具
-nomifactory.quest.db.819.desc=§o注意：这个任务接受任意等级的能量单元(LV, MV, HV, EV & IV)。§r%n%n§2随着MV电池的解锁，你可以为电动格雷科技工具制作能量单元。其中最值得注意的是，钻头在MV级别才可以开采3x3x3的方块。%n%n更高层级的电钻可以开采5x5x5、7x7x7和9x9x9的区域！Shift右击可以改变破坏范围。%n%n用适当层级的电池，或在适当层级的机器中为这些电池充电。%n%n你可能也想看看用于大规模砍伐树木的电锯。其他电动工具可能不值得制作。
+nomifactory.quest.db.819.title=§2格雷科技电钻
+nomifactory.quest.db.819.desc=§2随着MV电池的解锁，你可以为电动格雷科技工具制作能量单元。其中最值得注意的是，钻头在MV级别才可以开采3x3x3的方块。%n%n更高层级的电钻可以开采5x5x5、7x7x7和9x9x9的区域！Shift右击可以改变破坏范围。%n%n用适当层级的电池，或在适当层级的机器中为这些电池充电。%n%n你可能也想看看用于大规模砍伐树木的电锯。其他电动工具可能不值得制作。
 
 # db 820
 nomifactory.quest.db.820.title=§2二极管
@@ -2667,12 +2670,12 @@ nomifactory.quest.db.830.title=HV组装机
 nomifactory.quest.db.830.desc=§2组装机的下一个级别。这个可以做相当多的好东西 - 检查一下周围的任务。
 
 # db 831
-nomifactory.quest.db.831.title=§2无限水覆盖
+nomifactory.quest.db.831.title=§2无限水覆盖板
 nomifactory.quest.db.831.desc=§2一个更紧凑的无限水源。将此作为一个覆盖板放在任何格雷科技机器上，它将每秒插入16桶的水。
 
 # db 832
 nomifactory.quest.db.832.title=§2末影流体连接覆盖板
-nomifactory.quest.db.832.desc=§2末影流体连接覆盖板是格雷科技社区版：非官方版的末影储罐§r。每个覆盖板通过一个由§68位十六进制数字§r(0-9，然后每个数位为A-F)定义的频率发送它们的流体。这让你有§643.9亿§r个频道可供利用！%n%n只要它们的区块被加载，末影流体连接覆盖板就能工作 - 无论距离或维度如何。%n%n将模式设置为输入，将从它所连接的世界位置§c§o拉出§r流体，而输出将把流体§c§o推出§r到世界。你必须将I/O转为启用状态，才能开始工作。每个频道都有一个§d64桶§r的缓冲区。%n%n在你的§4终端§r中的“虚拟容器查看器”应用程序允许你看到所有末影流体连接频道的内容。不管怎么样，我建议你建立一个系统来安排所有这些频道。我也建议不要在所有情况下都使用默认通道(FFFFFFF)。
+nomifactory.quest.db.832.desc=§2末影流体连接覆盖板是格雷科技社区版：非官方版的末影储罐§r。每个覆盖板通过一个由§68位十六进制数字§r(0-9，然后每个数位为A-F)定义的频率发送它们的流体。这让你有§642.9亿§r个频道可供利用！%n%n只要它们的区块被加载，末影流体连接覆盖板就能工作 - 无论距离或维度如何。%n%n将模式设置为输入，将从它所连接的世界位置§c§o拉出§r流体，而输出将把流体§c§o推出§r到世界。你必须将I/O转为启用状态，才能开始工作。每个频道都有一个§d64桶§r的缓冲区。%n%n在你的§4终端§r中的“虚拟容器查看器”应用程序允许你看到所有末影流体连接频道的内容。不管怎么样，我建议你建立一个系统来安排所有这些频道。我也建议不要在所有情况下都使用默认通道(FFFFFFF)。
 
 # db 833
 nomifactory.quest.db.833.title=§2中央显示器
@@ -2720,7 +2723,7 @@ nomifactory.quest.db.843.desc=§2在处理硅岩时，你将需要3种材料: �
 
 # db 844
 nomifactory.quest.db.844.title=§2三元金属线圈
-nomifactory.quest.db.844.desc=§2三元金属线圈§r是现有的第八种线圈材料，将你的电力高炉的工作温度提高到9011K，因此它可以处理更先进的材料。
+nomifactory.quest.db.844.desc=§2三元金属线圈§r是现有的第八种线圈材料，将你的电力高炉的工作温度提高到9001K，因此它可以处理更先进的材料。
 
 # db 845
 nomifactory.quest.db.845.title=§2富集硅岩
@@ -2760,7 +2763,7 @@ nomifactory.quest.db.853.desc=§2钌铱合金是一种用于LuV机器部件的�
 
 # db 854
 nomifactory.quest.db.854.title=§2三钛合金线圈
-nomifactory.quest.db.854.desc=§2三钛合金线圈是最终的线圈材料。在10802K的温度下，它能够熔炼每一种材料。
+nomifactory.quest.db.854.desc=§2三钛合金线圈是最终的线圈材料。在10800K的温度下，它能够熔炼每一种材料。
 
 # db 855
 nomifactory.quest.db.855.title=§2中子素掺杂的单晶硅
@@ -2783,8 +2786,8 @@ nomifactory.quest.db.859.title=§2格雷科技多方块
 nomifactory.quest.db.859.desc=§2有了来自合金冶炼炉和IV机器的先进合金，你可以制造大多数格雷科技机器的大型版本。%n%n§r这些都是像多方块结构一样形成的。你可以添加一个§3并行控制仓§r，以便让他们同时处理§d更多配方§r，类似于§3处理阵列§r。最高级别的并行控制仓可以容易地一次处理§d256个配方§r！%n%n搜索“@gregicality”或在JEI中查找并行控制仓的使用情况，以查看所有多方块结构机器的细节。
 
 # db 860
-nomifactory.quest.db.860.title=§2Chemical Plant
-nomifactory.quest.db.860.desc=§2The ultimate reactor. It is compatible with Parallel Control Hatches and can be configured to run Large Chemical Reactor or normal Chemical Reactor recipes.
+nomifactory.quest.db.860.title=§2化工厂
+nomifactory.quest.db.860.desc=§2终焉化学反应釜。它与并行控制仓兼容，可以配置为运行大型化学反应器或普通化学反应器配方。
 
 # db 861
 nomifactory.quest.db.861.title=§2“转底炉”和“批量真空冷冻机”
@@ -2792,75 +2795,75 @@ nomifactory.quest.db.861.desc=§2升级形式的电力高炉和真空冷冻机�
 
 # db 862
 nomifactory.quest.db.862.title=§241号元素: 铌
-nomifactory.quest.db.862.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.862.desc=§2这个元素现在在万象中是需要的。
 
 # db 863
 nomifactory.quest.db.863.title=§242号元素: 钼
-nomifactory.quest.db.863.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.863.desc=§2这个元素现在在万象中是需要的。
 
 # db 864
 nomifactory.quest.db.864.title=§244号元素: 钌
-nomifactory.quest.db.864.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.864.desc=§2这个元素现在在万象中是需要的。
 
 # db 865
 nomifactory.quest.db.865.title=§245号元素: 铑
-nomifactory.quest.db.865.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.865.desc=§2这个元素现在在万象中是需要的。
 
 # db 866
 nomifactory.quest.db.866.title=§248号元素: 镉
-nomifactory.quest.db.866.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.866.desc=§2这个元素现在在万象中是需要的。
 
 # db 867
 nomifactory.quest.db.867.title=§255号元素: 铯
-nomifactory.quest.db.867.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.867.desc=§2这个元素现在在万象中是需要的。
 
 # db 868
 nomifactory.quest.db.868.title=§256号元素: 钡
-nomifactory.quest.db.868.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.868.desc=§2这个元素现在在万象中是需要的。
 
 # db 869
 nomifactory.quest.db.869.title=§258号元素: 铈
-nomifactory.quest.db.869.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.869.desc=§2这个元素现在在万象中是需要的。
 
 # db 870
 nomifactory.quest.db.870.title=§260号元素: 钕
-nomifactory.quest.db.870.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.870.desc=§2这个元素现在在万象中是需要的。
 
 # db 871
 nomifactory.quest.db.871.title=§262号元素: 钐
-nomifactory.quest.db.871.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.871.desc=§2这个元素现在在万象中是需要的。
 
 # db 872
 nomifactory.quest.db.872.title=§263号元素: 铕
-nomifactory.quest.db.872.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.872.desc=§2这个元素现在在万象中是需要的。
 
 # db 873
 nomifactory.quest.db.873.title=§271号元素: 镥
-nomifactory.quest.db.873.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.873.desc=§2这个元素现在在万象中是需要的。
 
 # db 874
 nomifactory.quest.db.874.title=§273号元素: 钽
-nomifactory.quest.db.874.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.874.desc=§2这个元素现在在万象中是需要的。
 
 # db 875
 nomifactory.quest.db.875.title=§282号元素: 铅
-nomifactory.quest.db.875.desc=§2这个元素在万象中是必要的。(之前可不是！)
+nomifactory.quest.db.875.desc=§2这个元素现在在万象中是需要的。(之前可不是！)
 
 # db 876
 nomifactory.quest.db.876.title=§2119号元素: 三钛合金
-nomifactory.quest.db.876.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.876.desc=§2这个元素现在在万象中是需要的。
 
 # db 877
 nomifactory.quest.db.877.title=§2120号元素: 铿铀
-nomifactory.quest.db.877.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.877.desc=§2这个元素现在在万象中是需要的。
 
 # db 878
 nomifactory.quest.db.878.title=§2125号元素: 三元金属
-nomifactory.quest.db.878.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.878.desc=§2这个元素现在在万象中是需要的。
 
 # db 879
 nomifactory.quest.db.879.title=§2174号元素: 硅岩
-nomifactory.quest.db.879.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.879.desc=§2这个元素现在在万象中是需要的。
 
 # db 880
 nomifactory.quest.db.880.title=§2无限GTEU能量输出器
@@ -2871,16 +2874,16 @@ nomifactory.quest.db.881.title=§2聚苯硫醚
 nomifactory.quest.db.881.desc=§2包裹LuV+导线需要薄聚苯硫醚片。
 
 # db 882
-nomifactory.quest.db.882.title=\"Enderium Ingot\" or \"Europium Ingot\"
-nomifactory.quest.db.882.desc=Hidden gathering quest for Crystals
+nomifactory.quest.db.882.title=“末影锭”或“铕锭”
+nomifactory.quest.db.882.desc=隐藏的水晶收集任务
 
 # db 883
 nomifactory.quest.db.883.title=§2110号元素: 鐽
-nomifactory.quest.db.883.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.883.desc=§2这个元素现在在万象中是需要的。
 
 # db 884
 nomifactory.quest.db.884.title=§2149号元素: 龙素
-nomifactory.quest.db.884.desc=§2这个元素在万象中是必要的。
+nomifactory.quest.db.884.desc=§2这个元素现在在万象中是需要的。
 
 # db 885
 nomifactory.quest.db.885.title=§2鐽
@@ -2907,8 +2910,8 @@ nomifactory.quest.db.890.title=§2格雷科技能源管理
 nomifactory.quest.db.890.desc=§d格雷格科技能源§r可能是棘手的问题。幸运的是，有几个工具你可以用来解决一些问题。%n%n- §a二极管§r: 一个在5个面上接受能量，并在一个面上输出能量的方块。它的主要目的是限制流经它的电流 - 用软锤右击来调整它。不要与用作配方的元件二极管搞混淆。%n%n- §a变压器§r: 一个在较低电压的4A和较高一级电压的1A之间变化的方块。%n%n- §2可调变压器§r: 与变压器类似，但可以配置成最多64A低电平 <-> 16A高电平的转换。%n%n- §a电池箱§r: 一个可以容纳格雷科技电池的方块。每个电池可接受高达2A的电压，并可提供高达1A的电压。§2它们在社区版：非官方版中被重做了，使用起来不那么可怕。
 
 # db 891
-nomifactory.quest.db.891.title=§2Chemical Dyes
-nomifactory.quest.db.891.desc=§2Chemical Dyes are made with 1 unit of dye, 2 Salt and Sulfuric Acid. Each yields 4 dyes when solidified, so you can create an infinite loop of dyes with only 1 initial dye item.%n%nTheir main use is to dye Glass Lenses for production of advanced wafers. %n%nYou may also wish to make a Spray Can and fill it with Chemical Dye. This allows you to paint basically all GT tile entities.
+nomifactory.quest.db.891.title=§2化学染料
+nomifactory.quest.db.891.desc=化学染料是由1单位染料、2单位盐和硫酸制成的。每个凝固时产生4单位染料，所以你可以使用一个染料制作无限染料。它们的主要用途是为生产先进晶圆的玻璃镜片染色。%n%n你可能也想做一个喷漆罐，并装满化学染料。这允许你绘制所有的GT贴图实体。
 
 # db 892
 nomifactory.quest.db.892.title=§2大型采矿场
@@ -2916,7 +2919,7 @@ nomifactory.quest.db.892.desc=§2大型矿石钻探设备在大半径范围内�
 
 # db 893
 nomifactory.quest.db.893.title=§2维护和消声机械师
-nomifactory.quest.db.893.desc=社区版：非官方版中的某些多方块结构将需要一个维护仓和/或消声仓。这些不能在多方块之间共享。如果你知道格雷科技5非官方版中的“维护”，请不要担心 - 在社区版：非官方版中，“维护”机制的惩罚性要小得多。%n%n§r- §a消声仓§r: 这个口必须是§c无障碍§r的，这样它才能输出美丽的烟雾颗粒。当一个配方被执行时，§3消声仓§r会有小概率提供奖励物品，通常是微小的灰烬。它在装满后会使多余的部分销毁，所以不用担心它会使机器停止运转。n%n- §a维护仓§r: 你需要进行维护，以使多方块开始运作。要做到这一点，需要在你的物品栏中放上一把§9扳手§r、一把§9螺丝刀§r、一把§9软锤§r、一把§9锻造锤§r、一把§9剪线钳§r和一把§9撬棍§r，打开维护仓，点击一次中间的位置。§c不需要单独移动工具§r。另外，你可以通过将§9胶带§r放入维护仓来解决问题。%n%n维护问题可能在§d48个真实小时后发生§r。不用说，它们是非常罕见的。每个问题都会增加10%%的配方持续时间。修复问题的方法与上述相同。%n%n以后，你会解锁其他不强制要求手动修复问题的维护仓。两者都以§6无需维护§r开始:%n%n- §3自动维护仓§r (§6HV§r): 消除了维护的需要，§6永远的§r。%n%n- §3可配置维护仓§r (§6HV§r): 你可以把它配置为切断配方上的§a10%%的持续时间§r，代价是使维护问题发生的速度提高三倍。那就是§d16个真实小时§r的运作。§9胶带§r也可以修复这个仓的问题。%n%n- §3自动过滤维护仓§r (§3UV§r): 消除了维护的需要，并为在其中运行的配方提供了一个§6超净间§r的环境。
+nomifactory.quest.db.893.desc=§2社区版：非官方版中的某些多方块结构将需要一个维护仓和/或消声仓。这些不能在多方块之间共享。如果你知道格雷科技5非官方版中的“维护”，请不要担心 - 在社区版：非官方版中，“维护”机制的惩罚性要小得多。%n%n§r- §a消声仓§r: 这个口必须是§c无障碍§r的，这样它才能输出美丽的烟雾颗粒。当一个配方被执行时，§3消声仓§r会有小概率提供奖励物品，通常是微小的灰烬。它在装满后会使多余的部分销毁，所以不用担心它会使机器停止运转。n%n- §a维护仓§r: 你需要进行维护，以使多方块开始运作。要做到这一点，需要在你的物品栏中放上一把§9扳手§r、一把§9螺丝刀§r、一把§9软锤§r、一把§9锻造锤§r、一把§9剪线钳§r和一把§9撬棍§r，打开维护仓，点击一次中间的位置。§c不需要单独移动工具§r。另外，你可以通过将§9胶带§r放入维护仓来解决问题。%n%n维护问题可能在§d48个真实小时后发生§r。不用说，它们是非常罕见的。每个问题都会增加10%%的配方持续时间。修复问题的方法与上述相同。%n%n以后，你会解锁其他不强制要求手动修复问题的维护仓。两者都以§6无需维护§r开始:%n%n- §3自动维护仓§r (§6HV§r): 消除了维护的需要，§6永远的§r。%n%n- §3可配置维护仓§r (§6HV§r): 你可以把它配置为切断配方上的§a10%%的持续时间§r，代价是使维护问题发生的速度提高三倍。那就是§d16个真实小时§r的运作。§9胶带§r也可以修复这个仓的问题。%n%n- §3自动过滤维护仓§r (§3UV§r): 消除了维护的需要，并为在其中运行的配方提供了一个§6超净间§r的环境。
 
 # db 894
 nomifactory.quest.db.894.title=§2MV组装机
@@ -2935,8 +2938,8 @@ nomifactory.quest.db.897.title=§2HV能源仓
 nomifactory.quest.db.897.desc=§2有了银、低功率集成电路、钠钾合金和HV组装机，你终于可以制作HV能源仓和动力仓了。%n%n你现在应该明白制作这些东西的要领了，所以不会再有关于能源仓和动力仓的任务了。
 
 # db 898
-nomifactory.quest.db.898.title=§2HV Chemical Bath
-nomifactory.quest.db.898.desc=§2Required for staining Glass Lenses with Chemical Dyes.
+nomifactory.quest.db.898.title=§2HV化学反应釜
+nomifactory.quest.db.898.desc=§2用于使用化学染料染色透镜。
 
 # db 899
 nomifactory.quest.db.899.title=§2氢氟酸
@@ -2944,7 +2947,7 @@ nomifactory.quest.db.899.desc=§2氢氟酸是一种由氢和氟混合而成的�
 
 # db 900
 nomifactory.quest.db.900.title=§2高辛烷值汽油
-nomifactory.quest.db.900.desc=§2High-Octane Gasoline is the most powerful combustion fuel, generating 3200 EU per mB of fuel. It can also be used in Draconium production, using 75%% less fuel than Cetane-Boosted Diesel or normal Gasoline. The trade-off is the very complex processing lines you must set up for it.%n%nTo refine Gasoline to High-Octane Gasoline, you will need:%n- 20 parts Gasoline%n- 2 parts Octane%n- 2 parts Nitrous Oxide%n- 1 part Toluene%n- 1 part Ethyl Tert-Butyl Ether%n%nTo get the most out of this, run it in an Extreme Combustion Engine with Liquid Oxygen.
+nomifactory.quest.db.900.desc=§2高辛烷值汽油是最强大的燃烧燃料，每mB燃料可产生3200EU。它还可用于龙素的生产，比高十六烷值柴油或普通汽油少用75%%的燃料。其代价是你必须为它建立非常复杂的加工线。%n%n要将汽油提炼成高辛烷值汽油，你需要:%n- 20份汽油%n- 2份辛烷%n- 2份氧化亚氮%n- 1份甲苯%n- 1份乙基叔丁基醚%n%n为了最大限度地发挥它的作用，在有液氧的高级大型柴油引擎中运行它。
 
 # db 901
 nomifactory.quest.db.901.title=“高十六烷值柴油”或“汽油”
@@ -2972,11 +2975,11 @@ nomifactory.quest.db.906.desc=§2电路组装机的多方块结构版本。可�
 
 # db 907
 nomifactory.quest.db.907.title=“ZPM”或“大型电路组装机”
-nomifactory.quest.db.907.desc=No Description
+nomifactory.quest.db.907.desc=没有描述
 
 # db 908
 nomifactory.quest.db.908.title=三钛合金锭
-nomifactory.quest.db.908.desc=No Description
+nomifactory.quest.db.908.desc=没有描述
 
 # db 909
 nomifactory.quest.db.909.title=§2原始炼钢
@@ -2991,8 +2994,8 @@ nomifactory.quest.db.911.title=LV电池箱
 nomifactory.quest.db.911.desc=§6电池箱§r是一种可以容纳§6电池§r以储存能量的机器。每个电池可接受高达2A的电流，并输出高达1A的电流。%n%n你也可以在其中为§6电动工具§r充能。%n%n§cRF电池，如通量电容，不能在电池箱放电！
 
 # db 912
-nomifactory.quest.db.912.title=Hard Mode
-nomifactory.quest.db.912.desc=The §2CEu§r§r version of Nomi is already slightly harder than the original, due to various progression changes CEu makes.%n%nBut if you want a §charder§r, or perhaps a more \"§5true§r\" §dGregTech§r experience, check out the §cExpert§r mode. This pack mode is based on the §bSelf-Torture Edition fork§r of the original pack.%n%nHighlights include:%n%n- No §bDME§r for easy infinite resources%n- §6Nomicoins§r don't exist%n- The §7Steam Age§r%n- No §3Creative Tank§r; instead...%n- §6Stabilized Micro Miners§r for late-game infinite resources%n- Harder recipes for assorted things like §6Iridium§r, §3Numismatic Dynamos§r, and more%n%nTo enable §cExpert§r mode, change the pack mode (Options -> Pack Mode) to Expert, then run §e/bq_admin default load ExpertQuests§r. The same command should be used for updating the quest book on Expert mode.%nTo go back, change the pack mode to §aNormal§r and run §e/bq_admin default load§r.%n%nTo tune your challenge even further, check out the various recipe configs in the GregTech config file.
+nomifactory.quest.db.912.title=困难模式
+nomifactory.quest.db.912.desc=§2社区版：非官方版§r的全能工厂已经比原版略难，因为社区版：非官方版做了各种进度上的改变。%n%n但是，如果你想要的是一个§c更难§r，或者也许是一个更“§5真实§r”的§d格雷科技§r经历，请检查一下§c专家§r模式。这个整合包的模式是基于原包的§b自我折磨版本复刻§r。%n%n亮点包括:%n%n- 没有§b深度怪物学习§r容易产生无限的资源%n- §6万象币§r将不存在%n- §7蒸汽时代§r%n- 没有§3创造量子缸§r；代替的是...%n- §6稳定的微型采掘机§r用于游戏后期的无限资源%n- 更难的配方，如§6铱§r、§3通货能源炉§r等各种东西%n%n要启用§c专家§r模式，将整合包模式(选项->整合包模式)改为专家模式，然后运行§e/bq_admin default load ExpertQuests§r。同样的命令应该用于更新专家模式下的任务书。%n要想改回去，将整合包的模式改为§a普通§r，然后运行§e/bq_admin default load§r。%n%n为了进一步调整你的挑战，请查看格雷科技配置文件中的各种配方配置。
 
 # db 913
 nomifactory.quest.db.913.title=§2机器命名
@@ -3003,344 +3006,345 @@ nomifactory.quest.db.914.title=超净净间
 nomifactory.quest.db.914.desc=与湿件有关的过程需要一些更强烈的消毒。你将需要建立另一个§3超净间§r来运行这些配方。取代§3过滤器外壳§r，在顶部使用§3无菌过滤器外壳§r。%n%n请注意，无菌超净间不能处理需要普通超净间的配方。
 
 # db 915
-nomifactory.quest.db.915.title=聚苯并咪唑(PBI)
-nomifactory.quest.db.915.desc=No Description
+nomifactory.quest.db.915.title=聚苯并咪唑 (PBI)
+nomifactory.quest.db.915.desc=没有描述
 
 # db 916
-nomifactory.quest.db.916.title=Iridium
-nomifactory.quest.db.916.desc=No Description
+nomifactory.quest.db.916.title=铱
+nomifactory.quest.db.916.desc=没有描述
 
 # db 917
-nomifactory.quest.db.917.title=The First Tier Six Circuits
-nomifactory.quest.db.917.desc=No Description
+nomifactory.quest.db.917.title=第一种六阶电路
+nomifactory.quest.db.917.desc=没有描述
 
 # db 918
-nomifactory.quest.db.918.title=Fluid Interface Configuration Terminal
-nomifactory.quest.db.918.desc=A variant of the §aInterface Configuration Terminal§r which allows you to view and edit the stocking slots of fluid interfaces on your network, as well as highlighting them in-world.%n%nUseful for managing passive automation setups, and finding them when your base gets large.
+nomifactory.quest.db.918.title=流体接口配置终端
+nomifactory.quest.db.918.desc=§a流体接口终端§r的一个变种，允许你查看和编辑网络上接口的存储槽，以及在世界范围内高亮显示它们。%n%n有助于管理被动的自动化设置，并在你的基地扩大时找到它们。
 
 # db 919
-nomifactory.quest.db.919.title=Interface Configuration Terminal
-nomifactory.quest.db.919.desc=A variant of the §aInterface Terminal§r which allows you to view and edit the stocking slots of interfaces on your network, as well as highlighting them in-world.%n%nUseful for managing passive automation setups, and finding them when your base gets large.
+nomifactory.quest.db.919.title=接口配置终端
+nomifactory.quest.db.919.desc=§a接口终端§r的一个变种，允许你查看和编辑网络上接口的存储槽，以及在世界范围内高亮显示它们。%n%n有助于管理被动的自动化设置，并在你的基地扩大时找到它们。
 
 # db 920
-nomifactory.quest.db.920.title=Breaking Some Eggs
-nomifactory.quest.db.920.desc=No Description
+nomifactory.quest.db.920.title=打碎龙蛋
+nomifactory.quest.db.920.desc=没有描述
 
 # db 921
-nomifactory.quest.db.921.title=Progression Tab
-nomifactory.quest.db.921.desc=The Progression tab was added so you can keep track of the important bits of the pack.%n%nCircuits are the baseline of the entire Nomifactory-GTCEu progression, so keep climbing!
+nomifactory.quest.db.921.title=“当前进展”标签
+nomifactory.quest.db.921.desc=增加了当前进展标签，以便你可以跟踪整合包的重要部分。%n%n电路是整个全能工厂进展的基线，所以要继续攀登！
 
 # db 922
-nomifactory.quest.db.922.title=§2UV Machine Hulls
-nomifactory.quest.db.922.desc=§bUV§r Machine Hulls. The second last Machine Hull. §bUV§r stands for §bUltimate Voltage§r.%n%nThis Hull is made with §2Darmstadtium, Yttrium Barium Cuprate Cables, and Polybenzimidazole.§r%n%nYou'll need it mainly for the §6Fusion Reactor MK 3§r.
+nomifactory.quest.db.922.title=§2UV机械方块
+nomifactory.quest.db.922.desc=§bUV§r机械方块。倒数第二个机械方块。§bUV§r是指§b极限压§r。%n%n这个机械方块是用§2鐽、钇钡铜氧合金线缆和聚苯并咪唑制成的。§r%n%n你需要它主要是为了§6核聚变反应堆MK3§r。
+
 
 # db 923
-nomifactory.quest.db.923.title=§2Processing Lines Tab
-nomifactory.quest.db.923.desc=§2This tab was added to help you visualise and give you tips on making chemicals, among other important things to automate. Use it wisely!§r%n%nEach quest in the tab will give you a description of the machine and the minimum voltage required to run the recipe. Furthermore, although each quest can be completed via a checkbox, all quests in a processing line will auto-complete once you get the item positioned on the right. Either the checkbox or achieving the product will complete the quests.%n%n§oYou may have to hold the item for a few seconds for the whole line to auto-complete.%n%nThis is not complete, and is published out for testing purposes. Currently, only Pulsating Polymer Clay and Cobbleworks are implemented, but more chains are to come. These are Polyethylene and Polyvinyl Chloride, Oil Processing, Epoxy Resin, Rocket Fuel, Polytetrafluoroethylene, High-Octane Gasoline, Cetane-Boosted Diesel, Polybenzimidazole, Naquadah Processing and Platinum Group Processing. If you have any suggestions on other chains or on how to improve this tab, feel free to DM Integer Limit#0458 on Discord or create an issue on GitHub.
+nomifactory.quest.db.923.title=§2“处理线”标签
+nomifactory.quest.db.923.desc=§2添加这个标签是为了帮助你可视化和给你关于化学品制造的提示，以及其他重要的事情来自动化。明智地使用它!标签中的每个任务都会给你一个机器的描述和运行配方所需的最小电压。此外，尽管每个任务都可以通过复选框完成，但一旦您将项目定位在右侧，处理线中的所有任务都会自动完成。复选框或实现产品都将完成任务。%n%n你可能需要保持项目几秒钟，使整条线自动完成。%n%n这是不完整的，发布出来是为了测试。目前，只有脉动聚合物粘土和圆石处理实现，但更多的即将到来。将会有聚乙烯和聚氯乙烯，石油加工，环氧树脂，火箭燃料，聚四氟乙烯，高辛烷值汽油，十六烷增压柴油，聚苯并咪唑，硅岩加工和铂族加工。如果您对其他处理线或如何改进此选项卡有任何建议，请随时在 Discord 上找到 DM Integer Limit#0458 或在 GitHub 上创建 issue。
 
 # db 924
-nomifactory.quest.db.924.title=Processing Lines: Pulsating Polymer Clay
-nomifactory.quest.db.924.desc=§oThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§oThis step requires a Alloy Smelter at voltage §lLV§r§o or higher.§r%n%nThe final step. Combine §6Pulsating Dust§r and §6Resonant Clathrate§r to make §6Pulsating Polymer Clay§r. %n%nTake note that a §3§3Chemical Reactor§r making §6Resonant Clathrate§r will supply 1 §3Alloy Smelter§r of the same tier, and that one §bMV §3Alloy Smelter§r making §6Pulsating Polymer Clay§r supports 10.03 §3Simulation Chambers§r, with each higher tier doubling the amount of §3Simulation Chambers§r it supports.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
+nomifactory.quest.db.924.title=脉动聚合粘土
+nomifactory.quest.db.924.desc=这个任务通过复选框或在完成共振络合物后完成。%n%n此步骤要求合金炉在电压§lLV§r§n或更高的电压下工作。§r%n%n最后一步。结合§6脉动尘埃§r和§6共振络合物§r制成§6脉冲聚合粘土§r。%n%n请注意，制造§6共振络合物§r的§3§3化学反应器§r将和同一级别的§3合金冶炼厂§r速度相同，而制造§6脉冲聚合粘土§r的§bMV§3合金炉§r足以支持支持 10.03 台§3模拟室§r，每高一级，它支持的§3模拟室§r的数量增加一倍。
 
 # db 925
-nomifactory.quest.db.925.title=Clay
-nomifactory.quest.db.925.desc=§oThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§oThis step requires a Chemical Reactor at voltage §lLV§r§o or higher.§r%n%nCombine your §6Dust§r and some §6Water§r to make §6Clay§r.§r%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
+nomifactory.quest.db.925.title=粘土
+nomifactory.quest.db.925.desc=§nThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§nThis step requires a Chemical Reactor at voltage §lLV§r§n or higher.§r%n%nCombine your §6Dust§r and some §6Water§r to make §6Clay§r.§r%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
 
 # db 926
-nomifactory.quest.db.926.title=Resonant Clathrate
-nomifactory.quest.db.926.desc=§oThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§oThis step requires a Chemical Reactor at voltage §lMV§r§o or higher.§r%n%nCombine your §6Quartz§r and §6Resonant Ender§r to make §6Resonant Clathrate§r. One §3Electrolyser§r making §6Quartz§r supports one §3Chemical Reactor §rof the same tier.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
+nomifactory.quest.db.926.title=谐振末影络合物
+nomifactory.quest.db.926.desc=§nThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§nThis step requires a Chemical Reactor at voltage §lMV§r§n or higher.§r%n%nCombine your §6Quartz§r and §6Resonant Ender§r to make §6Resonant Clathrate§r. One §3Electrolyser§r making §6Quartz§r supports one §3Chemical Reactor §rof the same tier.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
 
 # db 927
-nomifactory.quest.db.927.title=Dust
-nomifactory.quest.db.927.desc=§oThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§oThis step requires a Forge Hammer at voltage §lLV§r§o or higher.§r%n%nBreak up your §6Sand§r into §6Dust§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
+nomifactory.quest.db.927.title=尘土
+nomifactory.quest.db.927.desc=§nThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§nThis step requires a Forge Hammer at voltage §lLV§r§n or higher.§r%n%nBreak up your §6Sand§r into §6Dust§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
 
 # db 928
-nomifactory.quest.db.928.title=Sand
-nomifactory.quest.db.928.desc=§oThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§oThis step requires a Forge Hammer at voltage §lLV§r§o or higher.§r%n%nBreak up your §6Gravel§r into §6Sand§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
+nomifactory.quest.db.928.title=沙子
+nomifactory.quest.db.928.desc=§nThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§nThis step requires a Forge Hammer at voltage §lLV§r§n or higher.§r%n%nBreak up your §6Gravel§r into §6Sand§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
 
 # db 929
-nomifactory.quest.db.929.title=Gravel
-nomifactory.quest.db.929.desc=§oThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§oThis step requires a Forge Hammer at voltage §lLV§r§o or higher.§r%n%nBreak up your §6Cobblestone§r into §6Gravel§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
+nomifactory.quest.db.929.title=沙砾
+nomifactory.quest.db.929.desc=§nThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§nThis step requires a Forge Hammer at voltage §lLV§r§n or higher.§r%n%nBreak up your §6Cobblestone§r into §6Gravel§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
 
 # db 930
-nomifactory.quest.db.930.title=Water
-nomifactory.quest.db.930.desc=§o§oThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%nYes, there's a quest for §9Water§r.%n%n§9Water§r can be achieved in many ways, but the most notable are: §bNuclearCraft §6Infinite Water Sources§r, which are very slow, but cheap, §bEIO §6Endervoirs§r, which are a bit more expensive but way faster, §bGregTech §6Infinite Water Covers§r, which is much more expensive, but is a cover, therefore saving space, and makes water 16x faster than §6Endervoirs§r, and §bThermal §6Aqueous Accumulators§r, which are more expensive, and are similar to §6Infinite Water Covers§r, but is a block, meaning you can use it for other mod's machines, not just §bGregTech§r.%n%nRight now, you should probably use the §6Endervoirs§r.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
+nomifactory.quest.db.930.title=水
+nomifactory.quest.db.930.desc=§n§nThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%nYes, there's a quest for §9Water§r.%n%n§9Water§r can be achieved in many ways, but the most notable are: §bNuclearCraft §6Infinite Water Sources§r, which are very slow, but cheap, §bEIO §6Endervoirs§r, which are a bit more expensive but way faster, §bGregTech §6Infinite Water Covers§r, which is much more expensive, but is a cover, therefore saving space, and makes water 16x faster than §6Endervoirs§r, and §bThermal §6Aqueous Accumulators§r, which are more expensive, and are similar to §6Infinite Water Covers§r, but is a block, meaning you can use it for other mod's machines, not just §bGregTech§r.%n%nRight now, you should probably use the §6Endervoirs§r.%n%n%n%n§You might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
 
 # db 931
-nomifactory.quest.db.931.title=Cobblestone
-nomifactory.quest.db.931.desc=§oThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%nThe best source of §6Cobblestone§r is §bNuclearCraft §6Cobblestone Generator§r. If the first one isn't enough, you can always upgrade and make more of them.§r%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
+nomifactory.quest.db.931.title=圆石
+nomifactory.quest.db.931.desc=§nThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%nThe best source of §6Cobblestone§r is §bNuclearCraft §6Cobblestone Generator§r. If the first one isn't enough, you can always upgrade and make more of them.§r%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
 
 # db 932
-nomifactory.quest.db.932.title=Glass
-nomifactory.quest.db.932.desc=§oThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§oThis step requires a Furnace or an upgraded Furnace, a Electric Furnace at voltage §lLV§r§o or higher, or an Arc Furnace at voltage §lLV§r§o or higher.§r%n%nSmelt your §6Sand§r into §6Glass§r. If you're using a §3Electric Furnace§r to smelt it, it's more efficient to use the upgraded §3Furnaces§r, such as §3Iron Furnaces§r. You can fuel them with §6Sugar Cane§r. The §3Arc Furnace§r doubles your glass though. Later, once you unlock them, §3Multi Smelters§r will be the best for this.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
+nomifactory.quest.db.932.title=玻璃
+nomifactory.quest.db.932.desc=§nThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§nThis step requires a Furnace or an upgraded Furnace, a Electric Furnace at voltage §lLV§r§n or higher, or an Arc Furnace at voltage §lLV§r§n or higher.§r%n%nSmelt your §6Sand§r into §6Glass§r. If you're using a §3Electric Furnace§r to smelt it, it's more efficient to use the upgraded §3Furnaces§r, such as §3Iron Furnaces§r. You can fuel them with §6Sugar Cane§r. The §3Arc Furnace§r doubles your glass though. Later, once you unlock them, §3Multi Smelters§r will be the best for this.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
 
 # db 933
-nomifactory.quest.db.933.title=Quartz
-nomifactory.quest.db.933.desc=§oThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§oThis step requires a Electrolyser at voltage §lLV§r§o or higher.§r%n%nBreak up your §6Sand§r into §6Quartz§r. An §3Arc Furnace§r making §6Glass§r supports 2.5 §3Electrolysers§r of the same tier.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
+nomifactory.quest.db.933.title=石英
+nomifactory.quest.db.933.desc=§nThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§nThis step requires a Electrolyser at voltage §lLV§r§n or higher.§r%n%nBreak up your §6Sand§r into §6Quartz§r. An §3Arc Furnace§r making §6Glass§r supports 2.5 §3Electrolysers§r of the same tier.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
 
 # db 934
-nomifactory.quest.db.934.title=Resonant Ender
-nomifactory.quest.db.934.desc=§oThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§oThis step requires an Extractor of tier §lLV§r§o or higher.§r%n%nMelt your §6Ender Pearls§r into §6Resonant Ender§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
+nomifactory.quest.db.934.title=谐振末影
+nomifactory.quest.db.934.desc=§nThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§nThis step requires an Extractor of tier §lLV§r§n or higher.§r%n%nMelt your §6Ender Pearls§r into §6Resonant Ender§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
 
 # db 935
-nomifactory.quest.db.935.title=Ender Pearls
-nomifactory.quest.db.935.desc=§oThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%nYour first source of §6Ender Pearls§r could be §6Ender Lillies§r. However, that is too manual and slow for the purpose §6Ender Pearls§r are needed for here. Instead, you can make a net-positive §6Pulsating Polymer Clay§r setup that uses §6Enderman Data Models§r to produce §6Ender Pearls§r. A Self-Aware §6Enderman Data Model§r can supply enough §6Ender Pearls§r to support the running of 6.2 other models.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
+nomifactory.quest.db.935.title=末影珍珠
+nomifactory.quest.db.935.desc=§nThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%nYour first source of §6Ender Pearls§r could be §6Ender Lillies§r. However, that is too manual and slow for the purpose §6Ender Pearls§r are needed for here. Instead, you can make a net-positive §6Pulsating Polymer Clay§r setup that uses §6Enderman Data Models§r to produce §6Ender Pearls§r. A Self-Aware §6Enderman Data Model§r can supply enough §6Ender Pearls§r to support the running of 6.2 other models.%n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
 
 # db 936
-nomifactory.quest.db.936.title=Pulsating Dust
-nomifactory.quest.db.936.desc=§oThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§oThis step requires a Furnace or an upgraded Furnace, or a Electric Furnace at voltage §lLV§r§o or higher.§r§r§r%n%nSmelt your §6Resonant Clathrate§r into §6Pulsating Dust§r. If you're using a §3Furnace§r to smelt it, it's more efficient to use the upgraded §3Furnaces§r, such as §3Iron Furnaces§r. You can fuel them with §6Sugar Cane§r. You might want to keep it as a §3Electric Furnace§r, depending on your circumstance. %n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
+nomifactory.quest.db.936.title=脉动之尘
+nomifactory.quest.db.936.desc=§nThis quest completes via checkbox or upon achieving Resonant Clathrate.§r%n%n§nThis step requires a Furnace or an upgraded Furnace, or a Electric Furnace at voltage §lLV§r§n or higher.§r§r§r%n%nSmelt your §6Resonant Clathrate§r into §6Pulsating Dust§r. If you're using a §3Furnace§r to smelt it, it's more efficient to use the upgraded §3Furnaces§r, such as §3Iron Furnaces§r. You can fuel them with §6Sugar Cane§r. You might want to keep it as a §3Electric Furnace§r, depending on your circumstance. %n%n%n%nYou might have noticed that all quests in this line complete automatically via §6Resonant Clathrate§r instead of §6Pulsating Polymer Clay§r. This is the case as it follows the §oResonant Clathrate§r quest in §oSimulating Mobs§r, and you will probably make §6Pulsating Polymer Clay§r via §6Uraninite§r before making a passive setup via §6Resonant Clathrate§r.
 
 # db 937
-nomifactory.quest.db.937.title=Cobblestone
-nomifactory.quest.db.937.desc=§oThis quest completes via checkbox or upon achieving Cobblestone.§r%n%nThe best source of §6Cobblestone§r is §bNuclearCraft §6Cobblestone Generator§r. If the first one isn't enough, you can always upgrade and make more of them.§r This is the starting point of your §eCobbleworks§r. Also a cheap building block.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important in or not, depending on your situation.
+nomifactory.quest.db.937.title=圆石
+nomifactory.quest.db.937.desc=§nThis quest completes via checkbox or upon achieving Cobblestone.§r%n%nThe best source of §6Cobblestone§r is §bNuclearCraft §6Cobblestone Generator§r. If the first one isn't enough, you can always upgrade and make more of them.§r This is the starting point of your §eCobbleworks§r. Also a cheap building block.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important in or not, depending on your situation.
 
 # db 938
-nomifactory.quest.db.938.title=Gravel
-nomifactory.quest.db.938.desc=§oThis quest completes via checkbox or upon achieving Gravel.§r%n%n§oThis step requires a Forge Hammer at voltage §lLV§r§o or higher.§r%n%nBreak up your §6Cobblestone§r into §6Gravel§r. Pretty much just another step of the §eCobbleworks§r, although it is used in §6Conduit Binders§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.938.title=沙砾
+nomifactory.quest.db.938.desc=§nThis quest completes via checkbox or upon achieving Gravel.§r%n%n§nThis step requires a Forge Hammer at voltage §lLV§r§n or higher.§r%n%nBreak up your §6Cobblestone§r into §6Gravel§r. Pretty much just another step of the §eCobbleworks§r, although it is used in §6Conduit Binders§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 939
-nomifactory.quest.db.939.title=Sand
-nomifactory.quest.db.939.desc=§oThis quest completes via checkbox or upon achieving Sand.§r%n%n§oThis step requires a Forge Hammer at voltage §lLV§r§o or higher.§r%n%nBreak up your §6Gravel§r into §6Sand§r. Pretty much just another step of the §eCobbleworks§r, although it is used in §6Conduit Binders§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.939.title=沙子
+nomifactory.quest.db.939.desc=§nThis quest completes via checkbox or upon achieving Sand.§r%n%n§nThis step requires a Forge Hammer at voltage §lLV§r§n or higher.§r%n%nBreak up your §6Gravel§r into §6Sand§r. Pretty much just another step of the §eCobbleworks§r, although it is used in §6Conduit Binders§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 940
-nomifactory.quest.db.940.title=Dust
-nomifactory.quest.db.940.desc=§oThis quest completes via checkbox or upon achieving Dust.§r%n%n§oThis step requires a Forge Hammer at voltage §lLV§r§o or higher.§r%n%nBreak up your §6Sand§r into §6Dust§r. Used for nothing, apart from turning into §6Clay§r and §6Netherrack§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.940.title=尘土
+nomifactory.quest.db.940.desc=§nThis quest completes via checkbox or upon achieving Dust.§r%n%n§nThis step requires a Forge Hammer at voltage §lLV§r§n or higher.§r%n%nBreak up your §6Sand§r into §6Dust§r. Used for nothing, apart from turning into §6Clay§r and §6Netherrack§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 941
-nomifactory.quest.db.941.title=Clay
-nomifactory.quest.db.941.desc=§oThis quest completes via checkbox or upon achieving Clay.§r%n%n§oThis step requires a Chemical Reactor at voltage §lLV§r§o or higher.§r%n%nCombine your §6Dust§r and some §6Water§r to make §6Clay§r.§r Turns into many useful resources.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.941.title=粘土
+nomifactory.quest.db.941.desc=§nThis quest completes via checkbox or upon achieving Clay.§r%n%n§nThis step requires a Chemical Reactor at voltage §lLV§r§n or higher.§r%n%nCombine your §6Dust§r and some §6Water§r to make §6Clay§r.§r Turns into many useful resources.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 942
-nomifactory.quest.db.942.title=Water
-nomifactory.quest.db.942.desc=§oThis quest completes via checkbox or upon achieving Water.§r%n%nYes, there's a quest for §9Water§r.%n%n§9Water§r can be achieved in many ways, but the most notable are: §bNuclearCraft §6Infinite Water Sources§r, which are very slow, but cheap, §bEIO §6Endervoirs§r, which are a bit more expensive but way faster, §bGregTech §6Infinite Water Covers§r, which is much more expensive, but is a cover, therefore saving space, and makes water 16x faster than §6Endervoirs§r, and §bThermal §6Aqueous Accumulators§r, which are more expensive, and are similar to §6Infinite Water Covers§r, but is a block, meaning you can use it for other mod's machines, not just §bGregTech§r.%n%nRight now, you should probably use the §6Endervoirs§r.%n%nIn this case, you'll need §9Water§r for §6Clay§r.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.942.title=水
+nomifactory.quest.db.942.desc=§nThis quest completes via checkbox or upon achieving Water.§r%n%nYes, there's a quest for §9Water§r.%n%n§9Water§r can be achieved in many ways, but the most notable are: §bNuclearCraft §6Infinite Water Sources§r, which are very slow, but cheap, §bEIO §6Endervoirs§r, which are a bit more expensive but way faster, §bGregTech §6Infinite Water Covers§r, which is much more expensive, but is a cover, therefore saving space, and makes water 16x faster than §6Endervoirs§r, and §bThermal §6Aqueous Accumulators§r, which are more expensive, and are similar to §6Infinite Water Covers§r, but is a block, meaning you can use it for other mod's machines, not just §bGregTech§r.%n%nRight now, you should probably use the §6Endervoirs§r.%n%nIn this case, you'll need §9Water§r for §6Clay§r.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 943
-nomifactory.quest.db.943.title=Lava
-nomifactory.quest.db.943.desc=§oThis quest completes via checkbox or upon achieving Lava.§r%n%n§6Lava§r can be achieved in three main ways. The first is using a §3Chemical Reactor§r to turn §6Magma Blocks§r into §6Lava§r. The second is using §bActually Additions §6Lava Factories§r. These are quite slow. The final notable way is using a §bGregTech §6Fluid Drill§r in the Nether above a §6Lava§r vein.%n%nIn this case, you'll need §6Lava§r for §6Netherrack§r. You won't need much, although §6Lava§r can also be centrifuged for useful resources, and will be used heavily in the End Game for §6Lava Infused Crystals§r.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.943.title=熔岩
+nomifactory.quest.db.943.desc=§nThis quest completes via checkbox or upon achieving Lava.§r%n%n§6Lava§r can be achieved in three main ways. The first is using a §3Chemical Reactor§r to turn §6Magma Blocks§r into §6Lava§r. The second is using §bActually Additions §6Lava Factories§r. These are quite slow. The final notable way is using a §bGregTech §6Fluid Drill§r in the Nether above a §6Lava§r vein.%n%nIn this case, you'll need §6Lava§r for §6Netherrack§r. You won't need much, although §6Lava§r can also be centrifuged for useful resources, and will be used heavily in the End Game for §6Lava Infused Crystals§r.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 944
-nomifactory.quest.db.944.title=Netherrack
-nomifactory.quest.db.944.desc=§o§oThis quest completes via checkbox or upon achieving Netherrack.%n%nThis step requires a Chemical Reactor at voltage §lLV§r§o or higher.§r%n%nCombine your §6Dust§r and §6Lava§r into §6Netherrack§r. Pretty much used for nothing, apart from your first §6Hellish Matter§r and §6Netherrack Dust§r. No need to passive this.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.944.title=地狱岩
+nomifactory.quest.db.944.desc=§n§nThis quest completes via checkbox or upon achieving Netherrack.%n%nThis step requires a Chemical Reactor at voltage §lLV§r§n or higher.§r%n%nCombine your §6Dust§r and §6Lava§r into §6Netherrack§r. Pretty much used for nothing, apart from your first §6Hellish Matter§r and §6Netherrack Dust§r. No need to passive this.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 945
-nomifactory.quest.db.945.title=Netherrack Dust
-nomifactory.quest.db.945.desc=§oThis quest completes via checkbox or upon achieving Netherrack Dust.§r%n%n§oThis step requires a Macerator at voltage §lLV§r§o or higher.§r%n%nCrush your §6Netherrack§r into §6Netherrack Dust§r. Used for nothing apart from §6Nether Cakes§r. No need to passive this.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.945.title=地狱岩粉
+nomifactory.quest.db.945.desc=§nThis quest completes via checkbox or upon achieving Netherrack Dust.§r%n%n§nThis step requires a Macerator at voltage §lLV§r§n or higher.§r%n%nCrush your §6Netherrack§r into §6Netherrack Dust§r. Used for nothing apart from §6Nether Cakes§r. No need to passive this.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 946
-nomifactory.quest.db.946.title=Clay.... Ball?
-nomifactory.quest.db.946.desc=§oThis quest completes via checkbox or upon achieving Clay Balls.§r%n%nCraft your §6Clay§r to make §6Clay Balls§r.§r You can also use §3Compacting Drawers§r. Used for §6Conduit Binders§r.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.946.title=粘土...球？
+nomifactory.quest.db.946.desc=§nThis quest completes via checkbox or upon achieving Clay Balls.§r%n%n§nThis step requires a Extractor at voltage §lLV§r§n or higher.§r%n%nExtract your §6Clay§r to make §6Clay Balls§r.§r Probably easier to automate than placing and then breaking §6Clay§r. Used for §6Conduit Binders§r.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 947
-nomifactory.quest.db.947.title=Clay Dust
-nomifactory.quest.db.947.desc=§oThis quest completes via checkbox or upon achieving Clay Dust.§r%n%n§oThis step requires a Macerator at voltage §lLV§r§o or higher.§r%n%nCrush your §6Clay§r to make §6Clay Dust§r.§r Turns into many useful resources.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.947.title=粘土粉
+nomifactory.quest.db.947.desc=§nThis quest completes via checkbox or upon achieving Clay Dust.§r%n%n§nThis step requires a Macerator at voltage §lLV§r§n or higher.§r%n%nCrush your §6Clay§r to make §6Clay Dust§r.§r Turns into many useful resources.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 948
-nomifactory.quest.db.948.title=Sodium, Silicon, Lithium and Aluminium
-nomifactory.quest.db.948.desc=§oThis quest completes via checkbox or upon achieving Sodium, Silicon, Lithium and Aluminium.§r%n%n§oThis step requires a Electrolyser at voltage §lLV§r§o or higher.§r%n%nSplit your §6Clay Dust§r to make §6Sodium Dust§r, §6Silicon Dust§r, §6Lithium Dust§r, and §6Aluminium Dust§r.§r This is extremely important to passive, as you will need a lot of these resources, and this is the best way to get them.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.948.title=钠、硅、锂和铝
+nomifactory.quest.db.948.desc=§nThis quest completes via checkbox or upon achieving Sodium, Silicon, Lithium and Aluminium.§r%n%n§nThis step requires a Electrolyser at voltage §lLV§r§n or higher.§r%n%nSplit your §6Clay Dust§r to make §6Sodium Dust§r, §6Silicon Dust§r, §6Lithium Dust§r, and §6Aluminium Dust§r.§r This is extremely important to passive, as you will need a lot of these resources, and this is the best way to get them.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 949
-nomifactory.quest.db.949.title=Stone
-nomifactory.quest.db.949.desc=§oThis quest completes via checkbox or upon achieving Stone.§r%n%n§oThis step requires a Furnace or an upgraded Furnace, or a Electric Furnace at voltage §lLV§r§o or higher.§r%n%nMainly used for decorational blocks. Still part of §eCobbleworks§r I guess.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.949.title=石头
+nomifactory.quest.db.949.desc=§nThis quest completes via checkbox or upon achieving Stone.§r%n%n§nThis step requires a Furnace or an upgraded Furnace, or a Electric Furnace at voltage §lLV§r§n or higher.§r%n%nMainly used for decorational blocks. Still part of §eCobbleworks§r I guess.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 950
-nomifactory.quest.db.950.title=Glass
-nomifactory.quest.db.950.desc=§oThis quest completes via checkbox or upon achieving Glass.§r%n%n§oThis step requires a Furnace or an upgraded Furnace, a Electric Furnace at voltage §lLV§r§o or higher, or an Arc Furnace at voltage §lLV§r§o or higher.§r%n%nSmelt your §6Sand§r into §6Glass§r. If you're using a §3Electric Furnace§r to smelt it, it's more efficient to use the upgraded §3Furnaces§r, such as §3Iron Furnaces§r. You can fuel them with §6Sugar Cane§r. The §3Arc Furnace§r doubles your glass though. Later, once you unlock them, §3Multi Smelters§r will be the best for this.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.950.title=玻璃
+nomifactory.quest.db.950.desc=§nThis quest completes via checkbox or upon achieving Glass.§r%n%n§nThis step requires a Furnace or an upgraded Furnace, a Electric Furnace at voltage §lLV§r§n or higher, or an Arc Furnace at voltage §lLV§r§n or higher.§r%n%nSmelt your §6Sand§r into §6Glass§r. If you're using a §3Electric Furnace§r to smelt it, it's more efficient to use the upgraded §3Furnaces§r, such as §3Iron Furnaces§r. You can fuel them with §6Sugar Cane§r. The §3Arc Furnace§r doubles your glass though. Later, once you unlock them, §3Multi Smelters§r will be the best for this.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 951
-nomifactory.quest.db.951.title=Quartz
-nomifactory.quest.db.951.desc=§oThis quest completes via checkbox or achieving Quartz.§r%n%n§oThis step requires a Electrolyser at voltage §lLV§r§o or higher.§r%n%nBreak up your §6Sand§r into §6Quartz§r. An §3Arc Furnace§r making §6Glass§r supports 2.5 §3Electrolysers§r of the same tier. You will need a lot of §6Quartz§r, so its crucial that you passive this.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.951.title=石英
+nomifactory.quest.db.951.desc=§nThis quest completes via checkbox or achieving Quartz.§r%n%n§nThis step requires a Electrolyser at voltage §lLV§r§n or higher.§r%n%nBreak up your §6Sand§r into §6Quartz§r. An §3Arc Furnace§r making §6Glass§r supports 2.5 §3Electrolysers§r of the same tier. You will need a lot of §6Quartz§r, so its crucial that you passive this.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 952
-nomifactory.quest.db.952.title=§2Distilling Liquid Ender Air
-nomifactory.quest.db.952.desc=§2This is new to CEu! Before, you could only distil Liquid Air.%n%n§9Ender Air§r, collected from a §3Gas Collector§r, can be sent into the §3Vacuum Freezer§r to turn it into §9Liquid Ender Air§r.%n%n§9Liquid Ender Air§r can be sent into a §2Distillation Tower§r to break it down into its components.%n%n§2Liquid Air and Liquid Nether Air give different useful components too.%n
+nomifactory.quest.db.952.title=§2蒸馏液态末地空气
+nomifactory.quest.db.952.desc=§2这对CEu来说是全新的!以前，你只能蒸馏液态空气。%n%n§9末地空气§r,从§3气体收集器收集§r,可以在§3真空冷冻机§r里变成§9液态末地空气§r。%n%n§9液态末地空气§r可送入§2蒸馏塔§r将其分解成其组分。%n%n§2液态空气和液态下界空气也有不同的有用成分。
 
 # db 953
-nomifactory.quest.db.953.title=§2Distilling Liquid Nether Air
-nomifactory.quest.db.953.desc=§2This is new to CEu! Before, you could only distil Liquid Air.%n%n§9Nether Air§r, collected from §3Gas Collectors§r, can be sent into the §3Vacuum Freezer§r to turn it into §9Liquid Nether Air§r.%n%n§9Liquid Nether Air§r can be sent into a §2Distillation Tower§r to break it down into its components.%n%n§2Liquid Air and Liquid Ender Air give different useful components too.%n
+nomifactory.quest.db.953.title=§2蒸馏液态下界空气
+nomifactory.quest.db.953.desc=§2这对CEu来说是全新的!以前，你只能蒸馏液态空气。%n%n§9下界空气§r,从§3气体收集器收集§r,可以在§3真空冷冻机§r里变成§9液态下界空气§r。%n%n§9液态下界空气§r可送入§2蒸馏塔§r将其分解成其组分。%n%n§2液态空气和液态末地空气也有不同的有用成分。
 
 # db 954
-nomifactory.quest.db.954.title=Indium and Radon
-nomifactory.quest.db.954.desc=No Description
+nomifactory.quest.db.954.title=“铟”和“氡”
+nomifactory.quest.db.954.desc=没有描述
 
 # db 955
-nomifactory.quest.db.955.title=Phosphorus
-nomifactory.quest.db.955.desc=No Description
+nomifactory.quest.db.955.title=磷
+nomifactory.quest.db.955.desc=没有描述
 
 # db 956
-nomifactory.quest.db.956.title=Boron
-nomifactory.quest.db.956.desc=No Description
+nomifactory.quest.db.956.title=硼
+nomifactory.quest.db.956.desc=没有描述
 
 # db 957
-nomifactory.quest.db.957.title=Glass Dust
-nomifactory.quest.db.957.desc=§o§oThis quest completes via checkbox or upon achieving Glass Dust.%n%nThis step requires a Macerator at voltage §lLV§r§o or higher.§r%n%nCrush your §6Glass§r into §6Glass Dust§r. Used for nothing, apart from §6Silicon Dioxide Dust§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.957.title=玻璃粉
+nomifactory.quest.db.957.desc=§n§nThis quest completes via checkbox or upon achieving Glass Dust.%n%nThis step requires a Macerator at voltage §lLV§r§n or higher.§r%n%nCrush your §6Glass§r into §6Glass Dust§r. Used for nothing, apart from §6Silicon Dioxide Dust§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 958
-nomifactory.quest.db.958.title=Silicon Dioxide Dust
-nomifactory.quest.db.958.desc=§o§oThis quest completes via checkbox or upon achieving Silicon Dioxide Dust.%n%nThis step requires a Centrifuge at voltage §lLV§r§o or higher.§r%n%nSeperate your §6Glass Dust§r into §6Silicon Dioxide Dust§r. Can be electrolysed into useful resources.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.958.title=二氧化硅粉
+nomifactory.quest.db.958.desc=§n§nThis quest completes via checkbox or upon achieving Silicon Dioxide Dust.%n%nThis step requires a Centrifuge at voltage §lLV§r§n or higher.§r%n%nSeperate your §6Glass Dust§r into §6Silicon Dioxide Dust§r. Can be electrolysed into useful resources.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 959
-nomifactory.quest.db.959.title=Quartz Sand
-nomifactory.quest.db.959.desc=§o§oThis quest completes via checkbox or upon achieving Quartz Sand.%n%nThis step requires a Macerator at voltage §lLV§r§o or higher.§r%n%nCrush your §6Sand§r into §6Quartz Sand§r. Can be electrolysed into useful resources.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.959.title=石英矿砂
+nomifactory.quest.db.959.desc=§n§nThis quest completes via checkbox or upon achieving Quartz Sand.%n%nThis step requires a Macerator at voltage §lLV§r§n or higher.§r%n%nCrush your §6Sand§r into §6Quartz Sand§r. Can be electrolysed into useful resources.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 960
-nomifactory.quest.db.960.title=Quartzite and Certus Quartz
-nomifactory.quest.db.960.desc=§o§oThis quest completes via checkbox or upon achieving Sand.%n%nThis step requires a Centrifuge at voltage §lLV§r§o or higher.§r%n%nSeperate your §6Quartz Sand§r into §6Quartzite Dust§r and §6Certus Quartz Dust§r. This is a good renewable source of §6Certus Quartz§r, which you need for §bApplied Energistics 2§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.960.title=“石英岩”和“赛特斯石英”
+nomifactory.quest.db.960.desc=§n§nThis quest completes via checkbox or upon achieving Sand.%n%nThis step requires a Centrifuge at voltage §lLV§r§n or higher.§r%n%nSeperate your §6Quartz Sand§r into §6Quartzite Dust§r and §6Certus Quartz Dust§r. This is a good renewable source of §6Certus Quartz§r, which you need for §bApplied Energistics 2§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 961
-nomifactory.quest.db.961.title=Silicon and Oxygen
-nomifactory.quest.db.961.desc=§o§oThis quest completes via checkbox or upon achieving Oxygen.%n%nThis step requires a Electrolyser at voltage §lLV§r§o or higher.§r%n%nSplit your §6Silicon Dioxide Dust§r into §6Silicon Dust and Oxygen§r. This is the best source of Early Game §6Oxygen§r, although distilling §6Liquid Air§r may be better later, depending on your situation.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.961.title=“硅”和“氧”
+nomifactory.quest.db.961.desc=§n§nThis quest completes via checkbox or upon achieving Oxygen.%n%nThis step requires a Electrolyser at voltage §lLV§r§n or higher.§r%n%nSplit your §6Silicon Dioxide Dust§r into §6Silicon Dust and Oxygen§r. This is the best source of Early Game §6Oxygen§r, although distilling §6Liquid Air§r may be better later, depending on your situation.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 962
-nomifactory.quest.db.962.title=Hydrogen and Oxygen
-nomifactory.quest.db.962.desc=§oSilicon Dioxide is an important part of a Processing Line. Visit the Processing Lines Tab to have more info, useful tips and a visual representation of how to passively automate this.§r%n%nAround this point, you will need large quantities of §6Hydrogen§r and §6Oxygen§r. %n%nThe first way that comes to mind is electrolysing §9Water§r, but that is slow. %n%nInstead, the best way of making early game §6Oxygen§r is §6Silicon Dioxide§r.%n%n§6Hydrogen§r is a bit trickier, but you can put §6Methane§r and §6Water§r together in a §3Chemical Reactor§r. §6Methane§r can be achieved by centrifuging §6Food§r and §6Wood§r, processing §6Pyroluse Byproducts§r, or through §6Petroleum§r. %n%nRight now, for the small quantities you need, you can simply electrolyse §9Water§r. Just keep those other ways in mind, for later in the game.
+nomifactory.quest.db.962.title=“氢”和“氧”
+nomifactory.quest.db.962.desc=§n二氧化硅是生产线的重要组成部分。访问生产线选项卡可以获得更多信息，有用的提示以及如何被动地自动化此操作的可视化表示。§r%n%n在这一点上，你将需要大量的§6氢§r和§6氧§r。首先想到的方法是电解§9水§r，但这是缓慢的。相反，早期获得§6氧气§r的最佳方法是§6二氧化硅§r。§6氢§r有点棘手，但你可以把§6甲烷§r和§6水§r放在§3化学反应器§r中。§6甲烷§r可以通过对§6食物§r和§6木头§r进行离心、处理§6热解副产物§r或通过§6石化线§r来获得。现在，对于你需要的少量氢气，你可以简单地电解水。但别忘了其他的方式。
 
 # db 963
-nomifactory.quest.db.963.title=Obsidian
-nomifactory.quest.db.963.desc=§oThis quest completes via checkbox or achieving Obsidian.§r%n%n§oThis step requires a Fluid Solidifier at voltage §lLV§r§o or higher, or a Rock Breaker at voltage §lHV§r§o or higher.§r%n%nCool down your §6Lava§r into §6Obsidian§r. You'll need a lot of this, so it's probably wise to use §3Rock Breakers§r once you hit §6HV§r, as they don't consume anything to produce §6Obsidian§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.963.title=黑曜石
+nomifactory.quest.db.963.desc=§nThis quest completes via checkbox or achieving Obsidian.§r%n%n§nThis step requires a Fluid Solidifier at voltage §lLV§r§n or higher, or a Rock Breaker at voltage §lHV§r§n or higher.§r%n%nCool down your §6Lava§r into §6Obsidian§r. You'll need a lot of this, so it's probably wise to use §3Rock Breakers§r once you hit §6HV§r, as they don't consume anything to produce §6Obsidian§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 964
-nomifactory.quest.db.964.title=Obsidian Dust
-nomifactory.quest.db.964.desc=§oThis quest completes via checkbox or upon achieving Obsidian Dust.§r%n%n§oThis step requires a Macerator at voltage §lLV§r§o or higher.§r%n%nCrush your §6Obsidian§r into §6Obsidian Dust§r. You'll need a lot of this for §6Petrotheum Dust§r.%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.964.title=黑曜石粉
+nomifactory.quest.db.964.desc=§nThis quest completes via checkbox or upon achieving Obsidian Dust.§r%n%n§nThis step requires a Macerator at voltage §lLV§r§n or higher.§r%n%nCrush your §6Obsidian§r into §6Obsidian Dust§r. You'll need a lot of this for §6Petrotheum Dust§r.%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 965
-nomifactory.quest.db.965.title=Sandstone
-nomifactory.quest.db.965.desc=§o§oThis quest completes via checkbox or upon achieving Sandstone.§r%n%nCompact your §6Sand§r into §6Sandstone§r. It is recommended to use §3Mechanical Crafters§r or §6Compacting Drawers§r.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.965.title=沙石
+nomifactory.quest.db.965.desc=§n§nThis quest completes via checkbox or upon achieving Sandstone.§r%n%nCompact your §6Sand§r into §6Sandstone§r. It is recommended to use §3Mechanical Crafters§r or §6Compacting Drawers§r.%n%n%n%n§YYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 966
-nomifactory.quest.db.966.title=Saltpeter
-nomifactory.quest.db.966.desc=§oThis quest completes via checkbox or upon achieving Saltpeter.§r%n%n§oThis step requires a Macerator at voltage §lLV§r§o or higher.§r%n%nBreak up your §6Sandstone§r into §6Saltpeter§r. This is probably the best way to get §6Saltpeter§r, which you'll need a lot for §6Aerotheum Dust§r. You can also get §6Saltpeter§r from §bDeep Mob Evolution§r.%n%nYou can also electrolyse it for §6Potassium§r, although it isn't recommended because of how easily you can get §6Potassium§r, such as from §6Black Granite §3Processing§r, and how much §6Saltpeter§r it costs.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.966.title=硝石
+nomifactory.quest.db.966.desc=§nThis quest completes via checkbox or upon achieving Saltpeter.§r%n%n§nThis step requires a Macerator at voltage §lLV§r§n or higher.§r%n%nBreak up your §6Sandstone§r into §6Saltpeter§r. This is probably the best way to get §6Saltpeter§r, which you'll need a lot for §6Aerotheum Dust§r. You can also get §6Saltpeter§r from §bDeep Mob Evolution§r.%n%nYou can also electrolyse it for §6Potassium§r, although it isn't recommended because of how easily you can get §6Potassium§r, such as from §6Black Granite §3Processing§r, and how much §6Saltpeter§r it costs.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 967
-nomifactory.quest.db.967.title=Setting up Autocrafting
-nomifactory.quest.db.967.desc=This quest teaches you the basics about §bApplied Energistics 2§r autocrafting. If you are new this mod, it is highly recommended that you watch a video or read a guide online. Just remember that channels are disabled by default in this pack.%n%nBy now, you should have §6ME Interfaces, §6Molecular Assemblers, Crafting Units, Patterns§r and a §6Pattern Terminal§r. %n%nFirst, for all crafts, you'll need a §eCrafting CPU§r. These are structures that must be in a rectangular prism, and can be only one block. These compose of:%n* §6Crafting Storages§r, which determine how big a craft can be. For now, §64K Crafting Storages§r should be enough. You must have at least one per CPU.%n* §6Co-Processing Units§r, which are used to craft multiple things at once. These are optional.%n* §6Crafting Monitors§r, used to see what is crafting. Not needed, and you can right-click on the CPU to find out what is crafting anyways, so this is pretty much just decoration.%n* §6Crafting Units§r, which aren't needed at all, and are just used to fill holes, if you have a lack of materials.%n%nSecond, you'll need the place for the autocrafting. For Crafting Table recipes, you'll need §6Molecular Assemblers§r. §6Interfaces§r are placed next to them. Autocrafting with §bGregTech§r is explained later, in the quest following this one.%n%nFinally, you'll need a §6Pattern§r. In order to make this, put empty §6Patterns§r in the §6Pattern Terminal§r, and find the recipe in §bJEI§r, while still in the §6Pattern Terminal§r. Then, click '+' in §bJEI§r, and press the arrow to encode the recipe. This goes in the §6Interface§r that you set up in the last step. You can use §6Interface Terminals§r to access §6Interfaces'§r pattern slots.%n%nEventually, you'll need a lot of §6Patterns§r, lots of CPUs, and ones with more storage, and lots of §6§6§6Interfaces§r§r§r. If you run out of pattern slots in an §6Interface§r, you can add more §6Interfaces§r, or use newly added §6Pattern Expansion Cards§r, which add 9 slots each. You can have a maximum of 3 §6Pattern Expansion Cards§r in an §6Interface§r, which makes the amount of pattern slots go to 36.%n%n
+nomifactory.quest.db.967.title=布置自动合成
+nomifactory.quest.db.967.desc=This quest teaches you the basics about §bApplied Energistics 2§r autocrafting. If you are new this mod, it is highly recommended that you watch a video or read a guide online. Just remember that channels are disabled by default in this pack.%n%nBy now, you should have §6ME Interfaces, §6Molecular Assemblers, Crafting Units, Patterns§r and a §6Pattern Terminal§r. %n%nFirst, for all crafts, you'll need a §eCrafting CPU§r. These are structures that must be in a rectangular prism, and can be only one block. These compose of:%n* §6Crafting Storages§r, which determine how big a craft can be. For now, §64K Crafting Storages§r should be enough. You must have at least one per CPU.%n* §6Co-Processing Units§r, which are used to craft multiple things at once. These are optional.%n* §6Crafting Monitors§r, used to see what is crafting. Not needed, and you can right-click on the CPU to find out what is crafting anyways, so this is pretty much just decoration.%n* §6Crafting Units§r, which aren't needed at all, and are just used to fill holes, if you have a lack of materials.%n%nSecond, you'll need the place for the autocrafting. For Crafting Table recipes, you'll need §6Molecular Assemblers§r. §6Interfaces§r are placed next to them. Autocrafting with §bGregTech§r is explained later, in the quest following this one.%n%nFinally, you'll need a §6Pattern§r. In order to make this, put empty §6Patterns§r in the §6Pattern Terminal§r, and find the recipe in §bJEI§r, while still in the §6Pattern Terminal§r. Then, click '+' in §bJEI§r, and press the arrow to encode the recipe. This goes in the §6Interface§r that you set up in the last step. You can use §6Interface Terminals§r to access §6Interfaces'§r pattern slots.%n%nEventually, you'll need a lot of §6Patterns§r, lots of CPUs, and ones with more storage, and lots of §6§6§6Interfaces§r§r§r. If you run out of pattern slots in an §6Interface§r, you can add more §6Interfaces§r, or use newly added §6Pattern Expansion Cards§r, which add 9 slots each. You can have a maximum of 3 §6Pattern Expansion Cards§r in an §6Interface§r, which makes the amount of pattern slots go to 45.%n%n
 
 # db 968
-nomifactory.quest.db.968.title=Flint
-nomifactory.quest.db.968.desc=§oThis quest completes via checkbox or upon achieving Flint.§r%n%n§oThis step requires a Sifter at voltage §lLV§r§o or higher.§r%n%nSearch your §6Gravel§r for §6Flint§r. The only main thing you'll need this for is §6Storage Downgrades§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.968.title=燧石
+nomifactory.quest.db.968.desc=§nThis quest completes via checkbox or upon achieving Flint.§r%n%n§nThis step requires a Sifter at voltage §lLV§r§n or higher.§r%n%nSearch your §6Gravel§r for §6Flint§r. The only main thing you'll need this for is §6Storage Downgrades§r.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 969
-nomifactory.quest.db.969.title=Stone Dust
-nomifactory.quest.db.969.desc=§oThis quest completes via checkbox or upon achieving Stone Dust.%n%n§oThis step requires a Macerator at voltage §lLV§r§o or higher.§r%n%nCrush your §6Cobblestone§r into §6Stone Dust§r. You'll actually get a lot of §6Stone Dust§r from §eOre Processing§r, but this could be your backup source. You'll need this for §6Concrete§r. You can also centrifuge this, although the resources gained are not very useful, and are in very small amounts.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.969.title=石头粉
+nomifactory.quest.db.969.desc=§nThis quest completes via checkbox or upon achieving Stone Dust.%n%n§nThis step requires a Macerator at voltage §lLV§r§n or higher.§r%n%nCrush your §6Cobblestone§r into §6Stone Dust§r. You'll actually get a lot of §6Stone Dust§r from §eOre Processing§r, but this could be your backup source. You'll need this for §6Concrete§r. You can also centrifuge this, although the resources gained are not very useful, and are in very small amounts.%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 970
-nomifactory.quest.db.970.title=Concrete
-nomifactory.quest.db.970.desc=§oThis quest completes via checkbox or upon achieving Concrete.%n%n§oThis step requires a Mixer at voltage §lLV§r§o or higher.§r%n%nMix §6Stone Dust§r, §6Clay Dust§r and some §9Water§r to make §6Concrete§r. This is probably the easiest way to get §6Concrete§r. You'll need this for §6Plascrete§r, used in §2Cleanrooms§r, and a tiny amount for §6Launch Pads§r.§o%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
+nomifactory.quest.db.970.title=混凝土
+nomifactory.quest.db.970.desc=§nThis quest completes via checkbox or upon achieving Concrete.%n%n§nThis step requires a Mixer at voltage §lLV§r§n or higher.§r%n%nMix §6Stone Dust§r, §6Clay Dust§r and some §9Water§r to make §6Concrete§r. This is probably the easiest way to get §6Concrete§r. You'll need this for §6Plascrete§r, used in §2Cleanrooms§r, and a tiny amount for §6Launch Pads§r.§o%n%n%n%nYou might have noticed that all quests in this line complete automatically via the main resource achieved by that step. This is as this §eCobbleworks§r chain is extremely versatile, and each resource may be important or not, depending on your situation.
 
 # db 971
-nomifactory.quest.db.971.title='Clay' and 'Pulsating Dust'
-nomifactory.quest.db.971.desc=Hidden quest for Pulsating Polymer Clay Processing Line.
+nomifactory.quest.db.971.title=“粘土”和“脉动之尘”
+nomifactory.quest.db.971.desc=为“脉冲聚合物粘土”生产线而隐藏的任务。
 
 # db 972
-nomifactory.quest.db.972.title=Processing Lines: Ethylene
-nomifactory.quest.db.972.desc=§oThis quest completes via checkbox or upon achieving Ethylene.
+nomifactory.quest.db.972.title=乙烯
+nomifactory.quest.db.972.desc=§nThis quest completes via checkbox or upon achieving Ethylene.
 
 # db 973
-nomifactory.quest.db.973.title=MV Chemical Reactor, Sulfur, Brewery and Distillery
-nomifactory.quest.db.973.desc=No Description
+nomifactory.quest.db.973.title=MV化学反应釜、硫酸、酿造室和蒸馏室
+nomifactory.quest.db.973.desc=没有描述
 
 # db 974
-nomifactory.quest.db.974.title=The First Tier Three Circuits
-nomifactory.quest.db.974.desc=Hidden Quest for HV Machines
+nomifactory.quest.db.974.title=第一种三阶电路
+nomifactory.quest.db.974.desc=为 HV 组装机 而隐藏的任务
 
 # db 975
-nomifactory.quest.db.975.title=Petrochem or Ethanol?
-nomifactory.quest.db.975.desc=No Description
+nomifactory.quest.db.975.title=石油还是乙醇？
+nomifactory.quest.db.975.desc=没有描述
 
 # db 976
-nomifactory.quest.db.976.title=Sulfuric Naphtha Distillery
-nomifactory.quest.db.976.desc=No Description
+nomifactory.quest.db.976.title=含硫石脑油蒸馏
+nomifactory.quest.db.976.desc=没有描述
 
 # db 977
-nomifactory.quest.db.977.title=Naphtha Chemical Reactor
-nomifactory.quest.db.977.desc=No Description
+nomifactory.quest.db.977.title=石脑油化学反应器
+nomifactory.quest.db.977.desc=没有描述
 
 # db 978
-nomifactory.quest.db.978.title=Severely Steam-cracked Naphtha Chemical Reactor
-nomifactory.quest.db.978.desc=No Description
+nomifactory.quest.db.978.title=重度蒸汽裂化石脑油化学反应器
+nomifactory.quest.db.978.desc=没有描述
 
 # db 979
-nomifactory.quest.db.979.title=Ethylene Distillery
-nomifactory.quest.db.979.desc=No Description
+nomifactory.quest.db.979.title=乙烯蒸馏室
+nomifactory.quest.db.979.desc=没有描述
 
 # db 980
-nomifactory.quest.db.980.title=Biomass Brewery
-nomifactory.quest.db.980.desc=No Description
+nomifactory.quest.db.980.title=生物发酵
+nomifactory.quest.db.980.desc=没有描述
 
 # db 981
-nomifactory.quest.db.981.title=Ethanol Distillery
-nomifactory.quest.db.981.desc=No Description
+nomifactory.quest.db.981.title=乙醇蒸馏室
+nomifactory.quest.db.981.desc=没有描述
 
 # db 982
-nomifactory.quest.db.982.title=Ethylene Chemical Reactor
-nomifactory.quest.db.982.desc=No Description
+nomifactory.quest.db.982.title=乙烯化学反应器
+nomifactory.quest.db.982.desc=没有描述
 
 # db 983
-nomifactory.quest.db.983.title=Sulfur Dioxide Chemical Reactor
-nomifactory.quest.db.983.desc=No Description
+nomifactory.quest.db.983.title=二氧化硫化学反应器
+nomifactory.quest.db.983.desc=没有描述
 
 # db 984
-nomifactory.quest.db.984.title=Sulfur Trioxide Chemical Reactor
-nomifactory.quest.db.984.desc=No Description
+nomifactory.quest.db.984.title=三氧化硫化学反应器
+nomifactory.quest.db.984.desc=没有描述
 
 # db 985
-nomifactory.quest.db.985.title=Sulfuric Acid Chemical Reactor
-nomifactory.quest.db.985.desc=No Description
+nomifactory.quest.db.985.title=硫酸化学反应器
+nomifactory.quest.db.985.desc=没有描述
 
 # db 986
-nomifactory.quest.db.986.title=Plant Balls Compactor
-nomifactory.quest.db.986.desc=No Description
+nomifactory.quest.db.986.title=植物球压缩机
+nomifactory.quest.db.986.desc=没有描述
 
 # db 987
-nomifactory.quest.db.987.title=Bio Chaff Macerator
-nomifactory.quest.db.987.desc=No Description
+nomifactory.quest.db.987.title=生物糠研磨机
+nomifactory.quest.db.987.desc=没有描述
 
 # db 988
-nomifactory.quest.db.988.title=Steam?
-nomifactory.quest.db.988.desc=No Description
+nomifactory.quest.db.988.title=蒸汽？
+nomifactory.quest.db.988.desc=没有描述
 
 # db 989
-nomifactory.quest.db.989.title=Oxygen
+nomifactory.quest.db.989.title=氧
 nomifactory.quest.db.989.desc=Mention SiO2, tell them to use cobbleworks chain nearby if they need help
 
 # db 990
-nomifactory.quest.db.990.title=Sulfur
-nomifactory.quest.db.990.desc=No Description
+nomifactory.quest.db.990.title=硫
+nomifactory.quest.db.990.desc=没有描述
 
 # db 991
-nomifactory.quest.db.991.title=Processing Lines: Polyethylene
-nomifactory.quest.db.991.desc=No Description
+nomifactory.quest.db.991.title=生产线：聚乙烯
+nomifactory.quest.db.991.desc=没有描述
 
 # db 992
-nomifactory.quest.db.992.title=Vinyl Chloride
-nomifactory.quest.db.992.desc=No Description
+nomifactory.quest.db.992.title=氯乙烯
+nomifactory.quest.db.992.desc=没有描述
 
 # db 993
-nomifactory.quest.db.993.title=Chlorine
-nomifactory.quest.db.993.desc=No Description
+nomifactory.quest.db.993.title=氯
+nomifactory.quest.db.993.desc=没有描述
 
 # db 994
-nomifactory.quest.db.994.title=Solidifying Polyethylene
+nomifactory.quest.db.994.title=固化聚乙烯
 nomifactory.quest.db.994.desc=Mention how you need both the fluid and plates, and you can either pulverise sheets for dust to make pipes, or seperately solidify ingots
 
 # db 995
-nomifactory.quest.db.995.title=Processing Lines: Polyvinyl Chloride
-nomifactory.quest.db.995.desc=No Description
+nomifactory.quest.db.995.title=生产线：聚氯乙烯
+nomifactory.quest.db.995.desc=没有描述
 
 # db 996
-nomifactory.quest.db.996.title='Ethylene' and 'Chlorine'
-nomifactory.quest.db.996.desc=No Description
+nomifactory.quest.db.996.title=乙烯和氯
+nomifactory.quest.db.996.desc=没有描述
 
 # db 997
-nomifactory.quest.db.997.title=Solidifying Polyvinyl Chloride
+nomifactory.quest.db.997.title=固化聚氯乙烯
 nomifactory.quest.db.997.desc=Mention how you don't need to keep the fluid, and how you can either pulverise sheets for dust to make pipes, or seperately solidify ingots
 
 # db 998
-nomifactory.quest.db.998.title=Processing Lines: Polytetrafluoroethylene
-nomifactory.quest.db.998.desc=No Description
+nomifactory.quest.db.998.title=生产线：聚四氟乙烯
+nomifactory.quest.db.998.desc=没有描述
 
 # db 999
-nomifactory.quest.db.999.title=Solidifying Polytetrafluoroethylene
-nomifactory.quest.db.999.desc=No Description
+nomifactory.quest.db.999.title=固化聚四氟乙烯
+nomifactory.quest.db.999.desc=没有描述
 
 # db 1000
 nomifactory.quest.db.1000.title=Extended Processing Pattern Terminal
@@ -3351,93 +3355,101 @@ nomifactory.quest.db.1001.title=Pattern Expansion Card
 nomifactory.quest.db.1001.desc=A very useful upgrade card that can be applied to §6Interfaces§r. Saves having many interfaces crowded around a machine or multiblock.%n%nYou can have up to §33 §6Pattern Expansion Cards§r installed per interface, bringing the amount of pattern slots from 9 to 36.
 
 # db 1002
-nomifactory.quest.db.1002.title=Tetrafluoroethylene
-nomifactory.quest.db.1002.desc=No Description
+nomifactory.quest.db.1002.title=四氯乙烯
+nomifactory.quest.db.1002.desc=没有描述
 
 # db 1003
-nomifactory.quest.db.1003.title=Chloroform
-nomifactory.quest.db.1003.desc=No Description
+nomifactory.quest.db.1003.title=氯仿
+nomifactory.quest.db.1003.desc=没有描述
 
 # db 1004
-nomifactory.quest.db.1004.title=Hydrofluoric Acid
-nomifactory.quest.db.1004.desc=No Description
+nomifactory.quest.db.1004.title=氢氟酸
+nomifactory.quest.db.1004.desc=没有描述
 
 # db 1005
-nomifactory.quest.db.1005.title=Fluorine
-nomifactory.quest.db.1005.desc=No Description
+nomifactory.quest.db.1005.title=氟
+nomifactory.quest.db.1005.desc=没有描述
 
 # db 1006
-nomifactory.quest.db.1006.title=Hydrogen
-nomifactory.quest.db.1006.desc=No Description
+nomifactory.quest.db.1006.title=氢
+nomifactory.quest.db.1006.desc=没有描述
 
 # db 1007
-nomifactory.quest.db.1007.title=Chlorine
-nomifactory.quest.db.1007.desc=No Description
+nomifactory.quest.db.1007.title=氯
+nomifactory.quest.db.1007.desc=没有描述
 
 # db 1008
-nomifactory.quest.db.1008.title=Methane
-nomifactory.quest.db.1008.desc=No Description
+nomifactory.quest.db.1008.title=甲烷
+nomifactory.quest.db.1008.desc=没有描述
 
 # db 1009
-nomifactory.quest.db.1009.title=Recycling your Chlorine
-nomifactory.quest.db.1009.desc=No Description
+nomifactory.quest.db.1009.title=回收氯
+nomifactory.quest.db.1009.desc=没有描述
 
 # db 1010
-nomifactory.quest.db.1010.title='Chloroform' and 'Hydrofluoric Acid'
+nomifactory.quest.db.1010.title=氯仿和氢氟酸
 nomifactory.quest.db.1010.desc=Hidden quest for PTFE processing line
 
 # db 1011
-nomifactory.quest.db.1011.title='Hydrogen' and 'Fluorine'
+nomifactory.quest.db.1011.title=氢和氟
 nomifactory.quest.db.1011.desc=Hidden quest for PTFE processing line
 
 # db 1012
-nomifactory.quest.db.1012.title='Chlorine' and 'Methane'
+nomifactory.quest.db.1012.title=氯和甲烷
 nomifactory.quest.db.1012.desc=Hidden quest for PTFE processing line
 
 # db 1013
-nomifactory.quest.db.1013.title=HV Rock Breaker
-nomifactory.quest.db.1013.desc=The §3Rock Breaker§r makes §6Lava§r and §6Water§r related products, such as §6Cobblestone§r, §6Granite§r and §6Obsidian§r. %n%nIn order to set this up, §6Lava§r and §6Water§r must be placed §ahorizontally adjacent§r. %n%nMaking §6Cobblestone§r this way is not a good idea, due to §bNuclearCraft§r §6Cobblestone Generators§r, which don't cost any power. However, with §aHV §3Rock Breakers§r, you can make §6Obsidian§r, without spending lots of §6Lava§r!%n%n§aLV§r and §aMV§r ones also exist, however, they aren't very useful.
+nomifactory.quest.db.1013.title=HV碎岩机
+nomifactory.quest.db.1013.desc=§3碎岩机§r制造§6熔岩§r和§6水§r相关产品，如§6鹅圆石§r、§6花岗岩§r和§6黑曜石§r。为了设置这个，§6熔岩§r和§6水§r必须被放置得与该机器水平相邻。%n%n制造§6圆石§r不是一个好主意,因为§b核电工艺§r的§6圆石制造机§r不花费任何能量。然而，有了§aHV§3碎岩机§r，你可以制作§6黑曜石§r，而不需要花费大量的§6熔岩§r!%n%n§aLV§r和§aMV§r也存在，但是它们不是很有用。
 
 # db 1014
-nomifactory.quest.db.1014.title=§2Black Granite Processing
-nomifactory.quest.db.1014.desc=§2Black Granite Processing is a great way to get tons of Fluorine and Thorium. Therefore, it is recommended to setup this process as soon as possible.§r%n%n§6Fluorine§r is needed in §6Polytetrafluoroethylene (PTFE)§r, and §6Thorium§r is used in §bNuclearCraft §3Fission Reactors§r.%n%n§3Rock Breakers§r are first used to achieve renewable §6Black Granite§r. This recipe runs at §dEV§r or higher.%n%nAfter this, §3Macerators§r should pulverise the §6Black Granite§r into §6Black Granite Dust§r and a chance of §6Thorium§r. It is recommended to overclock this recipe as much as you can, in order to maximize output of §6Thorium§r.%n%nA §3Centrifuge§r then turns §6Black Granite Dust§r into §6Biotite Dust§r and §6Silicon Dioxide Dust§r. The latter can be electrolysed, yielding §6Silicon§r and §6Oxygen§r.%n%n§6Biotite Dust §ris then finally put into a §3Electrolyser§r. This yeilds §6Potassium, Magnesium, Aluminium§r and §6Silicon Dust§r, as well as some §6Fluorine§r.
+nomifactory.quest.db.1014.title=§2黑花岗岩生产
+nomifactory.quest.db.1014.desc=§2黑色花岗岩加工是获得大量氟和钍的好方法。因此，建议尽快设置此过程。§r%n%n§6氟§r用于§6聚四氟乙烯(PTFE)§r，而§6钍§r用于§b核电工艺§3裂变反应堆§r。%n%n§3碎岩机§r首先用于获得可再生的§6黑花岗岩§r。这个配方运行在§dEV§r或更高。%n%n在此之后，§3研磨机§r应该将§6黑花岗岩§r粉碎成§6黑花岗岩粉§r和§6钍§r。建议尽可能地超频这个配方，以便最大化§6钍§r的输出。%n%n然后用离心机§r把§6黑花岗岩粉尘§r变成§6黑云母粉§r和§6二氧化硅粉§r。后者可以电解，得到§6硅§r和§6氧§r。%n%n§6黑云母粉§r最后放入§3电解器§r。这就产生了钾、镁、铝和硅粉，以及一些氟。
 
 # db 1015
-nomifactory.quest.db.1015.title=Recharge Your Prospector!
-nomifactory.quest.db.1015.desc=If you §osomehow§r run out of charge on your prospector. Simply submit it back in, and we'll give you a fresh one!%n%nAvailable once per hour.
+nomifactory.quest.db.1015.title=给你的勘矿仪充电！
+nomifactory.quest.db.1015.desc=如果你用光了勘矿仪的电，只需要提交它，我们会给你一个新的！%n%n一小时可用一次。
 
 # db 1016
 nomifactory.quest.db.1016.title=AE2 From Anywhere... Almost
 nomifactory.quest.db.1016.desc=§oNote: this quest accepts the Wireless Terminal, Wireless Crafting Terminal, Wireless Pattern Terminal or Wireless Fluid Terminal.§r%n%nAccessing §bApplied Energistics 2§r wirelessly saves a huge amount of time, and is highly recommended to set up.%n%nFirst, you will need a §6Security Terminal§r, and a §6Wireless Access Point§r. Connect both to your network. Like the §6Terminal§r, the Wireless Access Point is a §emicropart§r, so you must place it on a §6ME Cable§r.%n%nNext, you need a §6Wireless Terminal§r, or its varients. You can have as many Wireless Terminals or their varients on the system at the same time.%n%nFinally, put your §6Wireless Terminal§r into the §6Security Terminal§r. This will connect it to the system. %n%nYou can equip these as a bauble, and use a hotkey to open them. Search 'Applied Energistics' as a §ecategory§r to see and edit these hotkeys.%n%nYou can only go 16 blocks away. However, you can put §6Wireless Boosters§r into the §6Wireless Access Point§r to increase the range. A better, but more expensive solution, that allows access from anyhere, will be explained in the following quest, 'AE2 Everywhere!'.
 
 # db 1017
-nomifactory.quest.db.1017.title=AE2 Everywhere!
+nomifactory.quest.db.1017.title=AE2无处不在！
 nomifactory.quest.db.1017.desc=Accessing AE2 from anywhere is a bit more expensive and complex, but its well worth it.%n%nFirstly, you will need a §3Matter Condenser§r. Stick a §6ME Storage Component§r in, change the mode to 'Singularity', and stuff lots of items in. %n%nThe fastest way to make these is with §aFluid Lasers§r and a §6Aqueous Accumulator§r. %n%nSet the Aqueous Accumulator§r to output at a fluid laser, configure that fluid laser to `output', add a fluid laser on your matter condensor set to `input', and connect them together.%n%nIf you don't have that, you can surround it with §6Dense Cobblestone Generators§r.%n%nWhile you are after you have made the 2 §eSingularities§r you will need from the §3Matter Condenser§r, you need to setup a §aQuantum Ring§r. Build a 3 by 3 vertical ring with your §6Quantum Rings§r, leaving a hole in the middle. Finally, stick your §6Quantum Link Chamber§r in the hole, and connect it to your ME system. If you built it correctly, the textures of the rings should combine, leaving you with a §aMultiblock§r.%n%nWith your 2 Singularities, put it into an §3Inscriber§r or an §3Advanced Inscriber§r with a §6Advanced Card§r, resulting in a §6Quantum Link Card§r. Put that into the §6Quantum Link Chamber§r of the §aQuantum Ring§r, NOT the §6Wireless Terminal§r! %n%nYou should be good to go! You can now access AE2 anywhere, including in different dimensions!
 
 # db 1018
-nomifactory.quest.db.1018.title=ME Controller
+nomifactory.quest.db.1018.title=ME控制器
 nomifactory.quest.db.1018.desc=The §aME Controller§r acts as the `brain' and a bit of power storage for an §eME Network§r.%n%nNormally, this block acts as a source of §echannels§r, but those mechanics are disabled by default in §5Nomifactory§r.%n%nYou don't have to make this to operate a network when channels are disabled, but if you do, §eyour network will consume less power§r than if it did not have a Controller. Plus, they look kind of cool.%n%nMake sure you craft the AE2 one though, and not the one from §bChisel§r!%n%nFood for thought.
 
 # db 1019
-nomifactory.quest.db.1019.title=Automating Draconic Evolution Fusion
-nomifactory.quest.db.1019.desc=You're going to craft a LOT of stuff using §bDraconic Evolution §6Fusion§r. Therefore, a way to automate it is crucial.%n%nFirst, place an §6Item Laser Relay§r on each §aInjector§r, one on the §aCore§r, and one on an §aItem Interface§r. You'll notice that you will need 2 more item lasers than your amount of Injectors.%n%nConnect them all to the Item Interface with your §6Laser Wrench§r. Pretty much, just click on one of the lasers, and click on your Item Interface.%n%n§eOne important thing to note is that lasers appear to be \"placed\" on a particular block but they will interact with all adjacent (non-laser) blocks.§r %n%n§cWarning: be careful not to place a second laser on a laser network adjacent to the network's Item Interface. This will immediately crash your game because it creates a cycle in the network. You will have to either restore from backup or edit the level.dat directly to remove the block to play again.§r§r%n%nUse the §6Compass§r to change the Laser on the core's piority to 1. %n%nFinally, place the §aRedstone Clock§r next to the core. %n%nYou also need to setup some mechanism to take the finished item out of the core. A Phantomface works well here, as it will only output the output item, and not the input item.%n%nImport into the Item Interface. You can use the Extended Processing Pattern Terminal and an Interface with Blocking Mode to do this.
+nomifactory.quest.db.1019.title=龙之进化聚合自动化
+nomifactory.quest.db.1019.desc=你将使用§b龙之进化§6聚合§r来制作很多东西。因此，一种自动化的方法是至关重要的。%n%n首先，将一个§6物品激光中继器§r放在每个§注入器§r上，一个放在§a核心§r上，一个放在§a物品接口§r上。你会注意到你将需要比你的注入器数量多2个的物品激光。%n%n用§6激光扳手§r将它们全部连接到物品接口。只要点击其中一个激光，然后点击你的物品界面。%n%n需要注意的一件重要的事情是，激光似乎被“放置”在一个特定的块上，但它们会与所有相邻的(非激光)块相互作用。§r %n%n§c警告:小心不要将第二个激光器放置在靠近网络物品接口的激光网络上。这将立即导致游戏崩溃，因为这会在网络中造成循环。您必须从备份中恢复或直接编辑 level.dat 以删除方块以解决崩溃。§r§r%n%n使用§6指南针§r将核心上的激光的优先级改为 1。%n%n最后，将红石钟放置在核心旁边。您还需要设置一些机制来将完成的项目从核心中取出。幻灵接口在这里工作得很好，因为它只输出输出项，而不输出输入项。%n%n要导入到物品接口。您可以使用扩展处理模式终端和具有阻塞模式的接口来完成此操作。
 
 # db 1020
-nomifactory.quest.db.1020.title=Auto Chisel
-nomifactory.quest.db.1020.desc=§oNote: This quest accepts a Chisel of any type (Normal, Diamond or IChisel).%n%nThe §6Auto Chisel§r is a block added by... §bChisel§r, to automate all your chiseled block needs. Great for building big bases!%n%nFirst, you need a §eChisel§r, and the Auto Chisel. All three chisels will act the same in the Auto Chisel.%n%nPlace the chisel in the Auto Chisel. If you are confused of where to place it, it's the slot with a Chisel ghost image, or at the middle-top of the GUI.%n%nRight below the Chisel spot, in the middle-bottom of the GUI, place the block you %nwould like to chisel into.%n%nYou can also connect the Auto Chisel to power. This is optional, but will speed the process up by a lot.%n%nNow you can simply access the Auto Chisel by means of item transport, like §6Item Conduits§r or §6Item Pipes§r. %n%nPlease note that you can only extract or insert items at the top or bottom of the Auto Chisel.
+nomifactory.quest.db.1020.title=自动雕凿机
+nomifactory.quest.db.1020.desc=§o注:此任务接受任意类型的凿子(普通、钻石或IChisel)。%n%n§6自动凿子§r是一个方块，添加自……§bChisel§r，自动化所有你的凿块需求。非常适合建造大型基地!%n%n首先，你需要一个“凿子”和“自动凿子”。所有三个凿子在自动凿子中都是一样的。%n%n将凿子放入自动凿子中。如果你对放置它的位置感到困惑，那就是带有凿子形状的插槽，或者在GUI的中上方。%n%n在凿子位置的正下方，在GUI的中底部，放置您想要凿入的块。%n%n您也可以将自动凿子连接到电源。这是可选的，但会大大加快这个过程。现在你可以简单地通过物品运输的方式访问自动凿子，比如§6物品管道§r。请注意，您只能在自动凿子的顶部或底部输入和输出项目。
 
 # db 1021
-nomifactory.quest.db.1021.title=§2Tool Belt
-nomifactory.quest.db.1021.desc=§2A brand new and highly requested mod to CEu to help you manage your tools!§r%n%nThe §eTool Belt§r is a item, which can store your tools, and exchange them easily! Right now, it has 2 slots, but later, once you unlock §6Steel§r, you can upgrade it with §6Belt Pouches§r, all the way to 9 slots, with an §3Anvil§r and some §aXP§r!%n%nMake the Tool Belt, and you can use the keybind (default is `R'), while the belt is in your inventory or Bauble Slots §cand you are holding something, or the belt is not empty§r, to open its GUI. %n%nAlternatively, you can right click while holding the belt to open its inventory.%n%nThe Tool Belt is equipable as a §bBauble§r. Open your inventory and look for the Baubles button, and click it to reveal the additional bauble slots menu, and then put it in the Belt Slot. Or, just click in every bauble slot until it goes in, if you can't tell which bauble slot looks like a belt.%n%nThe Tool Belt can store anything with a stack size of 1, like swords, pickaxes, §bGregTech§r tools, and the §6Terminal§r. It has also been modified a bit, so it also allows any §bStorage Drawers§r key, and §cdoesn't allow any Thermal Satchel§r.%n%nNow, you can insert and extract from the belt! You can also use the Keybinds `§eCycle Tool Left§r' and `§eCycle Tool Right§r' whilst you are in the GUI.
+nomifactory.quest.db.1021.title=§2工具皮带
+nomifactory.quest.db.1021.desc=§2一个全新的模组来帮助您管理您的工具!§r%n%n§e工具皮带是一个物品，它可以存放您的工具，并方便地交换它们!现在，它有2个插槽，但后来，一旦你解锁§6钢§r，你可以用§6腰带袋§r升级它，一直到9个插槽，使用§3铁砧§r话费一些§aXP§r升级!%n%n制作工具带，你可以使用热键(默认为“R”)，当腰带在你的物品栏或饰品槽§c中，你拿着东西，或者腰带不是空的§r，打开它的GUI。%n%n或者，您可以在按住皮带的同时右键单击以打开其库存。%n%n工具带可配置为§b饰品栏§r。打开你的背包并寻找饰品栏按钮，并单击它以显示额外的饰品栏插槽菜单，然后将其放在腰带插槽中。或者，只要点击每个饰品槽，直到它进去，如果你不能辨别出哪个饰品槽看起来像腰带。工具带可以存储任何堆叠大小为1的东西，如剑，鹤嘴锄，工具和终端。它也被修改了一点，所以它也允许任何存储§b抽屉钥匙§r，但§c不允许任何热力背包§r。%n%n现在，您可以从皮带中插入和取出!你也可以使用热键“循环工具左”和“循环工具右”。
 
 # db 1022
-nomifactory.quest.db.1022.title=P2P Tunnels
+nomifactory.quest.db.1022.title=P2P通道
 nomifactory.quest.db.1022.desc=§oNote: This quest accepts both Memory Cards, and Advanced Memory Cards.§r%n%nA §6P2P Tunnel§r (§aPoint-to-Point Tunnel§r) is a powerful tool from §bApplied Energistics 2§r that can be used to send items, redstone, RF/EU or fluids from one location to another, using your ME system, without the need to use any disk storage space. §cTransporting RF/EU has a 5%% tax on the input energy.§r%n%nEach P2P tunnel system may have only §cone input§r but §eany number of outputs§r. There is no limit on how many P2P tunnels, or P2P tunnel systems, you can have on one network.%n%nBy default, a P2P tunnel is an §6ME tunnel§r, which transmits Applied Energistics channels and power. Since channels are disabled, you will most likely not be using the default tunnel. You can change the mode of your P2P tunnels by right clicking the tunnel with the respective item seen in §bJEI§r.%n%nTo configure your P2P tunnels, take a §6Memory Card§r. While holding the memory card, §ashift-right click§r the unconfigured tunnel, to set the frequency of the input, and save the frequency to the memory card. Once the first tunnel has been set up this way and the memory card is configured with the frequency, any subsequent tunnel you §aright-click§r with the memory card will be set as the output of the most recent frequency used.%n%nYou can also use memory cards to copy the configuration of ME blocks and tile-entities, such as §6Interfaces§r and §6Storage Buses§r. §aShift-right click§r a ME block to copy its configuration, and §aright-click§r to paste that configuration. Note that this doesn't copy upgrades applied to the block.%n%nYou can also §ashift-right click§r to empty the frequency, or the ME block configuration, set in the card.%n%nThis pack has §bBetter P2P§r, which adds the §6Advanced Memory Card§r. Using it, you can §aright-click§r on any ME device or cable that is attached to the current system. This will allow you to see all your current P2P connections without having to search for your tunnels.%n%nYou can also configure P2P tunnels using your Advanced Memory Card. While holding the card, §aright-click§r on a tunnel, it will be §aselected§r. Once a tunnel is selected, it will be highlighted in §agreen§r. You can also see your other connections with the options to select or bind; hitting select will reselect the tunnel.%n%nAn incorrect setup will show in §cred§r (Usually P2P device without input).%n%nThe §6Advanced Memory Card§r has 3 modes accessible in the §3GUI§r:%n%n§aBind Output§r:%nOnce the tunnel you would like to be set as an input has been §aselected§r, hitting §bbind§r on any other connection will turn the selected tunnel into an input tunnel, and any binded tunnels will be turned into output tunnels for the selected tunnel.%n%n§aBind Input§r:%nOnce the tunnel you would like to be set as an output has been §aselected§r, hitting §bbind§r on any other tunnel will set the tunnel as the input of the selected tunnel. This is useful for when you can’t find the output tunnel.%n %n§aCopy Output§r:%nOnce an output tunnel you want to copy has been §aselected§r, hitting §bbind§r on any other connection will copy the output frequency of the selected tunnel.%n
 
 # db 1023
-nomifactory.quest.db.1023.title=Neeve
+nomifactory.quest.db.1023.title=[复活节彩蛋]尼夫
 nomifactory.quest.db.1023.desc=Neeve, the master of Leveret. Summon him, and then bless him with your presents, and you shall gain access to his all-powerful rabbit.%n%nAll 3 tasks must be done to complete this secret quest!
 
 # db 1024
-nomifactory.quest.db.1024.title=Inventory Sorting
-nomifactory.quest.db.1024.desc=This pack has §bInventory Bogo Sorter§r, allowing for quick, customizable, and easy sorting of any inventory!%n%nThe default key is §aMiddle Click§r, §cbut that keybind is currently broken§r. Change the sort key to a keybind with no conflicts.%n%nYou can also configure how it is sorted, within the GUI. The default key is §aK§r, but you may have to change this.%n%nSimply hover over any slot in the inventory (§6Chests§r, §6Crates§r, your personal inventory, etc.), and click your sort keybind, and voila! A neat inventory.%n%nInventory Bogo Sorter by default also replaces stacks of items, like blocks, tools and food in your hotbar. So you can build a pillar to y-256 without opening your inventory
+nomifactory.quest.db.1024.title=背包整理
+nomifactory.quest.db.1024.desc=这个整合包包有§bBogo物品整理§r，允许快速，可定制，并轻松排序任何库存!%n%n默认排序键绑定是§a鼠标中键§r，§c但你可以随时更改热键。只需将鼠标悬停在库存中的任何插槽上(§6箱子§r，§6板条箱§r，你的物品栏等)，然后点击你的热键，瞧!一个整洁的库存。%n%n您还可以在GUI中配置它的排序方式。打开GUI的默认键是§aK§r。%n%n库存Bogo分类器，默认情况下，也会替换成堆的项目，如块，工具和食物在你的工具栏。对于工具，它甚至在它坏掉之前替换它，所以你可以修理它!现在，你可以建立一个到256格的柱子，甚至都不用打开你的背包，或改变工具栏槽位!
+
+# db 1025
+nomifactory.quest.db.1025.title=电动刷怪箱
+nomifactory.quest.db.1025.desc=§6电动刷怪箱§r是一个来自§bEnderIO§r的机器。%n%n它用于自动生成和捕获生物。和所有的末影接口机器一样，它需要一个电容，一个更好的电容可以增加范围，刷出率和捕获率。%n%n为了将§6电动刷怪箱§r设置为你想要的生物类型，你必须将它与§6损坏刷怪箱§r结合起来，设置为你指定的生物类型，在一个铁砧中。%n%n损坏刷怪箱的内容可以通过将§6损坏刷怪箱§r(任何生物类型)和§6灵魂瓶§r(指定生物)放入§灵魂绑定器§r中来设置的，并加上一些§aXP§r。损坏刷怪箱可以通过打破一个刷怪箱来获得。§eTIP:刷怪箱在失落之城到处都是!%n%n电动刷怪箱有两种模式:捕获和刷出。%n%n在捕获模式中，你将一个灵魂瓶插入机器中，灵魂瓶将捕获设定的生物的灵魂瓶。这不会产生任何怪物，因此对任何怪物都有效，即使是和平状态。%n%n在刷出模式中，刷出器会刷出它所设置的怪物，直到没有空间给它们，或者该区域有太多的怪物。%n%n现在你不需要制作灵魂瓶，只需要刷怪就可以了!它也是有用的在一些配方，如飞行控制单元，可以节省你成吨的XP。
+
+# db 1026
+nomifactory.quest.db.1026.title=§2编程电路
+nomifactory.quest.db.1026.desc=§6编程电路§r是用于配置机器的项。这控制了生产的内容和速度。%n%n简单地设置电路的值:%n1.在拿着电路时shift右击%n2.使用机器的§b电路槽§r中的上下箭头，该槽位于机器的§bGUI§r的§右下方§r。%n%n设置电路槽值时的一些提示：%n1.按住shift调整将增加/减少5，而不是1%n2.滚动可以快速增加/减少%n3.按住shift滚动增加/减少得更快!%n%n§2GTCEu新更新!幽灵电路!这意味着不需要放置变成电路就可以调整机器配方。这就产生了一个不占用电路的“幽灵电路”。这意味着你只需要使用一个电路!§r(除了含§6输入总线§r的§5多方块接口§r，其中幽灵电路尚未实现……）
