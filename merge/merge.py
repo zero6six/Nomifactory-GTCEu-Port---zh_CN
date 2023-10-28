@@ -15,7 +15,7 @@ def merge_lang_files(file1, file2):
     # 遍历file2的每一行
     for line2 in lang2:
         # 检查是否为目标键
-        if line2.startswith('nomifactory.quest.db.') and line2.split('=')[0].strip().endswith('.desc'):
+        if line2.startswith('nomifactory.quest.normal.db.') and line2.split('=')[0].strip().endswith('.desc'):
             # 获取键名
             key = line2.split('=')[0].strip()
 
