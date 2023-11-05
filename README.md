@@ -28,7 +28,3 @@
 ## mergy.py
 
 将任务书英文 lang 文件中所有 nomifactory.quest.db.xxx.desc 的值追加在中文 lang 文件内，输出到 output 文件夹实现双语任务但保证原语言文件纯净。
-
-# 汉化贡献
-
-任务书 lang 文件已转换为 json 文件发布在 [crowdin](https://crowdin.com/project/nomi-ceu-zhcn) 上，欢迎各位前去贡献。
