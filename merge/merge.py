@@ -1,5 +1,9 @@
 # 本脚本大部分由 ChatGPT 提供。第一个文件遍历一行，第二个文件遍历一遍，太烂了！But it works.
 
+import re
+
+pattern = r'nomifactory\.quest\.normal\.db\.\d+.desc='
+
 def merge_lang_files(file1, file2):
     # 读取file1
     with open(file1, 'r', encoding='utf-8') as f1:
@@ -13,11 +17,13 @@ def merge_lang_files(file1, file2):
     new_lang = []
 
     # 遍历file2的每一行
+    # lang1 为英文 lang2 为中文
     for line2 in lang2:
         # 检查是否为目标键
-        if line2.startswith('nomifactory.quest.normal.db.') and line2.split('=')[0].strip().endswith('.desc'):
+        match = re.match(pattern, line2)
+        if match:
             # 获取键名
-            key = line2.split('=')[0].strip()
+            key = match.group()[:-1]
 
             # 遍历file1的每一行
             for line1 in lang1:
@@ -26,8 +32,8 @@ def merge_lang_files(file1, file2):
                     # 获取键值
                     value1 = line1.split('=')[1].strip()
 
-                    # 在值之前添加%n%n%n
-                    new_value = '%n%n%n' + value1
+                    # 在值之前添加%n%n%n%n
+                    new_value = '%n%n%n%n' + value1
 
                     # 追加到file2的对应键的值之前
                     line2 = line2.rstrip('\n') + new_value + '\n'
@@ -39,7 +45,7 @@ def merge_lang_files(file1, file2):
         new_lang.append(line2)
 
     # 将新lang文件保存为新文件
-    new_file = 'merge//zh_cn.lang'
+    new_file = 'output//merge_zh_cn.lang'
     with open(new_file, 'w', encoding='utf-8') as f:
         f.writelines(new_lang)
 
@@ -48,6 +54,6 @@ def merge_lang_files(file1, file2):
 
 
 # 调用函数进行合并
-file1 = 'merge//en_us.lang'
+file1 = 'assets//questbook//lang//en_us.lang'
 file2 = 'merge//original_zh_cn.lang'
 merge_lang_files(file1, file2)

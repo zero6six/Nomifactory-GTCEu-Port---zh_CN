@@ -1,11 +1,11 @@
 # nomi-ceu-zh_cn
 
-基于[nomi-ceu](https://github.com/Nomi-CEu/Nomi-CEu) / [Nomifactory (GTCEu Port)](https://www.curseforge.com/minecraft/modpacks/nomi-ceu) 的深度汉化，汉化内容包括：
+基于[nomi-ceu](https://github.com/Nomi-CEu/Nomi-CEu) / [Nomifactory (GTCEu Port)](https://www.curseforge.com/minecraft/modpacks/nomi-ceu) 的个人自用机翻润色汉化，汉化内容包括：
 
 - 任务书
 - 部分mod物品
 
-该仓库 1.6 之前汉化来自 IAmNotGEM，因上游仓库打包方式不同且未接收 pull requests，故建立此复刻仓库。
+该仓库 1.6 之前汉化来自 IAmNotGEM，因上游仓库打包方式不同且未接收 pull request，故建立此复刻仓库。
 
 # 仓库内脚本文件
 
@@ -27,7 +27,7 @@
 
 ## mergy.py
 
-将任务书英文 lang 文件中所有 nomifactory.quest.db.xxx.desc 的值追加在中文 lang 文件内，实现双语任务但保证原语言文件纯净。
+将任务书英文 lang 文件中所有 nomifactory.quest.db.xxx.desc 的值追加在中文 lang 文件内，输出到 output 文件夹实现双语任务但保证原语言文件纯净。
 
 # 汉化贡献
 

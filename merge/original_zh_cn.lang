@@ -3465,65 +3465,65 @@ nomifactory.quest.normal.db.1028.title=§2组装线数据
 nomifactory.quest.normal.db.1028.desc=§2研究已返回GregTech 1.12!§3装配线§r需要提供关于如何制作物品的§e数据§r，然后才能制作它们。关于如何制作每个项目的数据存储在§6数据棒§r中，并由§a数据仓§r读取。这些数据需要制作§6LuV组件§r，§3核反应堆§r，以及§3龙之研究§r的一些部件。%n%n首先，制作一个§3扫描仪§r和一些§6数据棒§r。最初的扫描仪配方运行在§6HV§r，但§1IV§r是需要相对较快，所以不妨做一个。%n%n在您想要制作的项目上按§bR§r，并导航到§bScanner选项卡§r。这将告诉您需要扫描哪个项目以生成新项目的数据。例如，§dLuV§6电动马达§r需要扫描§1IV§r§6电动马达§r。%n%n将§6数据棒§r与要扫描的项目放在§3扫描仪§r中。该项目将被§c消耗§r，其数据将写入§6数据棒§r。每个§6数据物品§r只能保存一个§c配方§r。%n%n最后，将§6数据棒§r放入§3装配线§r的§a数据仓§r中。它现在可以制作那个物品了。稍后，您将需要更高级的§6数据球§r和§6数据模块§r来存储数据，以及§3数据库§r来读取数据。%n%n如果需要创建重复的数据项，可以使用扫描仪将数据复制到相同类型的空白数据项。
 
 #db 1029 of mode normal
-nomifactory.quest.normal.db.1029.title=§2Power Substation
-nomifactory.quest.normal.db.1029.desc=The §3Power Substation§r is GregTech's native mass power storage solution. At §cZPM§r tier and above, it can rival the §6Tier 7 Energy Core§r from Draconic Evolution.%n%nThe structure can accept up to 18 layers of 3x3 §aLapotronic Capacitor§r blocks. GT batteries can hold §d6x§r the EU their item counterparts can hold when crafted into a §aLapotronic Capacitor§r. The structure need not be made of all of the same tier blocks, but it must be full, so fill any empty space with §aEmpty Capacitor Blocks§r.%n%nInsert power through §6Energy Hatches§r and extract from §6Dynamo Hatches§r, each of any tier. The Power Substation can accept special §664A Substation Hatches§r, as well as §aLaser Hatches§r.%n%nThe Power Substation will §cpassively lose 1%%§r of its total capacity every 24 (real-life) hours, up to 100,000 EU/t per capacitor block. This is equivalent to §d5.8 billionths§r of its total capacity per tick, so this should not be a concern under regular operation.
+nomifactory.quest.normal.db.1029.title=§2变电站
+nomifactory.quest.normal.db.1029.desc=§3变电站§r是GregTech的本地大规模电力存储解决方案。在§cZPM§r级及以上，它可以与龙进化的§6Tier 7能量核心§r相媲美。%n%n该结构可接受多达18层3x3§a兰波顿电容§r块。当制作成兰波顿电容库时，GT电池可以容纳§d6倍§r对应物品所能容纳的最大电能。该结构不必由所有相同等级的方块组成，但它必须被填满，因此用§a空电容器块§r填充任何空白空间。%n%n通过§6能量舱§r输入能量，并从§6发电舱§r中提取能量，每层均可。该变电站可以接受特殊的§664A变电站舱口§r，以及§a激光舱口§r。%n%n变电所每24小时(现实)将§c被动损失总容量的1%§r，每个电容器块最高100,000 EU/t。这相当于每tick损失总容量的§d58亿分之一§r，所以在正常运行下，这应该不是一个问题。
 
 #db 1030 of mode normal
-nomifactory.quest.normal.db.1030.title=§2Right Hand of Chronos
-nomifactory.quest.normal.db.1030.desc=§3World Accelerators§r accelerate the ticks of any non-GregTech machine adjacent to them. This is handy for §dDraconic Evolution Fusion§r, which is a slow process otherwise.%n%nThe §6HV§r WA accelerates by 8x, the §5EV§r WA accelerates by 16x, and the §1IV§r WA accelerates by 32x. They require an input of 8A of their voltage tier. Be sure to right-click the WA once with a §aScrewdriver§r to set it to §eTile Entity Mode§r, otherwise it will accelerate random ticks in a radius around it instead.%n%nMake them in an §3Assembly Line§r with some very advanced components.
+nomifactory.quest.normal.db.1030.title=§2柯罗诺斯的右手
+nomifactory.quest.normal.db.1030.desc=§3世界加速器§r加速与它们相邻的任何非gregtech机器的tick。这对§d龙之进化核反应§r是方便的，因为它是一个缓慢的过程。%n%n§6HV§r世界加速器加速了8倍，§5EV§r世界加速器加速了16倍，§1IV§r世界加速器加速了32倍。它们需要对应电压的8A输入。一定要用一个§a螺丝刀§r右键单击世界加速器，将其设置为§e方块实体模式§r，否则它会在它周围的半径内加速随机刻。%n%n用一些非常先进的部件在§3装配线§r上制造它们。
 
 #db 1031 of mode normal
-nomifactory.quest.normal.db.1031.title=§2ME Multiblock Buses
-nomifactory.quest.normal.db.1031.desc=Combining an §aI/O Bus§r and an §aME Interface§r into a single block, these can be used in place of §aInput§r and §aOutput Buses§r in GregTech multiblocks to connect them directly to your AE2 network.%n%nNote that only the Interface-textured side will connect to an ME network.
+nomifactory.quest.normal.db.1031.title=§2ME多方块总线
+nomifactory.quest.normal.db.1031.desc=将§aI/O总线§r和§aME接口§r组合成一个块，这些可以用来代替GregTech多方块中的§a输入§r和§a输出总线§r，将它们直接连接到您的AE2网络。%n%n请注意，只有接口材质的一边会连接到ME网络。
 
 #db 1032 of mode normal
-nomifactory.quest.normal.db.1032.title=§2ME Multiblock Hatches
-nomifactory.quest.normal.db.1032.desc=Combining an §aI/O Hatch§r and an §aME Fluid Interface§r into a single block, these can be used in place of §aInput§r and §aOutput Hatches§r in GregTech multiblocks to connect them directly to your AE2 network.%n%nNote that only the Interface-textured side will connect to an ME network.
+nomifactory.quest.normal.db.1032.title=§2ME多方块仓
+nomifactory.quest.normal.db.1032.desc=将§aI/O总线§r和§aME接口§r组合成一个块，这些可以用来代替GregTech多方块中的§a输入§r和§a输出舱§r，将它们直接连接到您的AE2网络。%n%n请注意，只有接口材质的一边会连接到ME网络。
 
 #db 1033 of mode normal
-nomifactory.quest.normal.db.1033.title=§2Data Bank
-nomifactory.quest.normal.db.1033.desc=The §3Data Bank§r acts as a mass storage for §6Data Sticks§r and §6Data Orbs§r. It is also required for reading §6Data Modules§r.%n%nConnect an §3Optical Data Transmission Hatch§r on the Data Bank to an §3Optical Data Reception Hatch§r (replacing the §3Data Access Hatch§r) on your §3Assembly Line§r using §aOptical Cables§r, and it will be able to read the data of all data items within the Data Bank.%n%nYou can connect multiple §3Assembly Lines§r to a single Data Bank, but each one will need its own §3Transmission Hatch§r on the Data Bank.%n%n§3Data Access Hatches§r and §3Optical Hatches§r can replace any of the §aComputer Casings§r in the structure, but it must have a minimum of §e3§r §aComputer Casings§r. Each §3Data Access Hatch§r and §3Optical Hatch§r within the structure will consume §d1,920 EU/t§r regardless of their usage.%n%nYou will also need a §aMaintenance§r and §aEnergy Hatch§r, which can replace the §aHigh Power Casings§r in front.%n%nAlthough this is not strictly required until you need to make and read §6Data Modules§r, your single §3Data Access Hatch§r on your §3Assembly Line§r will not have space to hold all the items you need to craft otherwise.%n%nIf your Assembly Line setups grow enough, you may need to §echain§r Data Banks. Connect the §3Transmission Hatch§r on the Data Bank with data to the §3Reception Hatch§r of a second Data Bank. The §ereceiving§r Data Bank will be able to read all the data within the transmitting Data Bank, and can send that data to more Assembly Lines or more Data Banks. However, this comes at a greatly increased energy cost for the transmitting Data Bank.
+nomifactory.quest.normal.db.1033.title=§2数据库
+nomifactory.quest.normal.db.1033.desc=§3数据库§r充当§6数据棒§r和§6数据球§r的大容量存储。它也是读取§6数据模块§r必需的。%n%n使用§a光缆§r将数据库上的§3光数据传输口§r连接到§3组装线§r上的§3光数据接收口§r(取代§3数据访问口§r)，它将能够读取数据库内所有数据项的数据。%n%n您可以将多个§3装配线§r连接到单个数据库，但每个装配线都需要在数据库上拥有自己的§3传输舱口§r。%n%n§3数据访问口§r和§3光口§r可以替换结构中的任何§a计算机外壳§r，但它必须至少有§e3§r个计算机外壳§r。结构内的每个§3数据访问口§r和§3光口§r无论其使用情况如何，都将消耗§d1,920 EU/t§r。%n%n您还需要一个§a维护仓§r和§a能源舱§r，它们可以取代前面的§a高功率外壳§r。%n%n虽然这不是强制要求，直到你需要制作和读取§6数据模块§r，你的§3装配线§r上的单个§3数据访问舱口§r将没有空间容纳你需要制作的所有物品。%n%n如果您的装配线设置增长足够，您可能需要“连锁”数据库。将带有数据的数据库上的§3传输舱口§r连接到第二个数据库的§3接收舱口§r。§e接收§r数据库将能够读取发送数据库中的所有数据，并可以将该数据发送到更多的装配线或更多的数据库。然而，这大大增加了传输数据库的能量消耗。
 
 #db 1034 of mode normal
-nomifactory.quest.normal.db.1034.title=§2Research Station
-nomifactory.quest.normal.db.1034.desc=The §3Research Station§r is an advanced Scanner which consumes §dComputation Work§r provided by connected §3High Performance Computing Arrays§r to research §cZPM§r and higher items.%n%nThe function of this multiblock is similar to the Scanner. Place the §6Data Orb§r or §6Data Module§r into the §3Object Holder§r alongside the item to be scanned. After sufficient §dCWU§r has been drawn, the item will be §cconsumed§r and the corresponding data will be written to the data item. Ensure your §3HPCA§r is supplying sufficient §dCWU/t§r - check the scan recipe in §eJEI§r for how much is required.%n%n§3Energy§r, §3Maintenance§r, and §3Computation Hatches§r can only replace the 9 §aComputer Casings§r between the §aComputer Heat Vents§r at the back of the structure. The §3Object Holder§r §cmust face§r the §3Research Station§r controller block.%n%nThe Research Station can be accelerated with excess §dCWU/t§r, but it §cdoes not overclock§r with extra §dEU/t§r. Initial recipes run on §dLuV§r power, but §cZPM§r will be required soon, and higher tiers of energy will be required for more advanced scans. As most Research scans take a long time, you should start this process early.
+nomifactory.quest.normal.db.1034.title=§2研究站
+nomifactory.quest.normal.db.1034.desc=§3研究站§r是一种先进的扫描仪，它消耗由连接的§3高性能计算阵列§r提供的§d算力(CWU)§r来研究§cZPM§r和更高的项目。%n%n这个多方块的功能类似于扫描器。将§6数据球§r或§6数据模块§r放入§3对象支托§r中，与待扫描的项目一起。在绘制了足够的§dCWU§r之后，项目将被§c消耗§r，并将相应的数据写入物品。确保您的§3高性能计算阵列§r提供足够的§dCWU/t§r -检查§eJEI§r中的扫描配方，了解所需的量。%n%n§3能源§r、§3维护§r和§3计算舱口§r只能替换位于结构后部的九个在§a计算机散热口§r之间的9个§a计算机外壳§r。§3对象支托§r§c必须面对§3研究站§r控制器块。%n%n当超过需求的§dCWU/t§r时，研究站可以加速，但当超过需求的§dEU/t§r时，研究站不能超频。最初的配方运行在§dLuV§r电源上，但§cZPM§r电源将很快需要，更高层次的能量将需要更高级的扫描。由于大多数研究扫描需要很长时间，你应该尽早开始这个过程。
 
 #db 1035 of mode normal
-nomifactory.quest.normal.db.1035.title=§2High Performance Computing Array
-nomifactory.quest.normal.db.1035.desc=The §3High Performance Computing Array (HPCA)§r is a computer which provides §dComputation Work§r to be used in the §3Research Station§r. The amount of §dComputation Work§r it provides depends on the type of HPCA parts within it. It also needs to receive adequate §dCooling§r provided by Coolers within its structure.%n%nConnect the §3Computation Data Transmission Hatch§r to the §3Reception Hatch§r on your §3Research Station§r to transfer the §dCWU/t§r produced to it.%n%nThe HPCA accepts almost any combination of §3Computation Components§r, §3Coolers§r, §3Bridges§r and §3Empty Components§r within the 3x3 area behind the §aComputer Heat Vents§r. This quest will build a §d16 CWU/t§r HPCA, enough for scanning the §3Fusion Reactor Mk2§r, §6UV Circuits§r, and all §6ZPM Components§r. You can get away with less at first, but you will eventually need to upgrade to this computing power. Refer to §eJEI§r for some other possible setups.%n%nThe §dCWU/t§r of the HPCA is determined by the sum of the outputs of the §3HPCA Computation Components§r within it. Regular §3Computation Components§r produce §d4 CWU/t§r each, and require §d2 Cooling§r each. §3Advanced Computation Components§r, which you do not have access to yet, produce §d16 CWU/t§r each and require §d4 Cooling§r each.%n%n§dCooling§r is provided by §3Cooler§r blocks within the structure. §3Passive Coolers§r provide §d1 Cooling§r each for free, whereas §3Active Coolers§r provide §d2 Cooling§r each with a steady flow of §9Dielectric PCB Coolant§r, provided through an §3Input Hatch§r. If the Cooling within the HPCA is insufficient, the components may be §cdamaged§r from overheating. The physical position of the components within the HPCA does not matter.%n%nA §3Bridge Component§r may be installed, allowing the HPCA to connect to §3Network Switches§r.%n%nThe energy consumption of the HPCA is determined by the sum of its parts. 'Max Energy' refers to the power draw while the HPCA is computing, while 'Upkeep Energy' refers to the power draw when the HPCA is idling.
+nomifactory.quest.normal.db.1035.title=§2高性能计算阵列
+nomifactory.quest.normal.db.1035.desc=§3高性能计算阵列(high Performance Computing Array, HPCA)§r是一种为§3研究站§r提供§d算力(CWU)§r的计算机。它提供的§d算力(CWU)§r的数量取决于其中的HPCA部件的类型。它还需要在其结构内的散热器提供足够的§d散热§r。%n%n将§3计算数据传输舱口§r连接到§3研究站§r的§3接收舱口§r，以将产生的§dCWU/t§r传输到它。%n%nHPCA几乎可以在计算机散热口后面的3x3区域内接受§3计算组件§r、§3冷却器§r、§3桥接器§r和§3空组件§r的任何组合。这个任务将建立一个§d16 CWU/t§r HPCA，足以扫描§3Mk2核反应堆§r，§6UV电路板§r，和所有的§6ZPM部件§r。您一开始可以少用一些，但最终需要升级到这种算力。参考§eJEI§r了解其他一些可能的设置。%n%nHPCA的§dCWU/t§r由其中的§3HPCA计算组件§r的输出之和决定。常规的§3计算组件§r每个产生§d4个CWU/t§r，每个需要§d2散热§r。§3高级计算组件§r，你还没有方法制作的，每个产生§d16 CWU/t§r，并需要§d4散热§r。%n%n§d散热§r由结构内的§3散热器§r块提供。§3散热组件§r免费提供§d1散热§r，而§3主动冷却组件§r通过由§3输入舱口§r提供的§9电介质多氯联苯冷却液§r稳定流动提供§d2散热§r。如果HPCA内部的冷却不足，部件可能会因过热而§c损坏§r。部件在HPCA内的物理位置并不重要。%n%n可以安装§3桥接组件§r，使HPCA连接到§3网络交换机§r。%n%nHPCA的能量消耗由其各部分的总和决定。“最大能量”是指HPCA计算时的功耗，而“维护能量”是指HPCA空转时的功耗。
 
 #db 1036 of mode normal
-nomifactory.quest.normal.db.1036.title=§2Optical Fiber Cables
-nomifactory.quest.normal.db.1036.desc=§2Optical Fiber Cables§r are used to transfer §eResearch Data§r§r between §3Data Banks§r and §3Assembly Lines§r, or §eComputation Data§r between §3High Performance Computation Arrays§r, §3Network Switches§r, and §3Research Stations§r.%n%nNote that Optical connections are limited to one §aTransmission Hatch§r to one §aReception Hatch§r.
+nomifactory.quest.normal.db.1036.title=§2光缆
+nomifactory.quest.normal.db.1036.desc=§2光缆§r用于在§3数据库§r和§3装配线§r之间传输§e研究数据§r，或在§3高性能计算阵列§r、§3网络交换机§r和§3研究站§r之间传输§e算力§r。%n%n请注意，光连接仅限于一个§a传输口§r到一个§a接收口§r。
 
 #db 1037 of mode normal
-nomifactory.quest.normal.db.1037.title=§2Network Switch
-nomifactory.quest.normal.db.1037.desc=The §3Network Switch§r combines any number of §3Computation Data Reception Hatches§r into any number of §3Computation Data Transmission Hatches§r. This will be required when the §dCWU/t§r requirements of your §3Research Station§r exceed what a single §3HPCA§r can provide.%n%nConnect the §3Computation Data Reception Hatches§r§r to your §3HPCAs§r with §3Bridge Components§r within them, and connect a single §3Computation Data Transmission Hatch§r to your §3Research Station§r, and it will receive the sum of §dCWU/t§r from all of your HPCAs!%n%nNow, all §3Assembly Line§r recipes are available to you, given you have the §dCWU/t§r to research them. The most computationally demanding scan, for the §6Ultimate Battery§r, requires §d144 CWU/t§r.%n%nThe Network Switch consumes §d7,680 EU/t§r per §3Computation Hatch§r in its structure.
+nomifactory.quest.normal.db.1037.title=§2网络交换机
+nomifactory.quest.normal.db.1037.desc=§3网络交换机§r将任意数量的§3计算数据接收舱口§r转换成任意数量的§3计算数据传输舱口§r。当你们的§3研究站§r的§dCWU/t§r要求超过单个§3HPCA§r所能提供的要求时，就需要这样做。%n%n将§3计算数据接收舱口§r连接到您的§3HPCAs§r，其中包含§3桥接组件§r，并将单个§3计算数据传输舱口§r连接到您的§3研究站§r，它将从所有HPCA接收§dCWU/t§r的总和！%n%n现在，你可以使用所有的§3组装线§r配方，只要你有§dCWU/t§r来研究它们。对于§6终极电池§r来说，最需要计算量的扫描需要§d144 CWU/t§r。%n%n网络交换机在其结构中的每3个计算舱消耗§d 7,680 EU/t§r。
 
 #db 1038 of mode normal
-nomifactory.quest.normal.db.1038.title=§2Advanced HPCA
-nomifactory.quest.normal.db.1038.desc=Once you scan and make make your first §6UV Circuits§r and §6ZPM Field Generators§r, you can upgrade your §3HPCA Computing Components§r to §3Advanced Components§r. These produce §d16 CWU/t§r each and require §d4 Cooling§r each.%n%nWith them, you can upgrade a single HPCA to produce §d32 CWU/t§r total - enough for basic §6UV components§r, and the §3Network Switch§r, which will allow you to go higher.
+nomifactory.quest.normal.db.1038.title=§2高级HPCA
+nomifactory.quest.normal.db.1038.desc=一旦你扫描并制作你的第一个§6UV电路§r和§6ZPM力场发生器§r，你可以升级你的§3HPCA计算组件§r到§3高级计算组件§r。这些产生§d16 CWU/t§r每个，需要§d4散热§r每个。%n%n有了它们，您可以升级单个HPCA以产生§d32 CWU/t§r总计——足以满足基本的§6UV组件§r，以及§3网络交换机§r将允许您取得更高算力。
 
 #db 1039 of mode normal
-nomifactory.quest.normal.db.1039.title=MV Chemical Bath
-nomifactory.quest.normal.db.1039.desc=The §3Chemical Bath§r is mainly used as an ore processing machine to extract byproducts from specific §6Crushed Ores§r with either §9Sodium Persulfate§r or §9Mercury§r. It can also dye items, as well as perform some specialised processes.%n%nFor now, you will need it to cool down §6Hot Kanthal Ingots§r and §6Hot Silicon Ingots§r with §9Water§r. §9Distilled Water§r can accelerate this process if you have it.
+nomifactory.quest.normal.db.1039.title=MV化学浸洗器
+nomifactory.quest.normal.db.1039.desc=§3化学浸洗器§r主要用作矿石加工机器，用§9过硫酸钠§r或§9汞§r从特定的§6破碎矿石§r中提取副产品。它还可以给物品染色，以及执行一些专门的工序。%n%n现在，你将需要它用§9水§r冷却§6热坎塔尔合金锭§r和§6热硅锭§r。如果你有蒸馏水，蒸馏水可以加速这个过程。
 
 #db 1040 of mode normal
-nomifactory.quest.normal.db.1040.title=§2Silicon Ingots
-nomifactory.quest.normal.db.1040.desc=§6Silicon§r in its solid form is required to produce §6Transistors§r, which are required for §6HV Circuits§r. Notice that the recipe for a §6Hot Silicon Ingot§r calls for §d2,273 K§r. This is why we built §6Kanthal Coils§r earlier - §6Cupronickel Coils§r can't reach that temperature.%n%nDirectly heating §6Silicon Dust§r you get from Electrolyzing various materials is an option, but a slow and energy-hungry one. The better method is to obtain §6Silicon Dioxide Dust§r by repurposing the §6Glass§r you're producing for PPC, and heat it with §6Carbon Dust§r§r. This produces §6Silicon Ingots§r §dover 5x§r faster, with a side of §eCarbon Monoxide§r for use in various chemical processes.%n%nDon't forget that what comes out of the §3EBF§r is a §6Hot Ingot§r - cool it in a §6Chemical Bath§r first before using. Later, you will build a §3Vacuum Freezer§r which can do it better.
+nomifactory.quest.normal.db.1040.title=§2硅锭
+nomifactory.quest.normal.db.1040.desc=需要§6硅§r的固体形式生产§6晶体管§r，这是§6HV电路§r所需要的。请注意，§6热硅锭§r的配方需要§d2273 K§r。这就是为什么我们之前建立了§6坎塔尔合金线圈§r——§6白铜线圈§r不能达到那个温度。%n%n直接加热从电解各种材料中获得的硅粉是一种选择，但速度慢且耗能大。更好的方法是通过重新利用为脉冲聚合粘土生产的§6玻璃§r来获得§6二氧化硅粉§r，并用§6碳粉§r加热它。这种生产§6硅锭§r的方法速度超过前者§d5倍多§r，副产物§e一氧化碳§r可以用于各种化学配方。%n%n不要忘记，从§3	电力高炉§r中出来的是§6热锭§r——在使用前先在§6化学浸洗器§r中冷却。之后，你将建立一个§3真空冷冻机§r，可以做得更好。
 
 #db 1041 of mode normal
-nomifactory.quest.normal.db.1041.title=§2Active Transformer
-nomifactory.quest.normal.db.1041.desc=The §3Active Transformer§r is a device which can convert any number and type of §dGT Energy Inputs§r into any number and type of §dGT Energy Outputs§r. That includes §664A Substation Hatches§r, as well as §aLaser Hatches§r - refer to the nearby quests for more details on those.%n%nWith §dRF Conduits§r and §3Energy Converters§r in this pack, this probably has limited use, but you can build it if you want.
+nomifactory.quest.normal.db.1041.title=§2有源变压器
+nomifactory.quest.normal.db.1041.desc=§3有源变压器§r是一种可以将任意数量和类型的§dGT能量输入§r转换为任意数量和类型的§dGT能量输出§r的装置。这包括§664A变电站舱口§r，以及§a激光舱口§r——参考附近的任务了解更多细节。%n%n虽然因为这个整合包里有§dRF导管§r和§3能量转换器§r，它可能用途有限，但你可以建造它，如果你想要的话。
 
 #db 1042 of mode normal
-nomifactory.quest.normal.db.1042.title=Solar Panel VIII
-nomifactory.quest.normal.db.1042.desc=The 8th tier of §6Solar Panel§r, this is required for making higher tier Solar Panels for the endgame. It's also a decent power source.
+nomifactory.quest.normal.db.1042.title=太阳能板VIII
+nomifactory.quest.normal.db.1042.desc=八级§6太阳能板§r，这是制作更高层的太阳能板所必需的。这也是一个不错的电源。
 
 #db 1043 of mode normal
-nomifactory.quest.normal.db.1043.title=§2Laser Network
-nomifactory.quest.normal.db.1043.desc=§aLasers§r are §dGregTech§r's native solution to high-volume power transfer. Each power tier starting at §1IV§r has §aLaser Hatches§r capable of transferring §d256A§r, §d1,024A§r and §d4,096A§r of their voltage's power!%n%nEnergy in the Laser Network flows from §aLaser Sources§r through §6Laser Transmitting Cables§r to §aLaser Targets§r. All these must be in a straight line - lasers don't bend, after all. Similarly to other power-related blocks, the tier of the §aLaser Target§r must not be lower than the tier of the §aLaser Source§r.%n%nYou can choose to use these when moving power between §3Active Transformers§r and your §3Power Substation§r.
+nomifactory.quest.normal.db.1043.title=§2激光网络
+nomifactory.quest.normal.db.1043.desc=§a激光§r是§dgregtech§r针对大功率能量传输的原生解决方案。从§1IV§r开始的每个电压层都有§a激光舱口§r，能够传输§d256A§r，§d1024a§r和§d4096a§r的电压功率！%n%n激光网络中的能量从§a激光源仓§r通过§6激光传导线缆§r流向§a激光靶仓§r。所有这些都必须在一条直线上——毕竟激光不会弯曲。与其他与功率相关的块类似，§a激光靶仓§r的电压等级不得低于§a激光源仓§r。%n%n当在§3有源变压器§r和§3变电站§r之间移动电力时，您可以选择使用这些。
 
 #db 1044 of mode normal
-nomifactory.quest.normal.db.1044.title=Storage Crates
-nomifactory.quest.normal.db.1044.desc=Don't let the name deceive you. §6Small Storage Crates§r can be crafted with just wood and can hold 117 stacks of items in a single block.%n%nThese will be your storage solution until you get your §dME System§r up and running.%n%nYou can move them with the §6Storage Crate Keeper§r.
+nomifactory.quest.normal.db.1044.title=存储板条箱
+nomifactory.quest.normal.db.1044.desc=不要被这个名字欺骗了。§6小型板条箱§r可以用木头制作，可以在单个方块中容纳117堆物品。%n%n这些将是您的存储解决方案，直到您启动并运行您的§dME系统§r。%n%n您可以使用§6板条箱守护徽章§r移动它们。
