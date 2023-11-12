@@ -4,13 +4,11 @@
 
 - 普通版任务书
 - 部分 mod 物品
-- GTCEu 最新翻译
+- GTCEu 最新翻译（来自 https://paratranz.cn/projects/7760，依照CC BY-NC 4.0取得授权。）
 
 该仓库任务书 1.6 之前汉化来自 IAmNotGEM，因上游仓库打包方式不同且未接收 pull requests，故建立此复刻仓库。
 
 融合了 nomi-ceu 仓库最新发布的语言包。
-
-GTCEu 最新翻译由 ParaTranz 上的 [GregTechCEu](https://paratranz.cn/projects/7760) 项目提供。
 
 # 仓库内脚本文件
 

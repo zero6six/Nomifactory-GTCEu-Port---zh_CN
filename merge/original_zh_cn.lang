@@ -2462,7 +2462,7 @@ nomifactory.quest.normal.db.778.desc=现在你已经有了§6觉醒核心§r，�
 
 #db 779 of mode normal
 nomifactory.quest.normal.db.779.title=无限圆石
-nomifactory.quest.normal.db.779.desc=现在你已经获得了§6钢§r，你通往无限的圆石之路正在等待着你！§6造石机§r不断地将圆石输出到相邻的容器中，并且可以通过升级使其生产速度更快。%n%n圆石可以被加工成许多有用的材料:%n%n§6石头粉§r对大量有用的材料都很有用。%n%n§6沙砾§r对制作导管和§9混凝土粉末§r很有用。%n%n§6沙子§r可用于§6玻璃§r，它可以变成§6石英矿砂§r或用于§6氧气§r制造的§6二氧化硅粉§r。%n%n最后，§6粘土§r可以变成§6粘土粉§r，这既是§6铝§r的可靠来源，对于自动化§b深度怪物学习§r也非常重要。%n%n尽快建立一个§e圆石工厂§r，这样你就可以囤积所有这些有用的材料。
+nomifactory.quest.normal.db.779.desc=现在你已经获得了§6钢§r，你通往无限的圆石之路正在等待着你！§6造石机§r不断地将圆石输出到相邻的容器中，并且可以通过升级使其生产速度更快。%n%n圆石可以被加工成许多有用的材料:%n%n§6石头粉§r对大量有用的材料都很有用。%n%n§6沙砾§r对制作导管和§9混凝土粉末§r很有用。%n%n§6沙子§r可用于§6玻璃§r，它可以变成§6石英砂§r或用于§6氧气§r制造的§6二氧化硅粉§r。%n%n最后，§6粘土§r可以变成§6粘土粉§r，这既是§6铝§r的可靠来源，对于自动化§b深度怪物学习§r也非常重要。%n%n尽快建立一个§e圆石工厂§r，这样你就可以囤积所有这些有用的材料。
 
 #db 780 of mode normal
 nomifactory.quest.normal.db.780.title=§2前往地狱
@@ -3042,115 +3042,115 @@ nomifactory.quest.normal.db.922.desc=§2添加这个标签是为了帮助你可�
 
 #db 923 of mode normal
 nomifactory.quest.normal.db.923.title=脉动聚合粘土
-nomifactory.quest.normal.db.923.desc=这个任务通过复选框或在完成共振络合物后完成。%n%n此步骤要求合金炉在电压§lLV§r§n或更高的电压下工作。§r%n%n最后一步。结合§6脉动尘埃§r和§6共振络合物§r制成§6脉冲聚合粘土§r。%n%n请注意，制造§6共振络合物§r的§3§3化学反应器§r将和同一级别的§3合金冶炼厂§r速度相同，而制造§6脉冲聚合粘土§r的§bMV§3合金炉§r足以支持支持 10.03 台§3模拟室§r，每高一级，它支持的§3模拟室§r的数量增加一倍。
+nomifactory.quest.normal.db.923.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n此步骤要求合金炉在电压§lLV§r§n或更高的电压下工作。§r%n%n最后一步。结合§6脉动尘埃§r和§6谐振末影络合物§r制成§6脉冲聚合粘土§r。%n%n请注意，制造§6谐振末影络合物§r的§3§3化学反应器§r将和同一级别的§3合金炉§r速度相同，而制造§6脉冲聚合粘土§r的§bMV§3合金炉§r足以支持支持 10.03 台§3模拟室§r，每高一级，它支持的§3模拟室§r的数量增加一倍。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 924 of mode normal
 nomifactory.quest.normal.db.924.title=粘土
-nomifactory.quest.normal.db.924.desc=
+nomifactory.quest.normal.db.924.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n§o这一步需要一个化学反应器，电压§lLV§r§o或更高。把你的§6尘土§r和一些§6水§r混合成§6粘土§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 925 of mode normal
 nomifactory.quest.normal.db.925.title=谐振末影络合物
-nomifactory.quest.normal.db.925.desc=
+nomifactory.quest.normal.db.925.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n这一步需要一个化学反应器，电压为§lMV§r§o或更高。将你的§6石英§r和§6谐振末影§r组合成§6谐振末影络合物§r。一个§3电解机§r制造§6石英§r支持一个同一电压的§3化学反应器§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 926 of mode normal
 nomifactory.quest.normal.db.926.title=尘土
-nomifactory.quest.normal.db.926.desc=
+nomifactory.quest.normal.db.926.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的锻造锤。把你的§6沙子§r分解成§6尘土§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 927 of mode normal
 nomifactory.quest.normal.db.927.title=沙子
-nomifactory.quest.normal.db.927.desc=
+nomifactory.quest.normal.db.927.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的锻造锤。%n%n把你的§6砂砾§r分解成§6傻子§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 928 of mode normal
 nomifactory.quest.normal.db.928.title=沙砾
-nomifactory.quest.normal.db.928.desc=
+nomifactory.quest.normal.db.928.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的锻造锤。%n%n把你的§6圆石§r分解成§6砂砾§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 929 of mode normal
 nomifactory.quest.normal.db.929.title=水
-nomifactory.quest.normal.db.929.desc=
+nomifactory.quest.normal.db.929.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n是的，这儿有一个关于§9水§r的任务。%n%n§9水§r可以通过多种方式获得，但最值得注意的是:§b核电工艺§6无限水源§r,很慢,但是便宜；§b末影接口§6蓄水库§r,贵一些,但是方式更快；§b格雷§6无限水覆盖板§r,更贵,但是是一个覆盖板,因此节省空间,并且产水速率比§b末影接口§6蓄水库§r快16倍；§b热力§6蓄水槽§r,这是更加昂贵的，类似于§6无限水覆盖§r,但是是一个方块,这意味着您可以使用它为其他mod的机器供水,而不仅是§b格雷科技§r。%n%n现在，你可能应该使用§6蓄水库§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 930 of mode normal
 nomifactory.quest.normal.db.930.title=圆石
-nomifactory.quest.normal.db.930.desc=
+nomifactory.quest.normal.db.930.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n§6圆石§r的最佳来源是§b核电工艺§6刷石机§r。如果第一个还不够，你可以随时升级并制作更多。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 931 of mode normal
 nomifactory.quest.normal.db.931.title=玻璃
-nomifactory.quest.normal.db.931.desc=
+nomifactory.quest.normal.db.931.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n§o此步骤需要一个熔炉或升级的熔炉，电压§lLV§r§o或更高的电炉，或电压§lLV§r§o或更高的电弧炉。%n%n把你的§6沙子§r烧成§6玻璃§r。如果你正在使用§3熔炉§r来冶炼它，那么使用升级的§3熔炉§r会更有效，比如§3铁熔炉§r。你可以用§6甘蔗§r作为燃料。§3电弧炉§r可以加倍获取玻璃。之后，一旦你解锁它们，§3多方块熔炉§r将是最好的。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 932 of mode normal
 nomifactory.quest.normal.db.932.title=石英
-nomifactory.quest.normal.db.932.desc=
+nomifactory.quest.normal.db.932.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的电解机。%n%n把你的§6沙子§r分解成§6石英§r。一台§3电弧炉§r制造的§6玻璃§r足以支持同一电压的2.5台§3电解机§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 933 of mode normal
 nomifactory.quest.normal.db.933.title=谐振末影
-nomifactory.quest.normal.db.933.desc=
+nomifactory.quest.normal.db.933.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n这一步需要一个层级为§lLV§r§o或更高的提取机。%n%n将你的§6末影珍珠§r熔化成§6共振末影§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 934 of mode normal
 nomifactory.quest.normal.db.934.title=末影珍珠
-nomifactory.quest.normal.db.934.desc=
+nomifactory.quest.normal.db.934.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n§6末影珍珠§r的第一个来源可能是§6末影百合§r。然而，对于这里需要的§6末影珍珠§r来说，这太手动和太慢了。作为替代，你可以制作一个正产出的§6脉动聚合物粘土§r产线，使用§6末影人数据模型§r来生产§6末影珍珠§r。一个Self-Aware级别的§6末影人数据模型§r可以提供足够的§6末影珍珠§r来支持6.2个其他模型的运行。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 935 of mode normal
 nomifactory.quest.normal.db.935.title=脉动之尘
-nomifactory.quest.normal.db.935.desc=
+nomifactory.quest.normal.db.935.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n§o此步骤需要一个熔炉或升级的熔炉，或电压§lLV§r§o或更高的电炉。%n%n将你的§6谐振末影络合物§r熔炼成§6脉动之尘§r。如果你正在使用§3熔炉§r来冶炼它，那么使用升级的§3熔炉§r会更有效，比如§3铁熔炉§r。你可以用§6甘蔗§r作为燃料。取决于你的情况，你可能想保持使用§3电炉§r%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 936 of mode normal
 nomifactory.quest.normal.db.936.title=圆石
-nomifactory.quest.normal.db.936.desc=
+nomifactory.quest.normal.db.936.desc=§o这个任务通过复选框或在完成圆石后完成。§r%n%n§6圆石§r的最佳来源是§b核电工艺§6刷石机§r。如果第一个还不够，你可以随时升级并制作更多。§r%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 937 of mode normal
 nomifactory.quest.normal.db.937.title=沙砾
-nomifactory.quest.normal.db.937.desc=
+nomifactory.quest.normal.db.937.desc=§o这个任务通过复选框或在完成砂砾后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的锻造锤。%n%n把你的§6圆石§r分解成§6砂砾§r。几乎只是§e圆石产线§r的另一个步骤，尽管它在§6导管粘合剂§r中使用。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石产线§r是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 938 of mode normal
 nomifactory.quest.normal.db.938.title=沙子
-nomifactory.quest.normal.db.938.desc=
+nomifactory.quest.normal.db.938.desc=§o这个任务通过复选框或在完成沙子后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的锻造锤。%n%n把你的§6砂砾§r分解成§6沙子§r。几乎只是§e圆石产线§r的另一个步骤，尽管它在§6导管粘合剂§r中使用。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石产线§r是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 939 of mode normal
 nomifactory.quest.normal.db.939.title=尘土
-nomifactory.quest.normal.db.939.desc=
+nomifactory.quest.normal.db.939.desc=§o这个任务通过复选框或在完成尘土后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的锻造锤。%n%n把你的§6砂砾§r分解成§6尘土§r。除了将尘土转变为§6粘土§r或§6地狱岩§r，它没有任何用处。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石产线§r是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 940 of mode normal
 nomifactory.quest.normal.db.940.title=粘土
-nomifactory.quest.normal.db.940.desc=
+nomifactory.quest.normal.db.940.desc=§o这个任务通过复选框或在完成粘土后完成。§r%n%n这一步需要一个化学反应器，电压为§lLV§r§o或更高。§r%n%n把你的§6尘土§r和一些§6水§r混合成§6粘土§r。转化成许多有用的资源。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 941 of mode normal
 nomifactory.quest.normal.db.941.title=水
-nomifactory.quest.normal.db.941.desc=
+nomifactory.quest.normal.db.941.desc=§o这个任务通过复选框或在完成水后完成。§r%n%n是的，这儿有一个关于§9水§r的任务。%n%n§9水§r可以通过多种方式获得，但最值得注意的是:§b核电工艺§6无限水源§r,很慢,但是便宜；§b末影接口§6蓄水库§r,贵一些,但是方式更快；§b格雷§6无限水覆盖板§r,更贵,但是是一个覆盖板,因此节省空间,并且产水速率比§b末影接口§6蓄水库§r快16倍；§b热力§6蓄水槽§r,这是更加昂贵的，类似于§6无限水覆盖§r,但是是一个方块,这意味着您可以使用它为其他mod的机器供水,而不仅是§b格雷科技§r。%n%n现在，你可能应该使用§6蓄水库§r。%n%n在这个实例中，你需要§9水§r来制作§6粘土§r%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 942 of mode normal
 nomifactory.quest.normal.db.942.title=熔岩
-nomifactory.quest.normal.db.942.desc=
+nomifactory.quest.normal.db.942.desc=§o这个任务通过复选框或在完成熔岩后完成。§r%n%n§6熔岩§r可以通过三种主要方式得到。第一种是使用§3化学反应器§r把§6岩浆块§r变成§6熔岩§r。第二种是使用§b实用拓展§6熔岩工厂§r。这些是相当慢的。最后一个值得注意的方法是使用§b格雷科技§6流体钻井§r在§6熔岩§r矿脉上方。%n%n在这个实例中，你需要§6熔岩§r来换取§6地狱岩§r。你不需要太多，虽然§6熔岩§r也可以离心得到有用的资源，并将在游戏结束时大量用来制造§6熔岩注入晶体§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 943 of mode normal
 nomifactory.quest.normal.db.943.title=地狱岩
-nomifactory.quest.normal.db.943.desc=
+nomifactory.quest.normal.db.943.desc=§o这个任务通过复选框或在完成地狱岩后完成。§r%n%n这一步需要一个化学反应器，电压§lLV§r§o或更高。将你的§6尘土§r和§6熔岩§r合并成§6地狱岩§r。除了你的第一个§6地狱物质§r和§6地狱岩粉§r之外，几乎没有什么用处。没必要一直自动制作。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 944 of mode normal
 nomifactory.quest.normal.db.944.title=地狱岩粉
-nomifactory.quest.normal.db.944.desc=
+nomifactory.quest.normal.db.944.desc=§o这个任务通过复选框或在完成地狱岩粉后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的打粉机。将你的§6地狱岩§r粉碎成§6地狱岩粉§r。它除了制作§6下界蛋糕§r之外，别无他用。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 945 of mode normal
 nomifactory.quest.normal.db.945.title=粘土...球？
-nomifactory.quest.normal.db.945.desc=
+nomifactory.quest.normal.db.945.desc=§o这个任务通过复选框或在完成粘土球后完成。§r%n%n用你的§6粘土§r制作§6粘土球§r。§r你也可以使用§3压缩抽屉§r。用于制作§6导管粘合剂§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 946 of mode normal
 nomifactory.quest.normal.db.946.title=粘土粉
-nomifactory.quest.normal.db.946.desc=
+nomifactory.quest.normal.db.946.desc=§o这个任务通过复选框或在完成粘土粉后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的打粉机。%n%n粉碎你的§6粘土§r来制造§6粘土粉§r。转化成许多有用的资源。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 947 of mode normal
 nomifactory.quest.normal.db.947.title=钠、硅、锂和铝
-nomifactory.quest.normal.db.947.desc=
+nomifactory.quest.normal.db.947.desc=§o这个任务通过复选框或在完成钠、硅、锂和铝后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的电解机。§r%n%n将§6粘土粉§r分解为§6钠粉§r，§6硅粉§r，§6锂粉§r和§6铝粉§r。§r它非常需要持续自动生产，因为你将需要大量的这些资源，而这是获得这些资源的最好方式。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 948 of mode normal
 nomifactory.quest.normal.db.948.title=石头
-nomifactory.quest.normal.db.948.desc=
+nomifactory.quest.normal.db.948.desc=§o这个任务通过复选框或在完成石头后完成。§r%n%n这一步需要一个熔炉或升级的熔炉，或电压§lLV§r§o或更高的电炉。§r%n%n主要用于装饰方块。我觉得这还算是§e圆石相关物品§r的一部分吧。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 949 of mode normal
 nomifactory.quest.normal.db.949.title=玻璃
-nomifactory.quest.normal.db.949.desc=
+nomifactory.quest.normal.db.949.desc=§o这个任务通过复选框或在完成玻璃后完成。§r%n%n§o此步骤需要一个熔炉或升级的熔炉，电压§lLV§r§o或更高的电炉，或电压§lLV§r§o或更高的电弧炉。%n%n把你的§6沙子§r烧成§6玻璃§r。如果你正在使用§3熔炉§r来冶炼它，那么使用升级的§3熔炉§r会更有效，比如§3铁熔炉§r。你可以用§6甘蔗§r作为燃料。§3电弧炉§r可以加倍获取玻璃。之后，一旦你解锁它们，§3多方块熔炉§r将是最好的。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 950 of mode normal
 nomifactory.quest.normal.db.950.title=石英
-nomifactory.quest.normal.db.950.desc=
+nomifactory.quest.normal.db.950.desc=§o这个任务通过复选框或在完成石英后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的电解机。%n%n把你的§6沙子§r分解成§6石英§r。一台§3电弧炉§r制造的§6玻璃§r足以支持同一电压的2.5台§3电解机§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 951 of mode normal
 nomifactory.quest.normal.db.951.title=§2蒸馏液态末地空气
@@ -3174,43 +3174,43 @@ nomifactory.quest.normal.db.955.desc=没有描述
 
 #db 956 of mode normal
 nomifactory.quest.normal.db.956.title=玻璃粉
-nomifactory.quest.normal.db.956.desc=
+nomifactory.quest.normal.db.956.desc=§o这个任务通过复选框或在完成玻璃粉后完成。§r%n%n这一步需要一个电压§lLV§r§o或更高的打粉机。§r%n%n将§6玻璃§r粉碎成§6玻璃粉§r。除了制作§6二氧化硅粉§r之外，它没有任何用途。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 957 of mode normal
 nomifactory.quest.normal.db.957.title=二氧化硅粉
-nomifactory.quest.normal.db.957.desc=
+nomifactory.quest.normal.db.957.desc=§o这个任务通过复选框或在完成二氧化硅粉后完成。§r%n%n这一步需要一台电压§lLV§r§o或更高的离心机。%n%n将§6玻璃粉§r离心成§6二氧化硅粉§r。可以电解成有用的资源。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 958 of mode normal
-nomifactory.quest.normal.db.958.title=石英矿砂
-nomifactory.quest.normal.db.958.desc=
+nomifactory.quest.normal.db.958.title=石英砂
+nomifactory.quest.normal.db.958.desc=§o这个任务通过复选框或在完成石英砂后完成。§r%n%n这一步需要一个电压§lLV§r§o或更高的打粉机。%n%n把你的§6沙子§r粉碎成§6石英砂§r。可以电解成有用的资源。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 959 of mode normal
 nomifactory.quest.normal.db.959.title=“石英岩”和“赛特斯石英”
-nomifactory.quest.normal.db.959.desc=
+nomifactory.quest.normal.db.959.desc=§o这个任务通过复选框或在完成沙子后完成。§r%n%n这一步需要一台电压§lLV§r§o或更高的离心机。将你的§6石英砂§r分离成§6石英岩粉§r和§6赛特斯石英粉§r。这是§6赛特斯石英§r的一个很好的可再生来源，用于§b应用能源2§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 960 of mode normal
 nomifactory.quest.normal.db.960.title=“硅”和“氧”
-nomifactory.quest.normal.db.960.desc=
+nomifactory.quest.normal.db.960.desc=§o这个任务通过复选框或在完成氧后完成。§r%n%n这一步需要一个电压§lLV§r§o或更高的电解机。§r%n%n将§6二氧化硅粉§r分解为§6硅粉和氧气§r。这是早期游戏§6氧§r的最佳来源，尽管根据你的情况，蒸馏§6液态空气§r可能会更好。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 961 of mode normal
 nomifactory.quest.normal.db.961.title=“氢”和“氧”
-nomifactory.quest.normal.db.961.desc=§n二氧化硅是生产线的重要组成部分。访问生产线选项卡可以获得更多信息，有用的提示以及如何被动地自动化此操作的可视化表示。§r%n%n在这一点上，你将需要大量的§6氢§r和§6氧§r。首先想到的方法是电解§9水§r，但这是缓慢的。相反，早期获得§6氧气§r的最佳方法是§6二氧化硅§r。§6氢§r有点棘手，但你可以把§6甲烷§r和§6水§r放在§3化学反应器§r中。§6甲烷§r可以通过对§6食物§r和§6木头§r进行离心、处理§6热解副产物§r或通过§6石化线§r来获得。现在，对于你需要的少量氢气，你可以简单地电解水。但别忘了其他的方式。
+nomifactory.quest.normal.db.961.desc=§o二氧化硅是生产线的重要组成部分。访问生产线选项卡可以获得更多信息，有用的提示以及如何被动地自动化此操作的可视化表示。§r%n%n在这一点上，你将需要大量的§6氢§r和§6氧§r。首先想到的方法是电解§9水§r，但这是缓慢的。相反，早期获得§6氧气§r的最佳方法是§6二氧化硅§r。§6氢§r有点棘手，但你可以把§6甲烷§r和§6水§r放在§3化学反应器§r中。§6甲烷§r可以通过对§6食物§r和§6木头§r进行离心、处理§6热解副产物§r或通过§6石化线§r来获得。现在，对于你需要的少量氢气，你可以简单地电解水。但别忘了其他的方式。
 
 #db 962 of mode normal
 nomifactory.quest.normal.db.962.title=黑曜石
-nomifactory.quest.normal.db.962.desc=
+nomifactory.quest.normal.db.962.desc=§o这个任务通过复选框或在完成黑曜石后完成。§r%n%n§o此步骤需要电压为§lLV§r§o或更高的流体固化器，或电压为§lHV§r§o或更高的碎石机。%n%n冷却你的§6熔岩§r为§6黑曜石§r。你会需要很多，所以当你达到§6HV§r时，使用§3碎石机§r是明智的，因为他们不消耗任何东西来生产§6黑曜石§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 963 of mode normal
 nomifactory.quest.normal.db.963.title=黑曜石粉
-nomifactory.quest.normal.db.963.desc=
+nomifactory.quest.normal.db.963.desc=§o这个任务通过复选框或在完成黑曜石粉后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的打粉机。%n%n将你的§6黑曜石§r粉碎成§6黑曜石粉§r。你将需要很多这个用于制作§6地岩粉§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 964 of mode normal
-nomifactory.quest.normal.db.964.title=沙石
-nomifactory.quest.normal.db.964.desc=
+nomifactory.quest.normal.db.964.title=砂岩
+nomifactory.quest.normal.db.964.desc=§o这个任务通过复选框或在完成砂岩后完成。§r%n%n将你的§6沙子§r压缩成§6砂岩§r。建议使用§3合成器§r或§6压缩抽屉§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 965 of mode normal
 nomifactory.quest.normal.db.965.title=硝石
-nomifactory.quest.normal.db.965.desc=
+nomifactory.quest.normal.db.965.desc=§o这个任务通过复选框或在完成硝石后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的打粉机。%n%n把你的§6砂岩§r分解成§6硝石§r。这可能是获得§6硝石§r的最好方法，你将需要很多§6空气粉§r。你也可以从§b深度怪物进化§r获得§6硝石§r。%n%n你也可以用它来电解出§6钾§r，尽管不建议这样做，因为你很容易得到§6钾§r，比如从§6黑花岗岩§3产线§r，而且这样做会消耗大量§6硝石§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 966 of mode normal
 nomifactory.quest.normal.db.966.title=布置自动合成
@@ -3218,15 +3218,15 @@ nomifactory.quest.normal.db.966.desc=
 
 #db 967 of mode normal
 nomifactory.quest.normal.db.967.title=燧石
-nomifactory.quest.normal.db.967.desc=
+nomifactory.quest.normal.db.967.desc=§o这个任务通过复选框或在完成砂砾后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的筛选器。§r%n%n筛选§6砂砾§r查找§6燧石§r。你唯一需要它的主要用途是§6存储降级§r。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 968 of mode normal
 nomifactory.quest.normal.db.968.title=石头粉
-nomifactory.quest.normal.db.968.desc=
+nomifactory.quest.normal.db.968.desc=§o这个任务通过复选框或在完成石头粉后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的打粉机。%n%n把你的§6圆石§r研磨成§6石头粉§r。实际上，你会从§e矿石处理§r中得到很多§6石头粉§r，但这可能是你的备用来源。你将需要这个来制作§6混凝土§r。你也可以离心这个，虽然获得的资源不是很有用，而且数量非常少。%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 969 of mode normal
 nomifactory.quest.normal.db.969.title=混凝土
-nomifactory.quest.normal.db.969.desc=
+nomifactory.quest.normal.db.969.desc=§o这个任务通过复选框或在完成混凝土后完成。§r%n%n这一步需要一个电压为§lLV§r§o或更高的搅拌机。%n%n将§6石头粉§r，§6粘土粉§r和一些§9水§r混合成§6混凝土§r。这可能是获得§6混凝土§r的最简单方法。你需要这个用于制作§2超净间§r中的§6塑料混凝土§r，以及少量用于§6发射台§r§o%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 970 of mode normal
 nomifactory.quest.normal.db.970.title=“粘土”和“脉动之尘”
