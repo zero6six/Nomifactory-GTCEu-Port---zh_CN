@@ -3070,7 +3070,7 @@ nomifactory.quest.normal.db.929.desc=§o这个任务通过复选框或在完成�
 
 #db 930 of mode normal
 nomifactory.quest.normal.db.930.title=圆石
-nomifactory.quest.normal.db.930.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n§6圆石§r的最佳来源是§b核电工艺§6刷石机§r。如果第一个还不够，你可以随时升级并制作更多。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
+nomifactory.quest.normal.db.930.desc=§o这个任务通过复选框或在完成谐振末影络合物后完成。§r%n%n§6圆石§r的最佳来源是§b核电工艺§6造石机§r。如果第一个还不够，你可以随时升级并制作更多。%n%n%n%n你可能已经注意到，这一行中的所有任务都是通过§6谐振末影络合物§r而不是§6脉冲聚合粘土§r自动完成的。这是因为它遵循§o谐振末影络合物§r在§o怪物模拟§r中的§o谐振末影络合物§r任务，你可能会通过§6沥青铀矿§r制作§6脉冲聚合黏土§r，然后通过§6谐振末影络合物§r持续自动产出。
 
 #db 931 of mode normal
 nomifactory.quest.normal.db.931.title=玻璃
@@ -3094,7 +3094,7 @@ nomifactory.quest.normal.db.935.desc=§o这个任务通过复选框或在完成�
 
 #db 936 of mode normal
 nomifactory.quest.normal.db.936.title=圆石
-nomifactory.quest.normal.db.936.desc=§o这个任务通过复选框或在完成圆石后完成。§r%n%n§6圆石§r的最佳来源是§b核电工艺§6刷石机§r。如果第一个还不够，你可以随时升级并制作更多。§r%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
+nomifactory.quest.normal.db.936.desc=§o这个任务通过复选框或在完成圆石后完成。§r%n%n§6圆石§r的最佳来源是§b核电工艺§6造石机§r。如果第一个还不够，你可以随时升级并制作更多。§r%n%n%n%n你可能已经注意到，这一行中的所有任务都通过该步骤实现的主资源自动完成。这是因为这个§e圆石相关物品§r产线是非常通用的，每个资源可能是重要的或不重要的，这取决于你的情况。
 
 #db 937 of mode normal
 nomifactory.quest.normal.db.937.title=沙砾

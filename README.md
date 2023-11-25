@@ -2,8 +2,8 @@
 
 基于[nomi-ceu](https://github.com/Nomi-CEu/Nomi-CEu) / [Nomifactory (GTCEu Port)](https://www.curseforge.com/minecraft/modpacks/nomi-ceu) 的个人自用机翻润色汉化，汉化内容包括：
 
-- 普通版任务书
-- 官方语言包内的大部分模组
+- 普通版任务书（暂无专家版任务书汉化计划）
+- 大部分整合包特色模组
 - GTCEu 最新翻译（来自 https://paratranz.cn/projects/7760，依照CC BY-NC 4.0取得授权。）
 
 该仓库任务书 1.6 之前汉化来自 IAmNotGEM，因上游仓库打包方式不同且未接收 pull requests，故建立此复刻仓库。
