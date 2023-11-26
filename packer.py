@@ -8,7 +8,7 @@ def create_resource_pack():
     workspace_path = os.getcwd()
 
     # 压缩包保存路径和名称
-    output_path = "output//"
+    output_path = "temp//"
     output_name = input("请输入资源包文件名(带.zip) ")
 
     # 创建一个新的 ZIP 文件
