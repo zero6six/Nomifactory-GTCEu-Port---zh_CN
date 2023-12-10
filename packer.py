@@ -25,6 +25,10 @@ def create_resource_pack():
     pack_mcmeta_path = os.path.join(workspace_path, "pack.mcmeta")
     zip_file.write(pack_mcmeta_path, "pack.mcmeta")
 
+    # 添加 pack.png 文件到压缩包
+    pack_mcmeta_path = os.path.join(workspace_path, "pack.png")
+    zip_file.write(pack_mcmeta_path, "pack.png")
+
     # 关闭压缩包
     zip_file.close()
 

@@ -33,7 +33,7 @@ def merge_lang_files(file1, file2):
                     value1 = line1.split('=')[1].strip()
 
                     # 在值之前添加%n%n%n%n
-                    new_value = '%n%n%n%n' + value1
+                    new_value = '§r%n%n%n%n' + value1
 
                     # 追加到file2的对应键的值之前
                     line2 = line2.rstrip('\n') + new_value + '\n'
