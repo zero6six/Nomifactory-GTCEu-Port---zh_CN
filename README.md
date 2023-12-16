@@ -35,6 +35,16 @@ nomi-ceu-zh_cn
   └─packer.py ------------ // 打包脚本
 ```
 
+# 整合包版本升级方法
+
+1. 复制 `minecraft/saves`
+2. 复制 `minecraft/journeymap`
+3. 复制 `minecraft/hei_bookmarks.ini` （HEI 书签）
+4. 复制 `minecraft/config/simplyjetpacks` 目录和 `simplyjetpacks.cfg` （喷气背包相关设置，比如 HUD）
+5. 确认 `minecraft/options.txt` 中的键位等信息正常。
+6. 进行 [食用方法](#食用方法)
+7. 使用 `/bq_admin default load` 将存档内任务同步成整合包任务。
+
 # 翻译内容对照总结
 
 目前方针：语言包内 en_us.lang 保存一份用于比对更新，官库 resources 文件夹内多的不保存。
