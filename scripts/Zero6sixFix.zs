@@ -21,17 +21,12 @@
 <enderio:item_power_conduit>.displayName = "导电铁能量导管";
 <enderio:item_power_conduit:1>.displayName = "充能合金能量导管";
 <enderio:item_power_conduit:2>.displayName = "脉冲合金能量导管";
-<enderio:item_endergy_conduit:1>.displayName = "玄钢能量导管";
+<enderio:item_endergy_conduit:1>.displayName = "末影钢能量导管";
 <enderio:item_endergy_conduit:6>.displayName = "流明能量导管";
 <enderio:item_endergy_conduit:4>.displayName = "信素能量导管";
-<enderio:item_endergy_conduit>.displayName = "末影钢能量导管";
+<enderio:item_endergy_conduit>.displayName = "末影能量导管";
 <enderio:item_endergy_conduit:10>.displayName = "龙素能量导管";
 <enderio:item_endergy_conduit:11>.displayName = "超导龙素能量导管";
-
-// DraconicEvolution.zs
-<draconicevolution:draconic_ingot>.displayName = "激活的觉醒龙锭";
-<draconicevolution:draconium_block>.displayName = "激活的龙块";
-<draconicevolution:draconic_block>.displayName = "激活的觉醒龙块";
 
 // JetpacksAndEnergyStorage.zs
 <enderio:block_cap_bank:2>.displayName = "高级电容库";
@@ -72,9 +67,9 @@
 <extendedcrafting:material:32>.displayName = "万象锭";
 <extendedcrafting:storage:4>.displayName = "万象块";
 <cns:star_fragment>.displayName = "下界之星北角";
-<extendedcrafting:storage:6>.displayName = "末影之星块";
-<extendedcrafting:material:40>.displayName = "末影之星";
-<extendedcrafting:material:41>.displayName = "末影之星粒";
+<extendedcrafting:storage:6>.displayName = "末影极星块";
+<extendedcrafting:material:40>.displayName = "末影极星";
+<extendedcrafting:material:41>.displayName = "末影极星粒";
 <simplyjetpacks:metaitemmods:12>.displayName = "锻铁护甲板";
 
 // Nuclearcraft.zs
@@ -88,8 +83,8 @@
 
 // ThermalExpansion.zs
 <thermalfoundation:material:72>.displayName = "蕴魔秘银粉";
-<thermalexpansion:frame>.displayName = "机器框架";
-<thermalexpansion:frame:64>.displayName = "设备框架";
+<thermalexpansion:frame>.displayName = "热力机器框架";
+<thermalexpansion:frame:64>.displayName = "热力设备框架";
 
 // AdvRocketry.zs
 <advancedrocketry:fuelingstation>.displayName = "燃油站";

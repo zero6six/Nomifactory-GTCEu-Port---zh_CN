@@ -47,18 +47,41 @@ nomi-ceu-zh_cn
 
 # 翻译内容对照总结
 
-目前方针：语言包内 en_us.lang 保存一份用于比对更新，官库 resources 文件夹内多的不保存。
+目前方针：列表内为[官库构建语言包](https://nightly.link/Nomi-CEu/Nomi-CEu/workflows/testbuildpack/main)有的语言文件，目录内 en_us.lang 留存以便比对。
 
 下列未打钩的为需要持续监控的。
 
 - [x] appliedenergistics2 | 模组文件自带汉化，存在极少部分汉化不全
 - [ ] contenttweaker
-- [x] cns | CraftingNetherStar 该模组有关物品自带两个，其中一个被硬编码，作者 CoT 还写了仨类似的物品用于合成
 - [x] deepmoblearning | 个人完成该模组汉化，该模组仓库汉化 issue 暂未回应
 - [x] gregtech
-- [x] minecraft | 无汉化任务
 - [ ] modpack
 - [ ] multiblocktweaker
-- [x] nuclearcraft | 无汉化任务
 - [ ] questbook
+
+
 - [x] toolbelt | [Minecraft 模组简体中文翻译项目](https://cfpa.site/)已翻译
+
+下列文件是为了重命名物品而设置的（有的重命名就离谱）。
+
+- actuallyadditions | 铁制外壳 -> 铝制外壳
+- advancedrocketry
+    - Fueling **s**tation -> Fueling **S**tation
+    - 透镜 -> 轨道镭射钻透镜
+- armorplus | 煤炭胸甲 -> 碳板胸甲
+- cns | 下界之星碎片 -> 下界之星北角，契合 CoT 添加的下界之星东南西角
+- armorplus | 煤炭胸甲 -> 碳板胸甲
+- ~~draconicevolution | DE 龙块和觉醒龙锭/块早已被 GTCEu 的对应物取代，故移除。~~
+- enderio
+     - 修改一系列导管名字以契合合成材料
+     - Dark Helm -> Dark Steel Helmet
+- extendedcrafting
+     - 终极奇点 -> 万象之尘等等
+     - Ender Star -> End**est** Star
+- gcym | 搅拌机外壳 -> 反应安全外壳
+- nuclearcraft | Thorium-232 -> **Prepared** Thorium-232
+- simplyjetpacks | 铁护甲板 -> 锻铁护甲板
+- thermalexpansion
+     - 将热力能量框架改为采掘机合成材料
+     - Machine Casing -> Thermal Machine Casing
+- thermalfoundation | 修改英语蕴魔秘银粉
