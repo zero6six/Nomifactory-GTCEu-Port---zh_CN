@@ -2,7 +2,7 @@
 
 import re
 
-pattern = r'nomifactory\.quest\.normal\.db\.\d+.desc='
+pattern = r'nomifactory\.quest\.(expert|normal)\.db\.\d+\.desc='
 
 def merge_lang_files(file1, file2):
     # 读取file1

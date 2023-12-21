@@ -2,7 +2,7 @@
 
 基于[nomi-ceu](https://github.com/Nomi-CEu/Nomi-CEu) / [Nomifactory (GTCEu Port)](https://www.curseforge.com/minecraft/modpacks/nomi-ceu) 的机翻润色汉化，汉化内容包括：
 
-- 普通版任务书（暂无专家版任务书汉化计划）
+- 全部任务书
 - 大部分整合包特色模组
 - GTCEu 最新翻译（来自 https://paratranz.cn/projects/7760，依照CC BY-NC 4.0取得授权。）
 
