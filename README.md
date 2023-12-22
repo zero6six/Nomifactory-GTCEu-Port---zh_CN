@@ -4,11 +4,10 @@
 
 - 全部任务书
 - 大部分整合包特色模组
-- GTCEu 最新翻译（来自 https://paratranz.cn/projects/7760，依照CC BY-NC 4.0取得授权。）
 
 该仓库任务书 1.6 之前汉化来自 IAmNotGEM，因上游仓库打包方式不同且未接收 pull requests，故建立此复刻仓库。
 
-融合了 nomi-ceu 仓库最新发布的语言包，并向官方仓库提交 PR 被通过。
+**官方仓库已经自带比较完善的中文翻译**，但本仓库仍会作为官方仓库汉化的补充存在，不定期与 nomi-ceu 仓库最新构建的语言包同步。
 
 # 食用方法
 
@@ -45,7 +44,7 @@ nomi-ceu-zh_cn
 
 # 翻译内容对照总结
 
-目前方针：列表内为[官库构建语言包](https://nightly.link/Nomi-CEu/Nomi-CEu/workflows/testbuildpack/main)有的语言文件，目录内 en_us.lang 留存以便比对。
+目前方针：列表内为[官库构建语言包](https://nightly.link/Nomi-CEu/Nomi-CEu/workflows/testbuildpack/main)有的语言文件。
 
 下列未打钩的为需要持续监控的。
 
@@ -56,8 +55,6 @@ nomi-ceu-zh_cn
 - [ ] modpack
 - [ ] multiblocktweaker
 - [ ] questbook
-
-
 - [x] toolbelt | [Minecraft 模组简体中文翻译项目](https://cfpa.site/)已翻译
 
 下列文件是为了重命名物品而设置的（有的重命名就离谱）。
