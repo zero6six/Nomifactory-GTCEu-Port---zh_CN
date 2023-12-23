@@ -60,5 +60,5 @@ def update_zh_lang():
     with open(r'assets\questbook\lang\zh_cn.lang', 'w', encoding='utf-8') as zh_file:
         zh_file.writelines(en_lines)
 
-generate_ParaTranz_json()
-# update_zh_lang()
+# generate_ParaTranz_json()
+update_zh_lang()
