@@ -32,7 +32,7 @@ def merge_lang_files():
                 # 检查是否为目标键
                 if line1.startswith(key):
                     # 获取键值
-                    value1 = line1.split('=')[1].strip()
+                    value1 = line1.split('=', 1)[1].strip()
 
                     # 在值之前添加%n%n%n%n
                     new_value = '§r%n%n%n%n' + value1

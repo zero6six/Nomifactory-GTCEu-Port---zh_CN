@@ -22,7 +22,7 @@
 ```text
 nomi-ceu-zh_cn
   ├─assets --------------- // 打包前的汉化文件及原文
-  ├─converter ------------ // 一个 lang 和 json 之间的互转脚本，没啥大用
+  ├─converter ------------ // 任务书语言文件转码成 ParaTranz json 文件以及回转
   ├─scripts -------------- // 硬编码文本修复脚本
   │ └─Zero6sixFix.zs------------- // 修复脚本，置于 .minecraft/scripts 下
   ├─.gitignore ----------- // git 忽略文件
