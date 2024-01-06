@@ -7,7 +7,9 @@
 
 该仓库任务书 1.6 之前汉化来自 IAmNotGEM，因上游仓库打包方式不同且未接收 pull requests，故建立此复刻仓库。
 
-**官方仓库已经自带比较完善的中文翻译**，但本仓库仍会作为官方仓库汉化的补充存在，不定期与 nomi-ceu 仓库最新构建的语言包同步。
+随着[官方语言仓库](https://github.com/Nomi-CEu/Nomi-CEu-Translations)的完善，我们将不再保存所有模组的语言文件。**但您仍可使用我们按版本发布的汉化包**。此外，我们提供官方仓库未包含的资源，如双语任务书和特定版本物品的汉化脚本。官方仓库则提供基于整合包版本的标准语言包和翻译更新一次上传一次的构建语言包。相关资源可在以下链接找到：[标准语言包](https://github.com/Nomi-CEu/Nomi-CEu/releases) 和[更新构建语言包](https://nightly.link/Nomi-CEu/Nomi-CEu-Translations/workflows/pushbuildpack/main?preview)。
+
+要贡献汉化，你可以直接向本仓库提交 Pull Request 或在 [ParaTranz](https://paratranz.cn/projects/8990) 为任务书翻译做出贡献。
 
 # 食用方法
 
@@ -44,9 +46,9 @@ nomi-ceu-zh_cn
 
 # 翻译内容对照总结
 
-目前方针：列表内为[官库构建语言包](https://nightly.link/Nomi-CEu/Nomi-CEu/workflows/testbuildpack/main)有的语言文件。
+以下内容为翻译任务的总结与备忘。
 
-下列未打钩的为需要持续监控的。
+下列未打钩的为需要持续监控并进行更新的。
 
 - [x] appliedenergistics2 | 模组文件自带汉化，存在极少部分汉化不全
 - [ ] contenttweaker
