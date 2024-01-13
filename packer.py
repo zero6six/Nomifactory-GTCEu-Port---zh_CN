@@ -3,7 +3,7 @@ import zipfile
 
 # 本脚本大部分由 ChatGPT 提供。
 
-def merge_lang_files():
+def merge_lang_files(diretory='output//tempQB.lang'):
     import re
     pattern = r'nomifactory\.quest\.(expert|normal)\.db\.\d+\.desc='
     
@@ -47,8 +47,7 @@ def merge_lang_files():
         new_lang.append(line2)
 
     # 将新lang文件保存为新文件
-    new_file = 'output//tempQB.lang'
-    with open(new_file, 'w', encoding='utf-8') as f:
+    with open(diretory, 'w', encoding='utf-8') as f:
         f.writelines(new_lang)
 
 def create_resource_pack():
@@ -89,4 +88,6 @@ def create_resource_pack():
 
 whetherBilingual = True
 # 运行创建资源包的函数
-create_resource_pack()
+# create_resource_pack()
+
+merge_lang_files(r'output//zh_cn.lang')

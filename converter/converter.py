@@ -54,11 +54,11 @@ def update_zh_lang():
         match = re.match(pattern, en_lines[index_en_line])
         if match:
             key = match.group()[:-1]
-            updated_translation = tempDict.get(key, "")  # 如果 key不存在于 ParaTranzDict 中，则默认为空字符串
+            updated_translation = tempDict.get(key, "")  # 如果 key 不存在于 ParaTranzDict 中，则默认为空字符串
             en_lines[index_en_line]=f"{key}={updated_translation}\n"
     
     with open(r'assets\questbook\lang\zh_cn.lang', 'w', encoding='utf-8') as zh_file:
         zh_file.writelines(en_lines)
 
-# generate_ParaTranz_json()
-update_zh_lang()
+# generate_ParaTranz_json() # 使用 en_us.lang 与 zh_cn.lang 生成 ParaTranz.json
+update_zh_lang() # 使用 output/ParaTranz.json 中的 value 替换 en_us.lang 的来生成新的

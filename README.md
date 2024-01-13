@@ -13,7 +13,7 @@
 
 # 食用方法
 
-1. 下载 [nomi-ceu](https://github.com/Nomi-CEu/Nomi-CEu/releases) 并安装。
+1. 下载 [nomi-ceu](https://github.com/Nomi-CEu/Nomi-CEu/releases)（文件名为 nomi-ceu-[版本号]-client.zip）并安装。
 2. 使用代理启动一次游戏或删除 serializationisbad 模组，以解决游戏因该模组部分文件无法下载导致的崩溃。
 3. 下载[本汉化包](https://github.com/zero6six/nomi-ceu-zh_cn/releases)和[Minecraft 模组简体中文翻译项目资源包](https://cfpa.site/)。
 4. 将 [Zero6sixFix.zs](https://github.com/zero6six/nomi-ceu-zh_cn/tree/master/scripts/Zero6sixFix.zs) 下载并放入 .minecraft/scripts 路径以修复被硬编码的文本。
