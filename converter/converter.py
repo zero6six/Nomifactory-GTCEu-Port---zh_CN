@@ -34,7 +34,11 @@ def generate_ParaTranz_json():
     # 遍历 ParaTranzDict 并添加 translation
     for item in ParaTranzDict:
         key = item["key"]
-        item["translation"] = tempDict.get(key, "")  # 如果 key不存在于 ParaTranzDict 中，则默认为空字符串
+        translation = tempDict.get(key, "") # 如果 key不存在于 ParaTranzDict 中，则默认为空字符串
+        if item['original'] == translation: # 若译文和原文相同则 json 中译文为空
+            item["translation"] = ""
+        else:
+            item["translation"] = tempDict.get(key, "")  # 如果 key不存在于 ParaTranzDict 中，则默认为空字符串
     
     # 写入更新后的 .lang 文件
     with open(r'output\ParaTranz.json', 'w', encoding='utf-8') as ParaTranzFile:
@@ -55,10 +59,11 @@ def update_zh_lang():
         if match:
             key = match.group()[:-1]
             updated_translation = tempDict.get(key, "")  # 如果 key 不存在于 ParaTranzDict 中，则默认为空字符串
-            en_lines[index_en_line]=f"{key}={updated_translation}\n"
+            if updated_translation:                      # 在 updated_translation 不为空时才替换，否则用英语的生成中文的 
+                en_lines[index_en_line]=f"{key}={updated_translation}\n"
     
     with open(r'assets\questbook\lang\zh_cn.lang', 'w', encoding='utf-8') as zh_file:
         zh_file.writelines(en_lines)
 
-# generate_ParaTranz_json() # 使用 en_us.lang 与 zh_cn.lang 生成 ParaTranz.json
-update_zh_lang() # 使用 output/ParaTranz.json 中的 value 替换 en_us.lang 的来生成新的
+generate_ParaTranz_json() # 使用 en_us.lang 与 zh_cn.lang 生成 ParaTranz.json
+# update_zh_lang() # 使用 output/ParaTranz.json 中的 value 替换 en_us.lang 的来生成新的
