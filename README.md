@@ -4,7 +4,9 @@
 
 该仓库任务书 1.6 之前汉化来自 IAmNotGEM，因上游仓库打包方式不同且未接收 pull requests，故建立此复刻仓库。
 
-鉴于官方翻译已经非常完善，你现在可以使用[官方构建的语言包](https://nightly.link/Nomi-CEu/Nomi-CEu-Translations/workflows/pushbuildpack/main?preview)，请注意，由于该语言包是实时更新的，可能与整合包版本不完全兼容。你也可以选择在本仓库下载适配特定整合包版本的语言包。本仓库的语言包已根据 LGPL-3.0 许可证修改，以更好地满足中国玩家的需求。
+~~鉴于官方翻译已经非常完善，你现在可以使用[官方构建的语言包](https://nightly.link/Nomi-CEu/Nomi-CEu-Translations/workflows/pushbuildpack/main?preview)，请注意，由于该语言包是实时更新的，可能与整合包版本不完全兼容。你也可以选择在本仓库下载适配特定整合包版本的语言包。本仓库的语言包已根据 LGPL-3.0 许可证修改，以更好地满足中国玩家的需求。~~
+
+**本仓库继续维护的可能性不大，但本人仍会不时通过官方渠道提交翻译，若要下载官方语言包请前往[这里](https://nightly.link/Nomi-CEu/Nomi-CEu-Translations/workflows/pushbuildpack/main?preview)。**
 
 语言包的建立与维护有赖于整合包作者和译者们的共同努力，你可以在[这里](https://weblate.pantsu.moe/user/?q=translates:zh_Hans%20contributes:nomi-ceu-translations)查看官方语言包中文部分的译者（使用 Weblate 作为翻译平台之后的）。
 
